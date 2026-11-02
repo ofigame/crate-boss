@@ -90,7 +90,16 @@ namespace CrateBoss.Core
         public static bool Paint(GameState s, MoveResult result)
         {
             if (!s.IsCandyLevel || s.CandyDone || s.PaintGuns <= 0) return false;
-            int colour = Draw(s);
+            // A colour at random, never the last gun's (owner 2026-11-02: "sadece mor atmasın"); the draw is mixed so it
+            // does not follow the cranes' sequence.
+            int colour = s.LastPaint;
+            for (int tries = 0; tries < 8 && (colour == s.LastPaint || colour <= 0); tries++)
+            {
+                uint r = Next(s);
+                r ^= r >> 16; r *= 0x7feb352dU; r ^= r >> 15;
+                colour = s.CandyColors[(int)(r % (uint)s.CandyColors.Length)];
+            }
+            s.LastPaint = colour;
             var pool = new List<Box>();
             foreach (var b in s.Boxes) if (IsCandy(b) && b.Special == CandySpecial.None && b.Symbol != colour && b.Symbol != RainbowSymbol) pool.Add(b);
             if (pool.Count == 0) return false;
@@ -117,7 +126,8 @@ namespace CrateBoss.Core
         public static void Resolve(GameState s, MoveResult result, HashSet<int> first = null)
         {
             int self = 0; // waves in a row this move that sank by themselves
-            Waves(s, result, false, ref self, first);
+            bool combo = false; // a combo went off this move: its holes are refilled free (owner 2026-11-02)
+            Waves(s, result, false, ref self, ref combo, first);
             for (int round = 0; round < MaxWaves; round++)
             {
                 if (HasSwap(s)) return;
@@ -130,11 +140,11 @@ namespace CrateBoss.Core
                     // Nowhere to drop: deal the crates out again (a deal that lines some up sinks them, and on it goes).
                     result.Shuffled = true;
                     if (Shuffle(s)) return;
-                    if (Runs(s).Count > 0) { Waves(s, result, true, ref self); continue; }
+                    if (Runs(s).Count > 0) { Waves(s, result, true, ref self, ref combo); continue; }
                     break;
                 }
                 result.CandyWaves.Add(fill);
-                Waves(s, result, true, ref self);
+                Waves(s, result, true, ref self, ref combo);
             }
             if (!HasSwap(s)) Finish(s, result);
         }
@@ -142,7 +152,7 @@ namespace CrateBoss.Core
         // Each wave: runs make combo crates (4 → stripe, L / T → bomb, 5 → rainbow) or sink; combo crates caught in what sinks
         // go off (row, column, 3 × 3, a colour) and set off others; hammers are paid; breakable crates next to the holes wear
         // down (and break at 0); the crates above come down and the cranes fill the top. Again until nothing sinks.
-        private static void Waves(GameState s, MoveResult result, bool chained, ref int self, HashSet<int> first = null)
+        private static void Waves(GameState s, MoveResult result, bool chained, ref int self, ref bool combo, HashSet<int> first = null)
         {
             for (int wave = 0; wave < MaxWaves; wave++)
             {
@@ -172,8 +182,12 @@ namespace CrateBoss.Core
                 // ones pay advanced hammers instead (owner 2026-11-02).
                 bool byItself = chained || wave > 0;
                 if (byItself) self++;
-                if (byItself && self > s.CandySuperAfter) w.SuperHammers += w.Sunk.Count;
-                else w.Hammers += HammersFor(w.Sunk.Count, byItself);
+                // Owner 2026-11-02: what a combo clears pays double (a rainbow or a pair of combos swapped is a combo too).
+                bool comboWave = w.Blasts.Count > 0 || opening;
+                if (comboWave) combo = true;
+                int pay = HammersFor(w.Sunk.Count, byItself) * (comboWave ? 2 : 1);
+                if (byItself && self > s.CandySuperAfter) w.SuperHammers += pay;
+                else w.Hammers += pay;
                 Wear(s, cells, blasted, w);
                 foreach (var made in keep) MakeCombo(s, s.CellAt(made.Key), made.Value, w);
                 s.Hammers += w.Hammers;
@@ -181,7 +195,7 @@ namespace CrateBoss.Core
                 // Owner 2026-11-02: the crates above the holes always come down (toward the worker); what they line up sinks
                 // first (the next wave), and only when nothing more sinks do the cranes fill the cells left empty at the top.
                 Slide(s, w);
-                if (Runs(s).Count == 0) Fill(s, w);
+                if (Runs(s).Count == 0) Fill(s, w, combo);
                 result.CandyWaves.Add(w);
             }
         }
@@ -319,24 +333,25 @@ namespace CrateBoss.Core
             w.Made.Add(new CandyMade(bow.Id, cell, kind, box.Id));
         }
 
-        // The cranes drop a crate into every empty cell of the candy area while they hold crates.
-        private static void Fill(GameState s, CandyWave w)
+        // The cranes drop a crate into every empty cell of the candy area while they hold crates; after a combo (owner
+        // 2026-11-02) those drops are free: the cranes' count does not go down.
+        private static void Fill(GameState s, CandyWave w, bool free = false)
         {
             for (int i = 0; i < s.CandyArea.Length && s.CandyDropsLeft > 0; i++)
             {
                 var cell = s.CellAt(i);
-                if (FreeCandyCell(s, cell)) Drop(s, cell, w);
+                if (FreeCandyCell(s, cell)) Drop(s, cell, w, free);
             }
         }
 
         // One crane drop into a cell. Mostly a colour that does not finish a run on landing (two tries more), so chains
         // happen now and then and the player's swaps decide the hammers, not luck.
-        private static void Drop(GameState s, GridPos cell, CandyWave w)
+        private static void Drop(GameState s, GridPos cell, CandyWave w, bool free = false)
         {
             int symbol = Draw(s);
             for (int tries = 0; tries < RedrawTries && MakesRun(s, cell, symbol); tries++) symbol = Draw(s);
             var box = s.AddBox(BoxType.Normal, cell, symbol);
-            s.CandyDropsLeft--;
+            if (!free) s.CandyDropsLeft--;
             w.Drops.Add(new CandyDrop(box.Id, cell, symbol, CraneFor(s, cell)));
         }
 

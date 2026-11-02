@@ -923,43 +923,59 @@ namespace CrateBoss.View
             var from = robot.transform.position + Vector3.up * 1.1f;
             robot.Think();
             Feedback?.Pop();
+            Effects.Sparkle(from, color, 12);
             foreach (int id in result.Painted)
             {
                 if (!boxes.TryGetValue(id, out var view)) continue;
                 Run(PaintBlob(from, view, id, result.PaintColour, paint, color));
-                yield return new WaitForSeconds(0.07f);
+                yield return new WaitForSeconds(0.13f);
             }
+            // Owner 2026-11-02 "efekt daha belirgin olsun": a moment to see the painted crates before anything sinks.
+            yield return new WaitForSeconds(0.55f);
         }
 
+        // One blob: a big drop of paint with a trail arcs from the worker onto the crate, splashes there and the crate takes
+        // the colour, hopping a few times (owner 2026-11-02: "zıplayarak boyansın sonra dursun").
         private IEnumerator PaintBlob(Vector3 from, BoxView view, int id, int symbol, Material paint, Color color)
         {
-            var blobGo = Shapes.Make(PrimitiveType.Sphere, content, Vector3.zero, Vector3.one * 0.28f, paint, "Paint");
+            var blobGo = Shapes.Make(PrimitiveType.Sphere, content, Vector3.zero, Vector3.one * 0.46f, paint, "Paint");
             Shapes.NoShadows(blobGo);
             var blob = blobGo.transform;
-            var to = view.transform.position + Vector3.up * 0.9f;
-            const float time = 0.35f;
+            var trail = blobGo.AddComponent<TrailRenderer>();
+            trail.time = 0.25f;
+            trail.startWidth = 0.32f;
+            trail.endWidth = 0.02f;
+            trail.sharedMaterial = paint;
+            trail.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+            var to = view.transform.position + Vector3.up * 0.95f;
+            blob.position = from;
+            const float time = 0.5f;
             for (float t = 0; t < time; t += Time.deltaTime)
             {
                 float k = t / time;
-                blob.position = Vector3.Lerp(from, to, k) + Vector3.up * Mathf.Sin(k * Mathf.PI) * 1.4f;
+                blob.position = Vector3.Lerp(from, to, k) + Vector3.up * Mathf.Sin(k * Mathf.PI) * 2.2f;
+                blob.localScale = Vector3.one * (0.46f + 0.12f * Mathf.Sin(k * Mathf.PI * 4f));
                 yield return null;
             }
             Destroy(blob.gameObject);
-            Effects.Sparkle(to, color, 6);
+            Effects.Sparkle(to, color, 18);
+            Effects.Confetti(to, 14);
             Feedback?.Pop();
-            Recolour(id, symbol);
+            var painted = Recolour(id, symbol);
+            if (painted != null) yield return Sequence(painted.Squash(0.06f, 0.3f), painted.Hops(0.45f, 0.25f, 0.12f));
         }
 
         // A colour crate takes another colour where it stands (the paint gun): its view is built again in that colour.
-        private void Recolour(int id, int symbol)
+        private BoxView Recolour(int id, int symbol)
         {
-            if (!boxes.TryGetValue(id, out var old) || old == null) return;
+            if (!boxes.TryGetValue(id, out var old) || old == null) return null;
             var view = new GameObject($"Box {id} Normal").AddComponent<BoxView>();
             view.transform.SetParent(content, false);
             view.transform.position = old.transform.position;
             view.BuildSymbol(id, symbol);
             Destroy(old.gameObject);
             boxes[id] = view;
+            return view;
         }
 
         private static Material webMaterial;

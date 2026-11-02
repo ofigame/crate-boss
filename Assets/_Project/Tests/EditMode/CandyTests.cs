@@ -297,7 +297,7 @@ namespace CrateBoss.Tests
             var r = new RulesEngine().TryMove(s, PlayerAction.SwapCandy(Cell(s, 1, 1), Direction.Down));
             Assert.IsTrue(r.Success, "two combos swap without a run");
             Assert.AreEqual(0, CandySystem.CandyLeft(s), "the row and the column went");
-            Assert.AreEqual(4, s.Hammers, "one hit for every crate that sank");
+            Assert.AreEqual(8, s.Hammers, "two hits for every crate a combo cleared (owner 2026-11-02)");
         }
     }
 }

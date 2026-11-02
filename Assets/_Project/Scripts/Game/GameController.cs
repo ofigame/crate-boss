@@ -708,8 +708,8 @@ namespace CrateBoss.Game
         /// The worker hit a breakable crate with no hammer: while swaps are left, a reminder; with none left the level is lost
         /// (owner 2026-11-01): a rewarded ad gives five hammers, or play it again.
         /// </summary>
-        /// <summary>Hammers a rewarded ad gives when they ran out (owner 2026-11-02: 15, as a hit now comes for every sunk crate).</summary>
-        public const int AdHammers = 15;
+        /// <summary>Hammers a rewarded ad gives when they ran out (owner 2026-11-02: 30, as a hit now comes for every sunk crate and combos pay double).</summary>
+        public const int AdHammers = 30;
 
         private void NoHammer()
         {
@@ -1129,6 +1129,7 @@ namespace CrateBoss.Game
             input.Pressed += OnPressed;
             input.Tapped += OnTapped;
             input.ActsAt = ActsAt;
+            input.Pinched += closer => { if (session != null) framer.SetCellWidth(closer ? CloseCell : PlayCell, 0.6f); }; // owner 2026-11-02: one step each way
             input.UndoPressed += Undo;
             input.RestartPressed += Restart;
 

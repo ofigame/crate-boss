@@ -177,6 +177,8 @@ namespace CrateBoss.Core
         public int PaintGuns { get; set; }
         /// <summary>The level hands out paint guns (the easy candy levels).</summary>
         public bool CandyPaint { get; set; }
+        /// <summary>The colour the last paint gun used (the next one takes another).</summary>
+        public int LastPaint { get; set; }
         /// <summary>Chain waves that sink by themselves before the next ones pay advanced hammers (3, later 4, 5, 6).</summary>
         public int CandySuperAfter { get; set; } = 3;
         /// <summary>The candy part is over (no crane drops, no swap): the colour crates left stand as breakable crates.</summary>
@@ -389,6 +391,7 @@ namespace CrateBoss.Core
                 SuperHammers = SuperHammers,
                 PaintGuns = PaintGuns,
                 CandyPaint = CandyPaint,
+                LastPaint = LastPaint,
                 CandySuperAfter = CandySuperAfter,
                 CandyDone = CandyDone,
                 CandyHitCap = CandyHitCap,

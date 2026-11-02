@@ -50,7 +50,57 @@ namespace CrateBoss.Controls
         private void Update()
         {
             ReadKeyboard();
+            if (ReadPinch()) return;
             ReadPointer();
+        }
+
+        /// <summary>
+        /// Owner 2026-11-02: two fingers spread apart (true) or pinched together (false), one step per gesture: the view
+        /// comes close to the worker or goes back to the play view. The mouse wheel does the same on a computer.
+        /// </summary>
+        public event Action<bool> Pinched;
+        private float pinchStart;
+        private bool pinchDone;
+
+        // True while two fingers are down (no swipe or drag then).
+        private bool ReadPinch()
+        {
+            var ts = Touchscreen.current;
+            if (ts != null)
+            {
+                int down = 0;
+                Vector2 a = default, b = default;
+                foreach (var t in ts.touches)
+                {
+                    if (!t.press.isPressed) continue;
+                    if (down == 0) a = t.position.ReadValue(); else if (down == 1) b = t.position.ReadValue();
+                    down++;
+                }
+                if (down >= 2)
+                {
+                    float d = (a - b).magnitude;
+                    if (pinchStart <= 0f) { pinchStart = Mathf.Max(1f, d); pinchDone = false; }
+                    else if (!pinchDone)
+                    {
+                        float ratio = d / pinchStart;
+                        if (ratio > 1.25f) { pinchDone = true; Pinched?.Invoke(true); }
+                        else if (ratio < 0.8f) { pinchDone = true; Pinched?.Invoke(false); }
+                    }
+                    tracking = false;
+                    panning = false;
+                    lockedPan = false;
+                    return true;
+                }
+                pinchStart = 0f;
+            }
+            var mouse = Mouse.current;
+            if (mouse != null)
+            {
+                float wheel = mouse.scroll.ReadValue().y;
+                if (wheel > 0.5f) Pinched?.Invoke(true);
+                else if (wheel < -0.5f) Pinched?.Invoke(false);
+            }
+            return false;
         }
 
         private void ReadKeyboard()
