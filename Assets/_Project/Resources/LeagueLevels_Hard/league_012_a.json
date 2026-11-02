@@ -1,0 +1,52 @@
+{
+  "id": 1012,
+  "name": "Kanca Geliyor",
+  "ground": [
+    "##########",
+    "#.BBB....#",
+    "#........#",
+    "#........#",
+    "#........#",
+    "##....##.#",
+    "#......###",
+    "##.A###..#",
+    "#........#",
+    "#........#",
+    "#....#...#",
+    "#........#",
+    "#........#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    "..........",
+    "..........",
+    "......B...",
+    "..P.......",
+    "..BB.B....",
+    ".B.B.BB...",
+    "...D...B..",
+    "...B......",
+    "..........",
+    "..........",
+    "..........",
+    "..........",
+    ".........."
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 13, "drops": [
+        { "x": 2, "y": 9, "type": "K" }
+      ] }
+  ],
+  "goal": ["deliver"],
+  "deliveries": [
+    { "box": [3,7], "area": "B", "via": null }
+  ],
+  "league": 1,
+  "solution": "DDDDRLUURLDDRULUURLDDRUUUUU",
+  "design": {
+    "idea": "Vinç 9 hamle sonra koridora engel bırakacak; koridoru ondan önce kullan. Tolerans ≥ 5.",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

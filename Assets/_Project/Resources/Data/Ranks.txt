@@ -1,0 +1,10 @@
+# Ranks (Ana Belge §7): one line per rank, in order; every 25 levels a promotion. New ranks are added here.
+# number	key	crate model suffix (Resources/Models/<Box…>_<suffix>; missing = the rank-1 crates)	land unlocked on promotion (Ana Belge §12.5)
+1	ogrenci	R1	start
+2	stajyer	R2	garden
+3	cirak	R3	lake
+4	kalfa	R4	shore
+5	usta	R5	centre
+6	sef	R6	-
+7	muhendis	R7	-
+8	kidemli	R8	-

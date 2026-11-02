@@ -1,0 +1,42 @@
+{
+  "id": 12,
+  "name": "Aday 12b",
+  "world": "sehir_deposu",
+  "ground": [
+    "########",
+    "##....T#",
+    "#.#....#",
+    "#......#",
+    "#...#..#",
+    "###..#.#",
+    "#T...#.#",
+    "#T.....#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "......B.",
+    "....B...",
+    "........",
+    "...B....",
+    "........",
+    "...P....",
+    "........",
+    "........"
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 4, "drops": [
+        { "x": 1, "y": 4, "type": "K" }
+      ] },
+    { "id": "B", "side": "right", "every": 9, "drops": [
+        { "x": 3, "y": 1, "type": "K" },
+        { "x": 3, "y": 7, "type": "K" }
+      ] }
+  ],
+  "design": {
+    "idea": "Düşme karesine kasa park edip makineyi beklet, kasayı doğru anda çek. (otomatik taslak)",
+    "mechanics": ["normal", "crane"],
+    "tier": "medium",
+    "world": "sehir_deposu"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": 306,
+  "name": "Ağır Yük",
+  "world": "sehir_deposu",
+  "ground": [
+    "#######",
+    "#.#...#",
+    "#T..#.#",
+    "#....##",
+    "#.....#",
+    "##.T..#",
+    "#.....#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "....BP.",
+    "...H...",
+    ".......",
+    "......."
+  ],
+  "design": {
+    "idea": "Ağır kasa ancak tahta kasayla itilir.",
+    "mechanics": ["normal"],
+    "tier": "easy",
+    "world": "sehir_deposu"
+  }
+}

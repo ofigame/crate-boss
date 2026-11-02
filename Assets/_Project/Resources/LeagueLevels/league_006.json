@@ -1,0 +1,31 @@
+{
+  "id": 1006,
+  "name": "Dar Kapı",
+  "ground": [
+    "########",
+    "#..T####",
+    "#......#",
+    "#......#",
+    "#...T###",
+    "#....T##",
+    "########"
+  ],
+  "objects": [
+    "........",
+    ".PB.....",
+    "...B.B..",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "RDDRRULDLLUURDDRRRRULLLDLLUURDLDRURDLDRLLDRRR",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 35.4, "pushes": 15, "boxChanges": 5, "trapSteps": 7, "forced": 1, "family": "rect" }
+  }
+}

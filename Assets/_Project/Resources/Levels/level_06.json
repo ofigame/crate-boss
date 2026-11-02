@@ -1,0 +1,40 @@
+{
+  "id": 6,
+  "name": "Rıhtım",
+  "world": "liman",
+  "ground": [
+    "#########",
+    "#T..#..T#",
+    "#...#...#",
+    "##o###.##",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "_________"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "...B.B...",
+    ".........",
+    "....P....",
+    "........."
+  ],
+  "crane": {
+    "every": 6,
+    "drops": [
+      { "x": 2, "y": 3, "type": "B" },
+      { "x": 6, "y": 3, "type": "K" }
+    ]
+  },
+  "design": {
+    "idea": "Vincin ilk kasası çukuru doldurur; ikinci bırakmayı kasayı kareye park ederek beklet.",
+    "mechanics": ["normal", "hole", "crane"],
+    "tier": "medium",
+    "world": "liman"
+  }
+}

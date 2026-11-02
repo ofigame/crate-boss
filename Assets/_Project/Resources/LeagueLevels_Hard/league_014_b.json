@@ -1,0 +1,54 @@
+{
+  "id": 1014,
+  "name": "Kapanan Kapı",
+  "ground": [
+    "##########",
+    "#...BBB..#",
+    "#........#",
+    "#.....#..#",
+    "#........#",
+    "#......#.#",
+    "#.....##.#",
+    "#...#.#.##",
+    "#..#.....#",
+    "#.......##",
+    "#...#....#",
+    "#.#......#",
+    "#....A...#",
+    "#........#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    "..........",
+    "..........",
+    "...B......",
+    ".BBB.B..B.",
+    ".B......B.",
+    "........B.",
+    ".BBB.B....",
+    "..B.B.....",
+    "..........",
+    "..........",
+    "..........",
+    ".....D....",
+    "..B.P.....",
+    ".........."
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 17, "drops": [
+        { "x": 6, "y": 10, "type": "K" }
+      ] }
+  ],
+  "goal": ["deliver"],
+  "deliveries": [
+    { "box": [5,12], "area": "B", "via": null }
+  ],
+  "league": 1,
+  "solution": "RUUURUULUULUUUURRRDDLDLDDDRDRDDLLUUUUULUURLDDRUUUU",
+  "design": {
+    "idea": "İkinci bırakma B'nin girişini kapatacak; görev kolisi ondan önce B'de olmalı. Tolerans 3.",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": 1001,
+  "name": "İlk Koli",
+  "ground": [
+    "#######",
+    "#..#..#",
+    "#..T..#",
+    "#.....#",
+    "#.....#",
+    "#..#..#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    "....P..",
+    "....B..",
+    ".......",
+    ".......",
+    ".......",
+    "......."
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "RDL",
+  "design": {
+    "idea": "Koliyi düz it; hedefe oturunca parlar. (Öğretici)",
+    "mechanics": [],
+    "tier": "easy"
+  }
+}

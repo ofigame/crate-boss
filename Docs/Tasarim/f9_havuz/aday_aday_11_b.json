@@ -1,0 +1,41 @@
+{
+  "id": 11,
+  "name": "Aday 11b",
+  "world": "sehir_deposu",
+  "ground": [
+    "########",
+    "#..T...#",
+    "#......#",
+    "#.o##..#",
+    "#..T...#",
+    "#..#...#",
+    "##.#...#",
+    "#...#..#",
+    "#....#.#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "........",
+    ".....B..",
+    "..H.....",
+    "........",
+    "..B.....",
+    "........",
+    "....P...",
+    "........"
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 5, "drops": [
+        { "x": 2, "y": 3, "type": "B" },
+        { "x": 2, "y": 3, "type": "B" }
+      ] }
+  ],
+  "design": {
+    "idea": "Ağır kasayı ancak önündeki ahşap kasayla sürebilirsin. (otomatik taslak)",
+    "mechanics": ["normal", "heavy", "hole", "crane"],
+    "tier": "easy",
+    "world": "sehir_deposu"
+  }
+}

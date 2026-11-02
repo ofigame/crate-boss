@@ -1,0 +1,16 @@
+{
+    "name": "CrateBoss.Solver",
+    "rootNamespace": "CrateBoss.Solver",
+    "references": [
+        "CrateBoss.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

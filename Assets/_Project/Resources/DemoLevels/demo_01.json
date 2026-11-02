@@ -1,0 +1,41 @@
+{
+  "id": 101,
+  "name": "İki Vinç (deneme)",
+  "world": "liman",
+  "ground": [
+    "#########",
+    "#T..#..T#",
+    "#...#...#",
+    "##o###.##",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "_________"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "...B.B...",
+    ".........",
+    "....P....",
+    "........."
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 6, "drops": [
+        { "x": 2, "y": 3, "type": "B" }
+      ] },
+    { "id": "B", "side": "right", "every": 8, "drops": [
+        { "x": 6, "y": 3, "type": "K" }
+      ] }
+  ],
+  "design": {
+    "idea": "Deneme: Rıhtım'ın iki bırakması iki ayrı vince bölündü; A çukuru doldurur, B sağ girişi kapatır.",
+    "mechanics": ["normal", "hole", "crane"],
+    "tier": "medium",
+    "world": "liman"
+  }
+}

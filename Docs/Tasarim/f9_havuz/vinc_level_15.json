@@ -1,0 +1,48 @@
+{
+  "id": 15,
+  "name": "Köprü Gelecek",
+  "location": "port",
+  "ground": [
+    "########",
+    "#T...#T#",
+    "#......#",
+    "#.o###.#",
+    "#......#",
+    "#..#...#",
+    "#......#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "..IB....",
+    "........",
+    "........",
+    "........",
+    "...P....",
+    "........"
+  ],
+  "crane": {
+    "side": "right",
+    "warn": 3,
+    "showAll": false,
+    "drops": [
+      {
+        "turn": 6,
+        "x": 2,
+        "y": 3,
+        "type": "B"
+      },
+      {
+        "turn": 16,
+        "x": 6,
+        "y": 3,
+        "type": "H"
+      }
+    ]
+  },
+  "design": {
+    "idea": "Hedef iki, kutu iki ama biri buz. Vinç önce çukura kasa bırakıp köprü kurar; ikinci yük olan çelik konteyner de aslında hedeflerden birine aittir. Onu ahşap kasayla iterek hedefe sürersin.",
+    "tier": "medium"
+  }
+}

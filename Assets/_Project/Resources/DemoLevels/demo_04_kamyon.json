@@ -1,0 +1,22 @@
+{
+  "id": 104,
+  "name": "Kamyonu Doldur (deneme)",
+  "world": "liman",
+  "ground": [
+    "#######",
+    "#....T#",
+    "#.....#",
+    "#.....#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".......",
+    "..BB...",
+    ".P.....",
+    "......."
+  ],
+  "goal": ["trucks"],
+  "trucks": { "count": 2, "bay": [[5,1]] },
+  "design": { "idea": "Deneme: iki kamyon gelir, her biri bir kasa alır.", "mechanics": [], "tier": "easy", "world": "liman" }
+}

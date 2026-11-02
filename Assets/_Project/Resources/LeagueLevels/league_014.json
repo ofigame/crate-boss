@@ -1,0 +1,35 @@
+{
+  "id": 1014,
+  "name": "Ters Adım",
+  "ground": [
+    "#######",
+    "###..##",
+    "###..##",
+    "#...#T#",
+    "#...T.#",
+    "#.....#",
+    "###..##",
+    "##..T##",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    "...P...",
+    ".......",
+    ".......",
+    "..B....",
+    "....B..",
+    "...B...",
+    ".......",
+    "......."
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "DDDRRDLULULLDRRRDLRRUDLDDLUURULULLDDRRURDLLLURRDRD",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 65.9, "pushes": 15, "boxChanges": 7, "trapSteps": 13, "forced": 2, "family": "plus" }
+  }
+}

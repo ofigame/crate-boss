@@ -1,0 +1,42 @@
+{
+  "id": 15,
+  "name": "Aday 15a",
+  "world": "sehir_deposu",
+  "ground": [
+    "######",
+    "#....#",
+    "#.T..#",
+    "##.T##",
+    "##o###",
+    "#....#",
+    "#....#",
+    "#....#",
+    "######"
+  ],
+  "objects": [
+    "......",
+    "......",
+    "......",
+    "..B...",
+    "......",
+    "......",
+    "..B...",
+    "..PB..",
+    "......"
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 5, "drops": [
+        { "x": 1, "y": 6, "type": "K" },
+        { "x": 1, "y": 2, "type": "K" }
+      ] },
+    { "id": "B", "side": "right", "every": 8, "drops": [
+        { "x": 2, "y": 4, "type": "B" }
+      ] }
+  ],
+  "design": {
+    "idea": "Makine olmadan çözülmez: onun getirdiği kasayı kullan. (otomatik taslak)",
+    "mechanics": ["normal", "hole", "crane"],
+    "tier": "medium",
+    "world": "sehir_deposu"
+  }
+}

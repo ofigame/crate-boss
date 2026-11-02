@@ -1,0 +1,25 @@
+{
+  "id": 2,
+  "name": "Köşe",
+  "world": "konteyner_sahasi",
+  "ground": [
+    "######",
+    "#....#",
+    "#....#",
+    "#..#T#",
+    "######"
+  ],
+  "objects": [
+    "......",
+    ".P....",
+    "..B...",
+    "......",
+    "......"
+  ],
+  "design": {
+    "idea": "Kutu köşeden kendiliğinden dönmez; yanına geçip yönünü değiştir.",
+    "mechanics": ["normal"],
+    "tier": "easy",
+    "world": "konteyner_sahasi"
+  }
+}

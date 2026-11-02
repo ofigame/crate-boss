@@ -1,0 +1,32 @@
+{
+  "id": 1002,
+  "name": "İki Koli",
+  "ground": [
+    "#######",
+    "#..T..#",
+    "#.....#",
+    "#....##",
+    "#.....#",
+    "#...T.#",
+    "##....#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "...B...",
+    "..PB...",
+    ".......",
+    "......."
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "RUUU",
+  "design": {
+    "idea": "Birini yerleştirirken diğerinin yolunu kapatma. (Öğretici)",
+    "mechanics": [],
+    "tier": "easy"
+  }
+}

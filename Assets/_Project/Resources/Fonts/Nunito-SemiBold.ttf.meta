@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: d8bf2be641723304baf477db3dfbaaa6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Nunito
+  - Yu Gothic UI
+  - Meiryo
+  - Hiragino Sans
+  - Noto Sans CJK JP
+  - Droid Sans Fallback
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6a3945dd3a760504f87544e06049d79a, type: 3}
+  - {fileID: 12800000, guid: fa557c722b2a0864c99a02095039c7ae, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  subsetRecipes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

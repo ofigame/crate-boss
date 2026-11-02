@@ -1,0 +1,33 @@
+{
+  "id": 8,
+  "name": "Duvar Freni",
+  "world": "soguk_depo",
+  "ground": [
+    "#######",
+    "#T....#",
+    "#.....#",
+    "#.##..#",
+    "#.....#",
+    "#..#..#",
+    "#....T#",
+    "#.....#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "...B...",
+    "..I....",
+    ".......",
+    "....P..",
+    "......."
+  ],
+  "design": {
+    "idea": "Buz kutu için en iyi fren duvardır; önce normal kutuyu buzun yolundan çek.",
+    "mechanics": ["ice", "normal"],
+    "tier": "easy",
+    "world": "soguk_depo"
+  }
+}

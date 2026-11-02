@@ -1,0 +1,25 @@
+{
+  "id": 3,
+  "name": "İkiz",
+  "world": "konteyner_sahasi",
+  "ground": [
+    "#######",
+    "#T...T#",
+    "#.....#",
+    "#.....#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".......",
+    "..B.B..",
+    "...P...",
+    "......."
+  ],
+  "design": {
+    "idea": "İki kutuyu önce alttan, sonra yandan iterek iki köşeye taşı.",
+    "mechanics": ["normal"],
+    "tier": "easy",
+    "world": "konteyner_sahasi"
+  }
+}

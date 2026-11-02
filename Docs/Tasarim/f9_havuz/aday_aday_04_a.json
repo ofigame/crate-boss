@@ -1,0 +1,37 @@
+{
+  "id": 4,
+  "name": "Aday 04a",
+  "world": "sehir_deposu",
+  "ground": [
+    "########",
+    "#T.....#",
+    "#..T...#",
+    "#.#....#",
+    "#...#..#",
+    "##....##",
+    "#o...T##",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "...BB...",
+    "........",
+    "...B....",
+    "....P...",
+    "........",
+    "........"
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 4, "drops": [
+        { "x": 1, "y": 6, "type": "B" },
+        { "x": 3, "y": 3, "type": "K" }
+      ] }
+  ],
+  "design": {
+    "idea": "Makinenin bıraktığı kasa çukuru doldurur: köprü kurulana kadar başka işi bitir. (otomatik taslak)",
+    "mechanics": ["normal", "hole", "crane"],
+    "tier": "easy",
+    "world": "sehir_deposu"
+  }
+}

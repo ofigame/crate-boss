@@ -1,0 +1,35 @@
+{
+  "id": 1020,
+  "name": "İkili Oyun",
+  "ground": [
+    "########",
+    "##...#.#",
+    "##....T#",
+    "#..###.#",
+    "#..#...#",
+    "#T.T...#",
+    "###..#.#",
+    "###..#.#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "..B..B..",
+    "........",
+    ".....B..",
+    "........",
+    "...P....",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "URRRUUULLULLDDLDDRRRURDRUDLLLLLUURDUUURRDLULDDLDDRRRURRUDDLULDLLLUURDLDRRRURRDLLLLRDDRULURURRDLL",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 108.2, "pushes": 28, "boxChanges": 9, "trapSteps": 19, "forced": 12, "family": "plus" }
+  }
+}

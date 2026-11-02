@@ -1,0 +1,41 @@
+{
+  "id": 329,
+  "name": "Kamyon Kuyruğu",
+  "world": "liman",
+  "ground": [
+    "#########",
+    "#......T#",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "#......##",
+    "#..#....#",
+    "#.......#",
+    "_________"
+  ],
+  "objects": [
+    ".........",
+    "..B......",
+    "......B..",
+    ".........",
+    ".........",
+    ".........",
+    "..P......",
+    ".........",
+    "........."
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 10, "drops": [
+        { "x": 6, "y": 2, "type": "K" },
+        { "x": 1, "y": 6, "type": "K" }
+      ] }
+  ],
+  "goal": ["trucks"],
+  "trucks": { "count": 2, "bay": [[7,1]] },
+  "design": {
+    "idea": "Vinç kamyon yolunu kesmesin.",
+    "mechanics": ["normal", "crane", "truck"],
+    "tier": "medium",
+    "world": "liman"
+  }
+}

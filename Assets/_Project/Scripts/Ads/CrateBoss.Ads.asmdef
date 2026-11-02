@@ -1,0 +1,17 @@
+{
+    "name": "CrateBoss.Ads",
+    "rootNamespace": "CrateBoss.Ads",
+    "references": [
+        "UnityEngine.UI",
+        "CrateBoss.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,50 @@
+{
+  "id": 16,
+  "name": "Sahada Trafik",
+  "location": "container_yard",
+  "ground": [
+    "#########",
+    "#T..#..T#",
+    "#...#...#",
+    "#.......#",
+    "##o###.##",
+    "#.......#",
+    "#.......#",
+    "#...#...#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    "...B.B...",
+    ".........",
+    ".........",
+    ".........",
+    "..P......",
+    ".........",
+    "........."
+  ],
+  "crane": {
+    "side": "top",
+    "warn": 3,
+    "showAll": false,
+    "drops": [
+      {
+        "turn": 7,
+        "x": 2,
+        "y": 4,
+        "type": "B"
+      },
+      {
+        "turn": 15,
+        "x": 6,
+        "y": 4,
+        "type": "H"
+      }
+    ]
+  },
+  "design": {
+    "idea": "Sol geçit çukur, sağ geçit açık. Vinç 7. hamlede sol çukuru köprüler ama 15. hamlede sağ geçide çelik konteyner bırakır. Konteyneri bir kasayla aşağı süpürüp geçidi yeniden açmalı, iki kasayı iki ayrı geçitten hedeflere taşımalısın. Boşa harcanacak tek hamle var.",
+    "tier": "hard"
+  }
+}

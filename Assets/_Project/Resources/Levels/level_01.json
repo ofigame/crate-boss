@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "name": "İlk İtiş",
+  "world": "konteyner_sahasi",
+  "ground": [
+    "#######",
+    "#....T#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".P.B...",
+    "......."
+  ],
+  "design": {
+    "idea": "Kutuyu itmek için arkasına geç ve o yöne yürü.",
+    "mechanics": ["normal"],
+    "tier": "easy",
+    "world": "konteyner_sahasi"
+  }
+}

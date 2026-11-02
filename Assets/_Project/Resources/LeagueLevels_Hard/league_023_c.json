@@ -1,0 +1,53 @@
+{
+  "id": 1023,
+  "name": "Kesişim",
+  "ground": [
+    "##########",
+    "#.BBB....#",
+    "#........#",
+    "#........#",
+    "#.......##",
+    "#.......##",
+    "#........#",
+    "###.#.##.#",
+    "##.......#",
+    "###.###..#",
+    "#........#",
+    "#........#",
+    "#.#......#",
+    "#.......##",
+    "#..A.....#",
+    "#........#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    "..........",
+    "..31......",
+    "...1......",
+    ".P1.2.B...",
+    "...2......",
+    "...2......",
+    "...1......",
+    "..B1B.BB..",
+    "..........",
+    "...1......",
+    "..........",
+    "...3......",
+    "....3.....",
+    "...D......",
+    "..........",
+    ".........."
+  ],
+  "goal": ["deliver"],
+  "deliveries": [
+    { "box": [3,14], "area": "B", "via": null }
+  ],
+  "league": 1,
+  "solution": "UUURRRDDRDDDRRRDDDDDLLLLLLLDDRRUDLDDRUULLUURRUDLLDDRRUUUUUDDRRRRURUUULULLULDDRRRRDDDDLLLLLUUUULURDRUUUU",
+  "design": {
+    "idea": "Tek itmede yatay ve dikey üçlü birlikte iner (5 koli); başka yolu yok.",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

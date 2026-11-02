@@ -1,0 +1,71 @@
+# The Boss's items (Ana Belge §12.3). id	rank	size	w	d	kind	colour	rotatable
+# size: small, medium, big, special (promotion item), decor (can be taken again). kind: building, vehicle, garden, ground, water, shore.
+# Öğrenci
+house_small	1	big	3	3	building	#F2A65A
+bicycle	1	small	1	1	vehicle	#3EC1D3
+bench	1	small	1	1	garden	#C98A5A
+planters	1	small	1	1	garden	#F2558A
+street_lamp	1	small	1	1	garden	#4E5462
+white_fence	1	small	2	1	garden	#F7F7F9
+mailbox	1	small	1	1	garden	#EF4444
+doghouse	1	medium	1	1	garden	#C98A5A
+barbecue	1	small	1	1	garden	#4E5462
+hammock	1	medium	2	1	garden	#FFD23F
+swing	1	medium	2	1	garden	#9B5DE5
+flower_bed	1	medium	2	2	ground	#F2558A
+small_tree	1	small	1	1	garden	#4CB86A
+vegetable_garden	1	medium	2	2	ground	#3DCC6B
+lemonade_stand	1	medium	2	1	building	#FFD23F
+bird_house	1	small	1	1	garden	#5AA9F0
+hatchback	1	special	1	2	vehicle	#F2558A
+# Stajyer
+house_two_floor	2	big	3	3	building	#5AA9F0
+scooter	2	small	1	1	vehicle	#EF4444
+garage	2	big	2	2	building	#D6D9DE
+playground	2	medium	3	2	ground	#FF8C42
+paddling_pool	2	medium	2	2	ground	#3EC1D3
+basketball_hoop	2	small	1	1	garden	#FF8C42
+gazebo	2	medium	2	2	building	#F7F7F9
+small_fountain	2	medium	2	2	ground	#5AA9F0
+food_truck	2	big	1	2	vehicle	#FFD23F
+cafe_counter	2	medium	2	1	building	#9B5DE5
+tree_house	2	big	2	2	garden	#4CB86A
+trampoline	2	medium	2	2	ground	#3DCC6B
+family_car	2	special	1	2	vehicle	#3DCC6B
+# Çırak
+small_villa	3	big	4	3	building	#F7F7F9
+swimming_pool	3	big	3	2	ground	#3EC1D3
+tennis_court	3	big	3	4	ground	#3DCC6B
+motorcycle	3	small	1	1	vehicle	#4E5462
+pickup	3	big	1	2	vehicle	#EF4444
+greenhouse	3	medium	2	2	building	#BDE8C8
+windmill	3	medium	1	1	building	#F7F7F9
+campfire	3	small	1	1	garden	#FF8C42
+palm_tree	3	small	1	1	garden	#4CB86A
+boss_office	3	special	3	3	building	#5AA9F0
+# Kalfa
+big_villa	4	big	5	4	building	#FFD23F
+sports_car	4	big	1	2	vehicle	#EF4444
+helipad	4	big	3	3	ground	#4E5462
+yacht	4	big	2	3	water	#F7F7F9
+pier	4	medium	1	3	shore	#C98A5A
+warehouse	4	big	4	3	building	#9B5DE5
+boss_truck	4	big	1	3	vehicle	#FF8C42
+big_fountain	4	big	3	3	ground	#5AA9F0
+clock_tower	4	medium	1	1	building	#F2A65A
+logistics_hq	4	special	4	4	building	#FF8C42
+# Usta
+skyscraper	5	big	3	3	building	#5AA9F0
+helicopter	5	big	2	2	ground	#EF4444
+luxury_pool	5	big	4	3	ground	#3EC1D3
+golf_course	5	big	4	4	ground	#3DCC6B
+private_jet	5	big	3	3	ground	#F7F7F9
+giant_yacht	5	big	2	4	water	#F7F7F9
+ferris_wheel	5	big	3	2	building	#F2558A
+gold_crate_statue	5	big	2	2	garden	#FFD23F
+marina	5	medium	2	2	shore	#C98A5A
+boss_tower	5	special	3	3	building	#FFD23F
+# Decor (can be taken again)
+decor_tree	0	decor	1	1	garden	#4CB86A
+decor_flowers	0	decor	1	1	garden	#F2558A
+decor_lamp	0	decor	1	1	garden	#4E5462

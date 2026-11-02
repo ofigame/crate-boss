@@ -1,0 +1,36 @@
+{
+  "id": 3,
+  "name": "Aday 03b",
+  "world": "sehir_deposu",
+  "ground": [
+    "########",
+    "##...#T#",
+    "#......#",
+    "#......#",
+    "#.T...##",
+    "#..T...#",
+    "#...#.##",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "......B.",
+    ".P......",
+    ".....B..",
+    "........",
+    "..B.....",
+    "........",
+    "........"
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 12, "drops": [
+        { "x": 5, "y": 4, "type": "K" }
+      ] }
+  ],
+  "design": {
+    "idea": "Makinenin saatine göre sırayı kur: hangi kasa önce gitmeli?. (otomatik taslak)",
+    "mechanics": ["normal", "crane"],
+    "tier": "easy",
+    "world": "sehir_deposu"
+  }
+}

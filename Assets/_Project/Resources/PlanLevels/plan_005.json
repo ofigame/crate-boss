@@ -1,0 +1,31 @@
+{
+  "id": 305,
+  "name": "Çukur",
+  "world": "sehir_deposu",
+  "ground": [
+    "########",
+    "#......#",
+    "##.T...#",
+    "#...#T.#",
+    "#..T.#o#",
+    "#......#",
+    "#......#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "....BP..",
+    "..B..B..",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "design": {
+    "idea": "Kasayla çukuru doldur, sonra geç.",
+    "mechanics": ["normal"],
+    "tier": "easy",
+    "world": "sehir_deposu"
+  }
+}

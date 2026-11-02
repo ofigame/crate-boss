@@ -1,0 +1,80 @@
+{
+  "id": 1064,
+  "name": "Kilit Zinciri",
+  "ground": [
+    "###########",
+    "#....BBB..#",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "###.......#",
+    "#.........#",
+    "#..#.....##",
+    "#.........#",
+    "#..#....#.#",
+    "#...#.....#",
+    "##..##....#",
+    "###.......#",
+    "#....#....#",
+    "##.....#.##",
+    "##........#",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "#......#..#",
+    "#.........#",
+    "#.#.......#",
+    "#.....A...#",
+    "#.........#",
+    "###########"
+  ],
+  "objects": [
+    "...........",
+    "...........",
+    "...........",
+    ".....2.....",
+    "......2....",
+    "......2....",
+    "......1....",
+    "......1....",
+    ".....13....",
+    "......B....",
+    "......13P..",
+    "..BB...1BB.",
+    "....BB1B.B.",
+    ".BB.B..BB3.",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "......D....",
+    "...........",
+    "..........."
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 33, "drops": [
+        { "x": 3, "y": 10, "type": "K" },
+        { "x": 7, "y": 9, "type": "K" }
+      ] },
+    { "id": "B", "side": "right", "every": 67, "drops": [
+        { "x": 4, "y": 9, "type": "K" }
+      ] }
+  ],
+  "goal": ["deliver"],
+  "deliveries": [
+    { "box": [6,23], "area": "B", "via": null }
+  ],
+  "league": 3,
+  "solution": "DLLDDDDDDDDDDDLDDRUUUUUUUUUUUUURRURUULUUUUUULLLLDDDDDDDRRLLUUUUUUURRDRDDDDDRRDDLDLLUDRRURUULUUUUUULLLLDDDDDRDRLUUUULUURRDRDDDDRDRDDLDLLUUDDRRURUULUUUUUULLLLDDDDDRRLUUULUURRDRDDDRDDRDDLDLLUUULUURLDDRULUUULURDDDDRUUUUU",
+  "design": {
+    "idea": "Bir vinci kilitleyen kasa, diğer tarafta bir üçlü için de gerekli.",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

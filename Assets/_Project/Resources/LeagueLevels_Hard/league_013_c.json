@@ -1,0 +1,52 @@
+{
+  "id": 1013,
+  "name": "Vinci Durdur",
+  "ground": [
+    "##########",
+    "#.BBB....#",
+    "#........#",
+    "#........#",
+    "#........#",
+    "#........#",
+    "#.#......#",
+    "#.....####",
+    "##...#...#",
+    "#......#.#",
+    "#........#",
+    "#..A.....#",
+    "#........#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    ".......B..",
+    "..........",
+    "..........",
+    "........B.",
+    ".......B..",
+    ".B.....BB.",
+    ".B..B.....",
+    "...BB.B.B.",
+    "..........",
+    ".......B..",
+    "..PD......",
+    "..........",
+    ".........."
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 16, "drops": [
+        { "x": 3, "y": 12, "type": "K" }
+      ] }
+  ],
+  "goal": ["deliver"],
+  "deliveries": [
+    { "box": [3,11], "area": "B", "via": null }
+  ],
+  "league": 1,
+  "solution": "DRULUURUDLDDRULUURUDLDDRULUURUDLDDRUURUULRDDLUUUUU",
+  "design": {
+    "idea": "Bir koliyi düşme karesine park et; vinç bekler, sen işini bitirirsin.",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": 1010,
+  "name": "Görev Kolisi",
+  "ground": [
+    "##########",
+    "#..BBB...#",
+    "#........#",
+    "#....#...#",
+    "#........#",
+    "#.....#.##",
+    "#........#",
+    "#.......##",
+    "#...#....#",
+    "#.A......#",
+    "#........#",
+    "#........#",
+    "#........#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    "..B.......",
+    "...B...B..",
+    "..........",
+    "..........",
+    "..........",
+    ".BB....BB.",
+    "..B.B.B...",
+    ".BPB.BB...",
+    "..D.....B.",
+    "..........",
+    "..........",
+    "..........",
+    ".........."
+  ],
+  "goal": ["deliver"],
+  "deliveries": [
+    { "box": [2,9], "area": "B", "via": null }
+  ],
+  "league": 1,
+  "solution": "DLDDRUURRRRRUUULLLLDLURRRRRDDDLLLLLUURUULRDDLUUULURRDRUU",
+  "design": {
+    "idea": "A ile B arasında dağınık 4 boşluk var; kolileri kaydırıp görev kolisine tek bir koridor aç.",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

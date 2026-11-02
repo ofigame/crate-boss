@@ -1,0 +1,35 @@
+{
+  "id": 10,
+  "name": "Buzun Yolu",
+  "world": "soguk_depo",
+  "ground": [
+    "########",
+    "#T..#..#",
+    "#......#",
+    "#.o##..#",
+    "#......#",
+    "#..#..T#",
+    "##.....#",
+    "#...#..#",
+    "#T.....#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "........",
+    "........",
+    "..BB....",
+    "........",
+    "..BI....",
+    "........",
+    "....P...",
+    "........"
+  ],
+  "design": {
+    "idea": "Önce bir normal kutuyu çukura feda et ki buz dolan çukurun üstünden kayarak hedefe ulaşsın.",
+    "mechanics": ["ice", "hole", "normal"],
+    "tier": "medium",
+    "world": "soguk_depo"
+  }
+}

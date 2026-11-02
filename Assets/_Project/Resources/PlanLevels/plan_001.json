@@ -1,0 +1,27 @@
+{
+  "id": 301,
+  "name": "İlk İtiş",
+  "world": "sehir_deposu",
+  "ground": [
+    "######",
+    "#..#.#",
+    "#....#",
+    "#.T..#",
+    "#.T#.#",
+    "######"
+  ],
+  "objects": [
+    "......",
+    "......",
+    "......",
+    "..PB..",
+    "..B...",
+    "......"
+  ],
+  "design": {
+    "idea": "Tek kasa, tek yuva: itmeyi öğret.",
+    "mechanics": ["normal"],
+    "tier": "easy",
+    "world": "sehir_deposu"
+  }
+}

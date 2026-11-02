@@ -1,0 +1,37 @@
+{
+  "id": 15,
+  "name": "Ağır Fedakârlık",
+  "world": "santiye",
+  "ground": [
+    "#########",
+    "#T..#...#",
+    "#.....#.#",
+    "#.#o....#",
+    "#....T..#",
+    "#..#.#..#",
+    "#.......#",
+    "#.o#..#.#",
+    "#.......#",
+    "#.#..T..#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".....P...",
+    "..BI.....",
+    ".........",
+    ".B..B....",
+    "....H....",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "design": {
+    "idea": "Ağır kutu hedefe gitmez, köprü malzemesidir: bir normal kutuyla onu çukura göm.",
+    "mechanics": ["ice", "heavy", "hole", "normal"],
+    "tier": "very_hard",
+    "world": "santiye"
+  }
+}

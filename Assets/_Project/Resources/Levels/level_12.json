@@ -1,0 +1,29 @@
+{
+  "id": 12,
+  "name": "Usta İşi",
+  "world": "santiye",
+  "ground": [
+    "##########",
+    "#....#..T#",
+    "#.......o#",
+    "#..#..#..#",
+    "#........#",
+    "##_.T.#.T#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    ".P........",
+    "..I...H...",
+    "..........",
+    "...B..B...",
+    "..........",
+    ".........."
+  ],
+  "design": {
+    "idea": "Hedefler çok, kutular dar yerde; hangi kutunun çukura gideceğini doğru seç.",
+    "mechanics": ["ice", "heavy", "hole", "normal"],
+    "tier": "medium",
+    "world": "santiye"
+  }
+}

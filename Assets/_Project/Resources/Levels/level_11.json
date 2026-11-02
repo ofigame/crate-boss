@@ -1,0 +1,21 @@
+{
+  "id": 11,
+  "name": "Ağır Yük",
+  "world": "santiye",
+  "ground": [
+    "#########",
+    "#.....T.#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".P.BH....",
+    "........."
+  ],
+  "design": {
+    "idea": "Ağır kutuyu tek başına itemezsin; önündeki normal kutuyla birlikte it.",
+    "mechanics": ["normal", "heavy"],
+    "tier": "easy",
+    "world": "santiye"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": 1026,
+  "name": "Yeni Kasalar",
+  "ground": [
+    "##########",
+    "#.BBB....#",
+    "#........#",
+    "#.......##",
+    "#....#...#",
+    "#........#",
+    "#........#",
+    "#........#",
+    "#........#",
+    "##.......#",
+    "#........#",
+    "#........#",
+    "#........#",
+    "#.A......#",
+    "#........#",
+    "#........#",
+    "#........#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    "..........",
+    "..........",
+    "....2.....",
+    "...B......",
+    "...2......",
+    "...1......",
+    "....1.....",
+    "...1......",
+    "..........",
+    ".B23BBBBB.",
+    "..B.3PBBB.",
+    "..B..BB...",
+    "..D.......",
+    "......3...",
+    "..........",
+    "..........",
+    ".........."
+  ],
+  "goal": ["deliver"],
+  "deliveries": [
+    { "box": [2,13], "area": "B", "via": null }
+  ],
+  "league": 2,
+  "solution": "DLLUUDDDDLLURDRUUUDRRUUULLRRDDDLLUUDDRRUUULULRDRDDDLLUUUUDRRRUUULLLRRDRDDLLULULLUURRLLDDRRUDLLUUURRLDLDDRRUUUUU",
+  "design": {
+    "idea": "Patlatmayla açılan yer, boşluk birleştirmede ilk hamleyi verir. (Isınma)",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

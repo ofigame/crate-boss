@@ -1,0 +1,101 @@
+#slot	world	name	goal	pieces	size	idea
+1	sehir_deposu	İlk İtiş	targets	B1	5x5	Tek kasa, tek yuva: itmeyi öğret.
+2	sehir_deposu	Köşe Dönüşü	targets	B1	5x6	Kasayı köşeden döndürmek için önce arkasına geç.
+3	sehir_deposu	İki Kasa	targets	B2	6x6	İki kasa, iki yuva; sıra önemli.
+4	sehir_deposu	Dar Koridor	targets	B2	6x6	Koridorda kasa tıkanmasın.
+5	sehir_deposu	Çukur	targets	B2 hole1	6x6	Kasayla çukuru doldur, sonra geç.
+6	sehir_deposu	Ağır Yük	targets	B2 H1	6x7	Ağır kasa ancak tahta kasayla itilir.
+7	sehir_deposu	Kayıp Kedi	cats	B1 cat1	6x7	Kediyi kasalarla sepetine yönlendir.
+8	sehir_deposu	Renkli Yuvalar	targets	B3 tags2	6x7	Her kasa kendi renkli yuvasına.
+9	sehir_deposu	Altın Kasa	targets	B2 gold	7x7	Altın kasayı bonus yuvasına ulaştır (isteğe bağlı).
+10	sehir_deposu	Yol Temizliği	road	B3	7x7	Kasaları yoldan çek.
+11	sehir_deposu	Teslimat	deliver	D1 B2	6x7	Kırmızı teslim kasasını varışa götür.
+12	sehir_deposu	Geri Adım	targets	B3 hole1	7x7	Bir kasayı geri çekmeden yuvalar dolmaz.
+13	sehir_deposu	Boşlukları Birleştir	path	B4	6x7	Kasaları kenara iterek başlangıçla varışı birleştir (EK-2 §7.2 tanıtımı).
+14	sehir_deposu	Kedi ve Çukur	cats	B2 cat1 hole1	7x7	Kedinin yolu çukurdan geçiyor.
+15	sehir_deposu	Ağır Köşe	targets	B3 H1	7x8	Ağır kasayı köşeye sıkıştırma.
+16	sehir_deposu	Dolu Otopark	path	B6	7x7	Sık dizilmiş kasalar arasından yol aç.
+17	sehir_deposu	Renk Sırası	targets	B4 tags3	7x8	Renkli yuvalar karşı köşelerde.
+18	sehir_deposu	Uzun Teslimat	deliver	D1 B4 hole1	7x8	Teslim kasasının önü çukur ve kasa dolu.
+19	sehir_deposu	Usta İşi	targets	B4 H1 hole1	8x8	Semtin tüm parçaları bir arada.
+20	sehir_deposu	Semt Sınavı	targets	B5 H1 cat1	8x9	Şehir Deposu'nun en zor bölümü.
+21	liman	Rıhtım	targets	B2 crane1	7x7	Vinç kasa bırakır; yeri açık tut (vinç tanıtımı).
+22	liman	Deniz Kenarı	targets	B2 void	7x7	Kenardan denize düşen kasa geri gelmez.
+23	liman	İlk Kamyon	trucks	B3 truck2	7x8	Kamyonu doldur, gitsin.
+24	liman	Vinç Telaşı	targets	B3 crane1	7x8	Vinç sayacı bitmeden yuvaları doldur.
+25	liman	Konteyner Duvarı	targets	B3 crane1 void	8x8	Vinç konteyner bırakıp yolu kapatıyor.
+26	liman	Eşle ve İndir	deliver	D1 M3x1	7x7	Aynı renkten üç kasa yan yana iner (EK-2 §7.1 tanıtımı).
+27	liman	Renkli Rıhtım	deliver	D1 M3x2	7x8	İki renk, doğru sırayla indir.
+28	liman	Vinçli Eşleşme	deliver	D1 M3x2 crane1	7x8	Vinç düşen kasayla eşleşmeyi bozar ya da tamamlar.
+29	liman	Kamyon Kuyruğu	trucks	B4 truck3 crane1	8x8	Vinç kamyon yolunu kesmesin.
+30	liman	Dalgakıran	targets	B3 H1 void	8x8	Ağır kasa kenara yakın.
+31	liman	İki Vinç	targets	B3 crane2	8x9	İki vinç sırayla bırakır.
+32	liman	Tuzaklı Duvar	deliver	D1 M3x3	7x9	Kolay görünen üçlü yolu kapatır.
+33	liman	Kedi Limanda	cats	B3 cat1 void	8x8	Kedi kenara kaçmasın.
+34	liman	Kamyon ve Vinç	trucks	B4 truck2	8x9	Kamyon, vinç ve deniz birlikte.
+35	liman	Uzun Sıra	deliver	D1 M4x2	7x9	Dörtlü sıra bonus verir ama yol açar mı?
+36	liman	Yük Rampası	targets	B4 H1 crane1	8x9	Ağır kasa vinç yerine yakın.
+37	liman	Liman Labirenti	path	B7 void	8x9	Denize düşürmeden yol aç.
+38	liman	Dolum Vinci	deliver	D1 M3x2 refill8	7x9	Açılan boşluklar 8 adımda geri dolar (sınırlı).
+39	liman	Rıhtım Ustası	deliver	D1 M3x3 crane1	8x9	Eşleşme ve vinç birlikte.
+40	liman	Semt Sınavı	trucks	B5 truck3 crane2 void	8x10	Liman'ın en zor bölümü.
+41	soguk_depo	Kaygan Zemin	targets	I1 B1	7x7	Buz kasa durana kadar kayar (buz tanıtımı).
+42	soguk_depo	Buz Durağı	targets	I2 B1	7x8	Buz kasayı durdurmak için önüne kasa koy.
+43	soguk_depo	Sıralı Teslim	targets	B3 order	7x8	Yuvalar numara sırasıyla dolar.
+44	soguk_depo	Forklift	targets	B3 forklift1	7x8	Forklift kendi yolunda gidip gelir.
+45	soguk_depo	Vardiya Çıkışı	targets	B3 exit	7x8	Yuvalar dolunca çıkıştan çık.
+46	soguk_depo	Buz ve Çukur	targets	I2 B1 hole1	8x8	Buz kasa çukura kayar.
+47	soguk_depo	Büyüyen Saha	targets	B4 stages2	7x9	Saha aşama aşama açılır.
+48	soguk_depo	Buzlu Eşleşme	deliver	D1 M3x2 I1	8x8	Buz kasa eşleşmeye girmez ama yolu tıkar.
+49	soguk_depo	Forklift Yükü	targets	B3 forklift1 order	8x9	Forklift yük bırakır; sırayı bozmasın.
+50	soguk_depo	Soğuk Rota	deliver	D2 B3 stages2 closeBehind	8x9	A'dan B'ye, sonra C'ye; arkadaki kapı kapanır.
+51	soguk_depo	Kayan Sıra	targets	I3 order	8x9	Buz kasalar numara sırasıyla.
+52	soguk_depo	Kapanan Yollar	deliver	D1 M3x3 refill7	8x9	Dolum vinci 7 adımda kapatır.
+53	soguk_depo	İki Forklift	targets	B4 forklift2	8x9	İki forklift aynı koridorda.
+54	soguk_depo	Çıkış Telaşı	targets	B4 I1 exit forklift1	8x9	Forklift çıkış yolunu kesiyor.
+55	soguk_depo	Buz Labirenti	path	I3 B4	8x9	Buz kasaları kaydırarak yol aç.
+56	soguk_depo	Aşamalı Eşleşme	deliver	D2 M3x2 stages2	8x10	Her aşamada yeni teslim kasası.
+57	soguk_depo	Soğuk Zincir	targets	I2 B3 order forklift1	8x10	Sıra, buz ve forklift.
+58	soguk_depo	Dolum Ustası	deliver	D1 M3x3 refill6	8x10	Vinç 6 adımda doldurur; doğru yol tek.
+59	soguk_depo	Donmuş Rota	deliver	D3 M3x2 I1 stages3 closeBehind	8x11	Üç durak, buzlu duvarlar.
+60	soguk_depo	Semt Sınavı	targets	I3 B3 order exit forklift1	9x10	Soğuk Hava Deposu'nun en zor bölümü.
+61	havalimani	Bagaj Bandı	targets	B2 belt	7x8	Bant kasayı ve oyuncuyu taşır (bant tanıtımı).
+62	havalimani	Kantar	targets	B3 gate1	7x8	Kantara kasa koyunca bariyer açılır.
+63	havalimani	Bant Yolu	path	B5 belt	8x8	Bant kasaları yoldan alır ya da getirir.
+64	havalimani	Üç Vinç	targets	B3 crane3	8x9	Üç vinç, üç sayaç.
+65	havalimani	Kantar ve Vinç	targets	B3 gate1 crane1	8x9	Vinç kantarın üstüne bırakırsa?
+66	havalimani	Pist Eşleşmesi	deliver	D1 M3x3 belt	8x9	Bant eşleşme kasalarını taşır.
+67	havalimani	Yükleme Kapısı	trucks	B4 truck3 gate1	8x9	Kamyon bariyerin arkasında.
+68	havalimani	Bant ve Buz	targets	I2 B2 belt	8x9	Buz kasa banttan kayar.
+69	havalimani	Hangar Rotası	deliver	D3 M3x1 stages3	8x10	Üç durak, açık arka kapılar.
+70	havalimani	Kapı Kapı	targets	B4 gate2	8x10	İki kantar, iki bariyer.
+71	havalimani	Sınırsız Vinç	deliver	D1 M3x3 refill6loop	8x10	Dolum vinci hiç durmaz (sınırsız).
+72	havalimani	Bant Kavşağı	targets	B4 belt forklift1	8x10	Bant ve forklift kesişir.
+73	havalimani	Kargo Uçağı	trucks	B4 truck3	9x10	Bant kamyona taşır.
+74	havalimani	Pist Labirenti	path	B8 belt	8x10	Bantlı büyük yol açma bulmacası.
+75	havalimani	Rötar	targets	B4 order gate1 crane1	9x10	Sıra, kantar ve vinç.
+76	havalimani	Transfer	deliver	D2 M3x3 stages2 refill6	9x10	İki durak, dolum vinci.
+77	havalimani	Bagaj Karmaşası	deliver	D1 M3x4 belt	8x10	Dört renk ve bant.
+78	havalimani	Son Çağrı	targets	B4 I1 exit belt gate1	9x10	Çıkış bandın sonunda.
+79	havalimani	Pist Ustası	deliver	D2 M3x2 stages2	9x11	Üç durak, eşleşme ve vinç.
+80	havalimani	Semt Sınavı	targets	B5 I1 belt gate2 crane2	9x11	Havalimanı'nın en zor bölümü.
+81	gumruk	Gümrük Kapısı	targets	B4 gate1 order	8x9	Kantar ve sıra birlikte.
+82	gumruk	Mühürlü Yük	deliver	D1 M3x3 H1	8x9	Ağır kasa eşleşmeye girmez.
+83	gumruk	Kontrol Noktası	targets	B4 forklift2 crane1	8x10	Forklift ve vinç aynı alanda.
+84	gumruk	Kaçak Kedi	cats	B4 cat2 gate1	8x10	İki kedi, bir bariyer.
+85	gumruk	Kuyruk	trucks	B5 truck3 forklift1	9x10	Kamyon kuyruğu ve forklift.
+86	gumruk	Gizli Yol	path	B9 H1	9x10	Ağır kasalı büyük yol açma.
+87	gumruk	Dörtlü Durak	deliver	D2 M3x2 stages2 closeBehind refill7	9x11	Üç durak, dolum vinci, kapanan kapılar.
+88	gumruk	Sıra ve Renk	targets	B5 order tags2	9x10	Numara ve renk birlikte.
+89	gumruk	Karışık Yük	targets	B4 I2 H1 hole1	9x10	Bütün kasa türleri.
+90	gumruk	Döngü Vinç	deliver	D1 M3x3 refill5loop	9x10	Sınırsız vinç, 5 adım; tek doğru yol.
+91	gumruk	Çifte Kontrol	targets	B5 gate2 crane2	9x11	İki kantar, iki vinç.
+92	gumruk	Gümrük Labirenti	path	B10 belt	9x11	Bantlı büyük yol açma.
+93	gumruk	Mühür Sırası	targets	B5 order exit forklift1	9x11	Sıra, çıkış ve forklift.
+94	gumruk	Uzun Yol	deliver	D2 M3x2 stages2	9x11	Üç durak ve bant.
+95	gumruk	Son Kamyon	trucks	B6 truck4 crane2 gate1	9x11	Dört kamyon, iki vinç, bariyer.
+96	gumruk	Renk Fırtınası	deliver	D1 M3x3 refill5loop	9x11	Beş renk, sınırsız vinç.
+97	gumruk	Kapalı Rota	deliver	D2 M3x2 stages2 closeBehind	9x11	Geri dönüş yok.
+98	gumruk	Büyük Sınav	targets	B6 I1 H1 order gate1 forklift1	9x11	Her şey bir arada.
+99	gumruk	Patronun Deposu	deliver	D3 M3x4 stages3 refill5loop	9x11	Durak, eşleşme ve sınırsız vinç.
+100	gumruk	Crate Boss	targets	B6 I2 H1 order exit gate1 crane2	9x11	Oyunun son ve en zor bölümü.

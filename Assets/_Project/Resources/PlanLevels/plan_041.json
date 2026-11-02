@@ -1,0 +1,31 @@
+{
+  "id": 341,
+  "name": "Kaygan Zemin",
+  "world": "soguk_depo",
+  "ground": [
+    "#########",
+    "#.......#",
+    "#.#.....#",
+    "#.......#",
+    "#....T..#",
+    "#.T....##",
+    "#.......#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    "...BI....",
+    ".........",
+    ".........",
+    "....P....",
+    ".........",
+    "........."
+  ],
+  "design": {
+    "idea": "Buz kasa durana kadar kayar (buz tanıtımı).",
+    "mechanics": ["normal", "ice"],
+    "tier": "medium",
+    "world": "soguk_depo"
+  }
+}

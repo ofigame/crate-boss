@@ -1,0 +1,34 @@
+{
+  "id": 1006,
+  "name": "Dar Koridor",
+  "ground": [
+    "########",
+    "#......#",
+    "#T.#...#",
+    "#......#",
+    "#......#",
+    "#.#....#",
+    "#..#...#",
+    "#.T.T..#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    ".....B..",
+    "........",
+    "........",
+    ".B......",
+    "....P...",
+    ".....B..",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "DLLULUUURUURRRDDDDRDLRDLLLRRUULD",
+  "design": {
+    "idea": "Tek kişilik koridorda koliler sırayla girer; yanlış sıra koridoru tıkar.",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

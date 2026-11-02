@@ -1,0 +1,29 @@
+{
+  "id": 2,
+  "name": "Aday 02a",
+  "world": "sehir_deposu",
+  "ground": [
+    "######",
+    "#....#",
+    "#....#",
+    "#....#",
+    "#T#..#",
+    "#.T..#",
+    "######"
+  ],
+  "objects": [
+    "......",
+    "......",
+    "......",
+    "..B...",
+    ".B....",
+    "....P.",
+    "......"
+  ],
+  "design": {
+    "idea": "Kasayı hedefe sokmak için önce ondan uzaklaştır. (otomatik taslak)",
+    "mechanics": ["normal"],
+    "tier": "easy",
+    "world": "sehir_deposu"
+  }
+}

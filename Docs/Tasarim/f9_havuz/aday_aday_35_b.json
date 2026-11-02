@@ -1,0 +1,41 @@
+{
+  "id": 35,
+  "name": "Aday 35b",
+  "world": "soguk_depo",
+  "ground": [
+    "########",
+    "#......#",
+    "#.#....#",
+    "#.#.#..#",
+    "#..##.##",
+    "##.....#",
+    "#......#",
+    "#...#..#",
+    "#...#.T#",
+    "________"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "..B.....",
+    "......P.",
+    ".B......",
+    "........",
+    "........"
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 13, "drops": [
+        { "x": 2, "y": 7, "type": "K" },
+        { "x": 2, "y": 1, "type": "K" }
+      ] }
+  ],
+  "design": {
+    "idea": "Makinenin saatine göre sırayı kur: hangi kasa önce gitmeli?. (otomatik taslak)",
+    "mechanics": ["normal", "void", "crane"],
+    "tier": "medium",
+    "world": "soguk_depo"
+  }
+}

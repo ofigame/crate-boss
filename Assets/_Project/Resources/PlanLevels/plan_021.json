@@ -1,0 +1,36 @@
+{
+  "id": 321,
+  "name": "Rıhtım",
+  "world": "liman",
+  "ground": [
+    "########",
+    "#.#...T#",
+    "#....#.#",
+    "#.#....#",
+    "#.#....#",
+    "#.....##",
+    "#..T#T.#",
+    "________"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "..B...B.",
+    "...P....",
+    "........",
+    "...B....",
+    "........",
+    "........"
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 4, "drops": [
+        { "x": 6, "y": 2, "type": "K" }
+      ] }
+  ],
+  "design": {
+    "idea": "Vinç kasa bırakır; yeri açık tut (vinç tanıtımı).",
+    "mechanics": ["normal", "crane"],
+    "tier": "easy",
+    "world": "liman"
+  }
+}

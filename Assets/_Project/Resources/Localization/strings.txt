@@ -1,0 +1,372 @@
+key	tr	en	es	ar	de	it	fr	ja	ko
+# Crate Boss string table (Ana Belge §18). Source: tr. Fallback: en. Every column except tr is a draft (Docs/CEVIRI_DURUMU.md).
+# Generic buttons
+ui.ok	Tamam	OK	Vale	حسنا	OK	OK	OK	OK	확인
+ui.close	Kapat	Close	Cerrar	إغلاق	Schließen	Chiudi	Fermer	閉じる	닫기
+ui.later	Sonra	Later	Luego	لاحقا	Später	Dopo	Plus tard	あとで	나중에
+ui.cancel	Vazgeç	Cancel	Cancelar	إلغاء	Abbrechen	Annulla	Annuler	やめる	취소
+ui.play	Oyna	Play	Jugar	العب	Spielen	Gioca	Jouer	プレイ	플레이
+ui.playbig	OYNA	PLAY	JUGAR	العب	SPIELEN	GIOCA	JOUER	プレイ	플레이
+ui.new	YENİ	NEW	NUEVO	جديد	NEU	NUOVO	NOUVEAU	NEW	NEW
+ui.home	Ana sayfa	Home	Inicio	الرئيسية	Start	Home	Accueil	ホーム	홈
+ui.quality	Kalite	Quality	Calidad	الجودة	Qualität	Qualità	Qualité	画質	화질
+ui.privacy	Gizlilik	Privacy	Privacidad	الخصوصية	Datenschutz	Privacy	Vie privée	プライバシー	개인정보
+ui.language	Dil	Language	Idioma	اللغة	Sprache	Lingua	Langue	言語	언어
+ui.settings	Ayarlar	Settings	Ajustes	الإعدادات	Einstellungen	Impostazioni	Paramètres	設定	설정
+ui.sound	Ses	Sound	Sonido	الصوت	Ton	Audio	Son	サウンド	소리
+logo.sub	Kasa Bulmacası	Crate Puzzle	Puzle de Cajas	لغز الصناديق	Kisten-Puzzle	Puzzle di Casse	Puzzle de Caisses	箱パズル	상자 퍼즐
+coin.plus	+{0} CB Coin	+{0} CB Coin	+{0} CB Coin	+{0} CB Coin	+{0} CB Coin	+{0} CB Coin	+{0} CB Coin	+{0} CB Coin	+{0} CB Coin
+# Game screen
+hud.moves	Hamle {0}/{1}	Moves {0}/{1}	Movs. {0}/{1}	الحركات {0}/{1}	Züge {0}/{1}	Mosse {0}/{1}	Coups {0}/{1}	手数 {0}/{1}	이동 {0}/{1}
+hud.moves1	Hamle {0}	Moves {0}	Movs. {0}	الحركات {0}	Züge {0}	Mosse {0}	Coups {0}	手数 {0}	이동 {0}
+transition	Sonraki saha hazırlanıyor…	Preparing the next yard…	Preparando el siguiente patio…	جار تجهيز الساحة التالية…	Nächster Hof wird vorbereitet…	Preparo il prossimo piazzale…	Préparation de la prochaine cour…	次の現場を準備中…	다음 작업장 준비 중…
+# Task card (parts joined by goal.sep plus a space, none in ja; first letter upper case)
+goal.sep	,	,	,	،	,	,	,	、	,
+goal.trucks	{0} kamyonu doldur	fill {0} trucks	llena {0} camiones	املأ {0} شاحنات	belade {0} Lkw	riempi {0} camion	remplis {0} camions	トラック{0}台を満載に	트럭 {0}대를 채워요
+goal.truck	Kamyonu doldur	fill the truck	llena el camión	املأ الشاحنة	belade den Lkw	riempi il camion	remplis le camion	トラックを満載に	트럭을 채워요
+goal.targets	Kasaları yuvalara koy	push the crates onto the slots	empuja las cajas a los huecos	ادفع الصناديق إلى الخانات	schieb die Kisten auf die Felder	spingi le casse sugli spazi	pousse les caisses sur les cases	箱を枠へ押し込もう	상자를 칸으로 밀어요
+# Login gift, ads
+gift.title	Giriş serisi · {0}. gün	Login streak · day {0}	Racha · día {0}	سلسلة الدخول · اليوم {0}	Serie · Tag {0}	Serie · giorno {0}	Série · jour {0}	ログイン連続 · {0}日目	연속 출석 · {0}일째
+gift.body	Bugünün hediyesi: +{0} CB Coin\nHer gün gel, seri büyüsün: 7. gün +{1} CB Coin.	Today's gift: +{0} CB Coin\nCome back daily to grow the streak: day 7 gives +{1} CB Coin.	Regalo de hoy: +{0} CB Coin\nVuelve cada día: el día 7 da +{1} CB Coin.	هدية اليوم: +{0} CB Coin\nعد كل يوم لتكبر السلسلة: اليوم 7 يعطي +{1} CB Coin.	Heutiges Geschenk: +{0} CB Coin\nKomm täglich wieder: Tag 7 bringt +{1} CB Coin.	Regalo di oggi: +{0} CB Coin\nTorna ogni giorno: il giorno 7 dà +{1} CB Coin.	Cadeau du jour : +{0} CB Coin\nReviens chaque jour : le jour 7 donne +{1} CB Coin.	今日のプレゼント: +{0} CB Coin\n毎日来て記録を伸ばそう: 7日目は +{1} CB Coin。	오늘의 선물: +{0} CB Coin\n매일 오면 기록이 늘어요: 7일째 +{1} CB Coin.
+gift.watch	Reklam izle, ikinci kutu +{0}	Watch ad, 2nd box +{0}	Anuncio, 2.ª caja +{0}	إعلان، صندوق ثان +{0}	Werbung, 2. Box +{0}	Spot, 2ª scatola +{0}	Pub, 2e boîte +{0}	広告で2つ目 +{0}	광고 보고 두 번째 +{0}
+gift.take	Al	Collect	Recoger	استلم	Nehmen	Prendi	Prendre	受け取る	받기
+gift.second.title	İkinci kutu!	Second box!	¡Segunda caja!	الصندوق الثاني!	Zweite Box!	Seconda scatola!	Deuxième boîte !	2つ目の箱!	두 번째 상자!
+gift.second.body	+{0} CB Coin senin.	+{0} CB Coin for you.	+{0} CB Coin para ti.	+{0} CB Coin لك.	+{0} CB Coin für dich.	+{0} CB Coin per te.	+{0} CB Coin pour toi.	+{0} CB Coin をゲット。	+{0} CB Coin 획득.
+ad.none.title	Şu an reklam yok	No ad right now	No hay anuncios ahora	لا يوجد إعلان الآن	Gerade keine Werbung	Nessuno spot ora	Pas de pub pour l'instant	今は広告がありません	지금은 광고가 없어요
+ad.none.body	Birazdan tekrar dene.	Try again in a moment.	Inténtalo de nuevo en un momento.	حاول مرة أخرى بعد قليل.	Versuch es gleich noch mal.	Riprova tra poco.	Réessaie dans un instant.	少ししてからもう一度試してね。	잠시 후 다시 시도해 주세요.
+ad.test.rewarded	TEST REKLAMI	TEST AD	ANUNCIO DE PRUEBA	إعلان تجريبي	TESTWERBUNG	SPOT DI PROVA	PUB DE TEST	テスト広告	테스트 광고
+ad.test.interstitial	TEST GEÇİŞ REKLAMI	TEST INTERSTITIAL	INTERSTICIAL DE PRUEBA	إعلان بيني تجريبي	TEST-ZWISCHENWERBUNG	INTERSTITIAL DI PROVA	INTERSTITIEL DE TEST	テスト全画面広告	테스트 전면 광고
+ad.test.banner	TEST ŞERİT REKLAM	TEST BANNER AD	BANNER DE PRUEBA	إعلان شريطي تجريبي	TEST-BANNER	BANNER DI PROVA	BANNIÈRE TEST	テストバナー広告	테스트 배너 광고
+ad.countdown	Ödül için {0} sn	Reward in {0} s	Premio en {0} s	المكافأة بعد {0} ث	Belohnung in {0} s	Premio tra {0} s	Récompense dans {0} s	報酬まで {0} 秒	보상까지 {0}초
+ad.close.noreward	Kapat (ödülsüz)	Close (no reward)	Cerrar (sin premio)	إغلاق (بلا مكافأة)	Schließen (ohne)	Chiudi (senza premio)	Fermer (sans gain)	閉じる(報酬なし)	닫기(보상 없음)
+ad.rewarded	Ödül kazanıldı!	Reward earned!	¡Premio ganado!	ربحت المكافأة!	Belohnung erhalten!	Premio ottenuto!	Récompense gagnée !	報酬ゲット!	보상 획득!
+# Hints
+hint.none.title	İpucu kalmadı	No hints left	Sin pistas	لا تلميحات متبقية	Keine Tipps mehr	Niente più aiuti	Plus d'indices	ヒントがありません	힌트가 없어요
+hint.none.body	Yarın 1 ücretsiz ipucu gelir.\nCB Coin: {0}	1 free hint arrives tomorrow.\nCB Coin: {0}	Mañana llega 1 pista gratis.\nCB Coin: {0}	غدا يصلك تلميح مجاني.\nCB Coin: {0}	Morgen gibt es 1 Gratis-Tipp.\nCB Coin: {0}	Domani arriva 1 aiuto gratis.\nCB Coin: {0}	Demain, 1 indice gratuit.\nCB Coin : {0}	明日、無料ヒントが1つ届きます。\nCB Coin: {0}	내일 무료 힌트 1개가 와요.\nCB Coin: {0}
+hint.ad	Reklam izle (ücretsiz)	Watch ad (free)	Ver anuncio (gratis)	شاهد إعلانا (مجانا)	Werbung (gratis)	Guarda spot (gratis)	Voir une pub (gratuit)	広告を見る(無料)	광고 보기(무료)
+hint.buy	{0} CB Coin harca	Spend {0} CB Coin	Gastar {0} CB Coin	أنفق {0} CB Coin	{0} CB Coin zahlen	Spendi {0} CB Coin	Dépenser {0} CB Coin	{0} CB Coin を使う	{0} CB Coin 사용
+hint.solution	Çözümü izle · {0} CB Coin	Watch solution · {0} CB Coin	Ver solución · {0} CB Coin	شاهد الحل · {0} CB Coin	Lösung zeigen · {0} CB Coin	Vedi soluzione · {0} CB Coin	Voir la solution · {0} CB Coin	解き方を見る · {0} CB Coin	풀이 보기 · {0} CB Coin
+hint.solution.ad	Çözümü izle · {0} CB Coin + reklam	Watch solution · {0} CB Coin + ad	Ver solución · {0} CB Coin + anuncio	شاهد الحل · {0} CB Coin + إعلان	Lösung zeigen · {0} CB Coin + Werbung	Vedi soluzione · {0} CB Coin + spot	Voir la solution · {0} CB Coin + pub	解き方を見る · {0} CB Coin + 広告	풀이 보기 · {0} CB Coin + 광고
+nosolution.title	Buradan çözüm yok	No solution from here	Sin solución desde aquí	لا حل من هنا	Von hier keine Lösung	Nessuna soluzione da qui	Pas de solution d'ici	ここからは解けません	여기서는 풀 수 없어요
+nosolution.paid	Birkaç hamle geri al, sonra tekrar dene. CB Coin harcanmadı.	Undo a few moves, then try again. No CB Coin was spent.	Deshaz unos movimientos y vuelve a intentarlo. No se gastaron CB Coin.	تراجع بضع حركات ثم حاول مجددا. لم تنفق أي CB Coin.	Nimm ein paar Züge zurück und versuch es erneut. Keine CB Coin verbraucht.	Annulla qualche mossa e riprova. Nessun CB Coin speso.	Annule quelques coups puis réessaie. Aucun CB Coin dépensé.	何手か戻してからもう一度。CB Coin は使っていません。	몇 수 되돌린 뒤 다시 해 보세요. CB Coin은 쓰지 않았어요.
+nosolution.hint	Birkaç hamle geri al, sonra ipucuna tekrar bas.	Undo a few moves, then tap the hint again.	Deshaz unos movimientos y vuelve a pulsar la pista.	تراجع بضع حركات ثم اضغط التلميح مجددا.	Nimm ein paar Züge zurück und tipp dann wieder auf den Tipp.	Annulla qualche mossa e tocca di nuovo l'aiuto.	Annule quelques coups puis touche à nouveau l'indice.	何手か戻してから、もう一度ヒントを押してね。	몇 수 되돌린 뒤 힌트를 다시 눌러요.
+# Win
+win.title	Tamamlandı!	Complete!	¡Completado!	اكتمل!	Geschafft!	Completato!	Terminé !	クリア!	완료!
+win.next	Sonraki	Next	Siguiente	التالي	Weiter	Avanti	Suivant	次へ	다음
+win.yard	Saha	Yard	Patio	الساحة	Hof	Piazzale	Cour	現場	작업장
+win.stars	3 yıldız +{0}	3 stars +{0}	3 estrellas +{0}	3 نجوم +{0}	3 Sterne +{0}	3 stelle +{0}	3 étoiles +{0}	星3つ +{0}	별 3개 +{0}
+win.adx2	Reklam ×2 +{0}	Ad ×2 +{0}	Anuncio ×2 +{0}	إعلان ×2 +{0}	Werbung ×2 +{0}	Spot ×2 +{0}	Pub ×2 +{0}	広告 ×2 +{0}	광고 ×2 +{0}
+win.claimed	Bu bölümün CB Coin'ini zaten aldın	You already got this level's CB Coin	Ya cobraste los CB Coin de este nivel	حصلت على CB Coin هذه المرحلة من قبل	Die CB Coin für dieses Level hast du schon	Hai già preso i CB Coin di questo livello	Tu as déjà eu les CB Coin de ce niveau	このステージの CB Coin は受け取り済み	이 단계 CB Coin은 이미 받았어요
+win.moves	Hamle {0}  ·  En iyi {1}	Moves {0}  ·  Best {1}	Movs. {0}  ·  Mejor {1}	الحركات {0}  ·  الأفضل {1}	Züge {0}  ·  Beste {1}	Mosse {0}  ·  Migliore {1}	Coups {0}  ·  Record {1}	手数 {0}  ·  最短 {1}	이동 {0}  ·  최고 {1}
+win.double	Reklam izle, ×2 (+{0} CB Coin)	Watch ad, ×2 (+{0} CB Coin)	Ve un anuncio, ×2 (+{0} CB Coin)	شاهد إعلانا، ×2 (+{0} CB Coin)	Werbung schauen, ×2 (+{0} CB Coin)	Guarda uno spot, ×2 (+{0} CB Coin)	Regarde une pub, ×2 (+{0} CB Coin)	広告を見て ×2 (+{0} CB Coin)	광고 보고 ×2 (+{0} CB Coin)
+promo.title	Terfi!	Promoted!	¡Ascenso!	ترقية!	Befördert!	Promosso!	Promotion !	昇進!	승진!
+promo.label	Yeni rütben	Your new rank	Tu nuevo rango	رتبتك الجديدة	Dein neuer Rang	Il tuo nuovo grado	Ton nouveau rang	新しいランク	새 등급
+promo.ok	Harika!	Great!	¡Genial!	رائع!	Super!	Fantastico!	Génial !	やった!	좋아요!
+# Map, settings
+map.title	Sahalar	Yards	Patios	الساحات	Höfe	Piazzali	Cours	現場	작업장
+quality.auto	Otomatik · {0}	Auto · {0}	Auto · {0}	تلقائي · {0}	Auto · {0}	Auto · {0}	Auto · {0}	自動 · {0}	자동 · {0}
+quality.low	Düşük	Low	Baja	منخفضة	Niedrig	Bassa	Basse	低	낮음
+quality.medium	Orta	Medium	Media	متوسطة	Mittel	Media	Moyenne	中	중간
+quality.high	Yüksek	High	Alta	عالية	Hoch	Alta	Haute	高	높음
+# Level names (Ana Belge §18: level.<id>.name; the tr column must equal the name in the level file)
+level.1.name	İlk İtiş	First Push	Primer empujón	الدفعة الأولى	Erster Schub	Prima spinta	Première poussée	はじめの一押し	첫 밀기
+level.2.name	Köşe	Corner	Esquina	الزاوية	Ecke	Angolo	Coin	角	모퉁이
+level.3.name	İkiz	Twins	Gemelas	التوأم	Zwillinge	Gemelle	Jumelles	ふたご	쌍둥이
+level.4.name	İlk Vardiya	First Shift	Primer turno	الوردية الأولى	Erste Schicht	Primo turno	Première équipe	初シフト	첫 근무
+level.5.name	Köprü	Bridge	Puente	الجسر	Brücke	Ponte	Pont	橋	다리
+level.6.name	Rıhtım	Quay	Muelle	الرصيف	Kai	Banchina	Quai	岸壁	부두
+level.7.name	Kaygan	Slippery	Resbaladizo	زلق	Rutschig	Scivoloso	Glissant	つるつる	미끄러운 길
+level.8.name	Duvar Freni	Wall Brake	Freno de pared	فرامل الجدار	Wandbremse	Freno a muro	Frein mural	壁ブレーキ	벽 브레이크
+level.9.name	Uzak Atış	Long Shot	Tiro lejano	رمية بعيدة	Weitwurf	Tiro lungo	Tir lointain	ロングショット	먼 거리
+level.10.name	Buzun Yolu	Ice Road	Camino de hielo	طريق الجليد	Eisweg	Via del ghiaccio	Route de glace	氷の道	얼음길
+level.11.name	Ağır Yük	Heavy Load	Carga pesada	حمولة ثقيلة	Schwere Last	Carico pesante	Lourde charge	重い荷物	무거운 짐
+level.12.name	Usta İşi	Masterwork	Obra maestra	عمل متقن	Meisterstück	Lavoro da maestro	Travail de pro	職人技	장인의 솜씨
+level.13.name	Yanlış Yük	Wrong Load	Carga equivocada	الحمولة الخطأ	Falsche Ladung	Carico sbagliato	Mauvaise charge	間違えた荷物	잘못된 짐
+level.14.name	Usta Sınavı	Master's Test	Prueba de maestro	اختبار المعلم	Meisterprüfung	Prova del maestro	Épreuve du maître	職人試験	장인 시험
+level.15.name	Ağır Fedakârlık	Heavy Sacrifice	Sacrificio pesado	تضحية ثقيلة	Schweres Opfer	Sacrificio pesante	Lourd sacrifice	重い犠牲	무거운 희생
+goal.deliver	Görev kasasını B alanına götür	take the delivery crate to area B	lleva la caja de entrega al área B	خذ صندوق المهمة إلى المنطقة B	bring die Auftragskiste in Bereich B	porta la cassa di consegna nell'area B	amène la caisse de livraison dans la zone B	配達箱をBエリアへ運ぼう	배달 상자를 B 구역으로 옮겨요
+goal.match	aynı renkten 3 kasayı yan yana getir, iner	line up 3 crates of one colour and they sink	alinea 3 cajas del mismo color y se hunden	صف 3 صناديق من اللون نفسه فتنزل	stell 3 Kisten einer Farbe in eine Reihe, dann versinken sie	allinea 3 casse dello stesso colore e sprofondano	aligne 3 caisses de même couleur et elles s'enfoncent	同じ色の箱を3つ並べると沈む	같은 색 상자 3개를 나란히 놓으면 내려가요
+match.bonus	Uzun sıra! +{0} CB Coin	Long row! +{0} CB Coin	¡Fila larga! +{0} CB Coin	صف طويل! +{0} CB Coin	Lange Reihe! +{0} CB Coin	Fila lunga! +{0} CB Coin	Longue rangée ! +{0} CB Coin	長い列!+{0} CB Coin	긴 줄! +{0} CB Coin
+league.1	Öğrenci	Student	Estudiante	طالب	Schüler	Studente	Élève	見習い生	학생
+league.2	Stajyer	Intern	Becario	متدرب	Praktikant	Tirocinante	Stagiaire	インターン	인턴
+league.3	Çırak	Apprentice	Aprendiz	صبي الحرفة	Lehrling	Apprendista	Apprenti	弟子	견습생
+league.4	Kalfa	Journeyman	Oficial	عامل ماهر	Geselle	Operaio	Compagnon	職人	숙련공
+league.5	Usta	Master	Maestro	معلم	Meister	Maestro	Maître	親方	장인
+league.6	Şef	Chief	Jefe	رئيس	Chef	Capo	Chef	主任	주임
+league.7	Mühendis	Engineer	Ingeniero	مهندس	Ingenieur	Ingegnere	Ingénieur	エンジニア	엔지니어
+league.8	Kıdemli Mühendis	Senior Engineer	Ingeniero sénior	مهندس أول	Senior-Ingenieur	Ingegnere senior	Ingénieur principal	シニアエンジニア	선임 엔지니어
+# Home screen and crates (Ana Belge §11, §12; F7)
+home.wardrobe	Gardırop	Wardrobe	Vestuario	خزانة الملابس	Garderobe	Guardaroba	Garde-robe	着せ替え	옷장
+home.edit	Düzenle	Edit	Editar	تعديل	Bearbeiten	Modifica	Modifier	編集	편집
+home.levels	Bölümler	Levels	Niveles	المراحل	Level	Livelli	Niveaux	ステージ	스테이지
+home.crates	Kasalar	Crates	Cajas	الصناديق	Kisten	Casse	Caisses	箱	상자
+crate.title	Teslimat kasası	Delivery crate	Caja de entrega	صندوق التوصيل	Lieferkiste	Cassa di consegna	Caisse de livraison	配達箱	배달 상자
+crate.promo	Terfi kasası	Promotion crate	Caja de ascenso	صندوق الترقية	Beförderungskiste	Cassa promozione	Caisse de promotion	昇進の箱	승진 상자
+crate.open	Aç · {0} CB Coin	Open · {0} CB Coin	Abrir · {0} CB Coin	افتح · {0} CB Coin	Öffnen · {0} CB Coin	Apri · {0} CB Coin	Ouvrir · {0} CB Coin	開ける · {0} CB Coin	열기 · {0} CB Coin
+crate.openfree	Ücretsiz aç	Open for free	Abrir gratis	افتح مجانًا	Gratis öffnen	Apri gratis	Ouvrir gratuitement	無料で開ける	무료로 열기
+crate.ad	Reklam izle ve aç	Watch ad to open	Ve un anuncio y abre	شاهد إعلانًا وافتح	Werbung schauen und öffnen	Guarda uno spot e apri	Regarde une pub et ouvre	広告を見て開ける	광고 보고 열기
+crate.choose	Birini seç	Pick one	Elige uno	اختر واحدًا	Wähle eins	Scegline uno	Choisis-en un	1つ選ぼう	하나 고르기
+crate.place	Yerleştir	Place	Colocar	ضع	Platzieren	Posiziona	Placer	置く	배치
+crate.later	Sonra	Later	Luego	لاحقًا	Später	Dopo	Plus tard	あとで	나중에
+crate.first.title	Bu kasa senin!	This crate is yours!	¡Esta caja es tuya!	هذا الصندوق لك!	Diese Kiste gehört dir!	Questa cassa è tua!	Cette caisse est à toi !	この箱はきみのもの!	이 상자는 네 거야!
+crate.first.body	Her bölümün sonunda bir teslimat kasası gelir. İlki ücretsiz, hadi açalım!	A delivery crate arrives after every level. The first one is free, let's open it!	Tras cada nivel llega una caja. ¡La primera es gratis, ábrela!	يصل صندوق بعد كل مرحلة. الأول مجاني، لنفتحه!	Nach jedem Level kommt eine Kiste. Die erste ist gratis, öffne sie!	Dopo ogni livello arriva una cassa. La prima è gratis, aprila!	Une caisse arrive après chaque niveau. La première est gratuite, ouvre-la !	ステージごとに箱が届くよ。最初は無料、開けよう!	스테이지마다 상자가 와요. 첫 상자는 무료, 열어 봐요!
+crate.first.open	Hadi açalım!	Let's open it!	¡Ábrela!	لنفتحه!	Los, öffnen!	Apriamola!	Ouvrons-la !	開けよう!	열어 보자!
+crate.none.title	Kasa yok	No crates	No hay cajas	لا صناديق	Keine Kisten	Nessuna cassa	Pas de caisse	箱がない	상자 없음
+crate.none.body	Yeni bir bölüm bitir, kamyon yeni kasa getirsin.	Finish a new level and the truck brings a crate.	Termina un nivel nuevo y el camión trae una caja.	أنهِ مرحلة جديدة وستجلب الشاحنة صندوقًا.	Schaff ein neues Level, dann bringt der Lkw eine Kiste.	Finisci un nuovo livello e il camion porta una cassa.	Termine un nouveau niveau et le camion apporte une caisse.	新しいステージをクリアすると箱が届くよ。	새 스테이지를 깨면 트럭이 상자를 가져와요.
+coin.balance	CB Coin: {0}	CB Coin: {0}	CB Coin: {0}	CB Coin: {0}	CB Coin: {0}	CB Coin: {0}	CB Coin : {0}	CB Coin: {0}	CB Coin: {0}
+adcoins.limit.title	Bugünlük bitti	Done for today	Hasta mañana	انتهى لليوم	Für heute vorbei	Finito per oggi	C'est tout pour aujourd'hui	今日はおしまい	오늘은 끝
+adcoins.limit.body	Yarın yine 3 kez +30 CB Coin kazanabilirsin.	Tomorrow you can earn +30 CB Coin three more times.	Mañana podrás ganar +30 CB Coin otras 3 veces.	غدًا يمكنك ربح +30 CB Coin ثلاث مرات أخرى.	Morgen gibt es wieder 3× +30 CB Coin.	Domani altre 3 volte +30 CB Coin.	Demain, encore 3 fois +30 CB Coin.	明日また3回 +30 CB Coin もらえるよ。	내일 또 3번 +30 CB Coin을 받을 수 있어요.
+promo.gift	Terfi kasası + yeni arazi	Promotion crate + new land	Caja de ascenso + terreno nuevo	صندوق ترقية + أرض جديدة	Beförderungskiste + neues Land	Cassa promozione + nuovo terreno	Caisse de promotion + nouveau terrain	昇進の箱 + 新しい土地	승진 상자 + 새 땅
+hint.undo	{0} hamle geri al, sonra tekrar dene.	Undo {0} moves, then try again.	Deshaz {0} movimientos y vuelve a intentarlo.	تراجع {0} حركات ثم حاول مجددًا.	Nimm {0} Züge zurück und versuch es erneut.	Annulla {0} mosse e riprova.	Annule {0} coups puis réessaie.	{0}手戻してからもう一度。	{0}수 되돌리고 다시 해 봐요.
+# Edit mode (§12.4)
+edit.rotate	Döndür	Turn	Girar	تدوير	Drehen	Ruota	Tourner	回す	돌리기
+edit.place	Yerleştir	Place	Colocar	ضع	Platzieren	Posiziona	Placer	置く	배치
+edit.store	Bırak	Drop	Soltar	ترك	Ablegen	Lascia	Lâcher	やめる	놓기
+edit.path	Yol	Path	Camino	ممر	Weg	Vialetto	Allée	小道	길
+edit.done	Bitti	Done	Listo	تم	Fertig	Fatto	Terminé	完了	완료
+edit.hint.pick	Aşağıdan bir eşya seç ya da arazideki bir eşyaya dokun.	Pick an item below or tap one on the land.	Elige un objeto abajo o toca uno en el terreno.	اختر عنصرًا بالأسفل أو المس عنصرًا على الأرض.	Wähle unten ein Teil oder tippe eins auf dem Land an.	Scegli un oggetto sotto o toccane uno sul terreno.	Choisis un objet en bas ou touche-en un sur le terrain.	下のアイテムを選ぶか、土地の物をタップ。	아래에서 고르거나 땅의 물건을 눌러요.
+edit.hint.place	Bir kareye dokun, sonra Yerleştir. Yeşil: uygun.	Tap a cell, then Place. Green: it fits.	Toca una casilla y luego Colocar. Verde: cabe.	المس خانة ثم ضع. الأخضر: مناسب.	Tippe ein Feld an, dann Platzieren. Grün: passt.	Tocca una casella, poi Posiziona. Verde: va bene.	Touche une case puis Placer. Vert : ça va.	マスをタップして「置く」。緑ならOK。	칸을 누르고 배치. 초록: 가능.
+edit.hint.path	Yol karesi koymak ya da kaldırmak için dokun (ücretsiz).	Tap to lay or lift a path tile (free).	Toca para poner o quitar camino (gratis).	المس لوضع أو إزالة ممر (مجانًا).	Tippe, um Wegplatten zu legen oder zu entfernen (gratis).	Tocca per posare o togliere il vialetto (gratis).	Touche pour poser ou retirer l'allée (gratuit).	タップで小道を置く・外す(無料)。	눌러서 길을 놓거나 치워요(무료).
+edit.hint.blocked	Buraya olmaz: kapı yola bakmalı, araç yola, tekne suya.	Not here: doors face a path, vehicles on paths, boats on water.	Aquí no: puertas hacia un camino, vehículos en caminos, barcos en el agua.	ليس هنا: الأبواب نحو ممر، المركبات على الممرات، القوارب في الماء.	Nicht hier: Türen zum Weg, Fahrzeuge auf Wege, Boote ins Wasser.	Non qui: porte verso un vialetto, veicoli sui vialetti, barche in acqua.	Pas ici : portes vers une allée, véhicules sur les allées, bateaux sur l'eau.	ここは無理:ドアは道へ、乗り物は道、船は水へ。	여기는 안 돼요: 문은 길로, 탈것은 길에, 배는 물에.
+# Wardrobe (§13.2)
+wardrobe.wear	Giy	Wear	Poner	ارتدِ	Tragen	Indossa	Porter	着る	입기
+wardrobe.worn	Giyili	Worn	Puesto	مرتدى	Getragen	Indossato	Porté	着用中	착용 중
+wear.hat_white	Beyaz baret	White hard hat	Casco blanco	خوذة بيضاء	Weißer Helm	Casco bianco	Casque blanc	白いヘルメット	흰 안전모
+wear.hat_red	Kırmızı baret	Red hard hat	Casco rojo	خوذة حمراء	Roter Helm	Casco rosso	Casque rouge	赤いヘルメット	빨간 안전모
+wear.hat_blue	Mavi baret	Blue hard hat	Casco azul	خوذة زرقاء	Blauer Helm	Casco blu	Casque bleu	青いヘルメット	파란 안전모
+wear.hat_gold	Altın baret	Gold hard hat	Casco dorado	خوذة ذهبية	Goldhelm	Casco d'oro	Casque doré	金のヘルメット	황금 안전모
+wear.vest_green	Yeşil yelek	Green vest	Chaleco verde	سترة خضراء	Grüne Weste	Gilet verde	Gilet vert	緑のベスト	초록 조끼
+wear.vest_pink	Pembe yelek	Pink vest	Chaleco rosa	سترة وردية	Rosa Weste	Gilet rosa	Gilet rose	ピンクのベスト	분홍 조끼
+wear.vest_purple	Mor yelek	Purple vest	Chaleco morado	سترة بنفسجية	Lila Weste	Gilet viola	Gilet violet	紫のベスト	보라 조끼
+wear.gloves_black	Siyah eldiven	Black gloves	Guantes negros	قفازات سوداء	Schwarze Handschuhe	Guanti neri	Gants noirs	黒い手袋	검은 장갑
+wear.gloves_yellow	Sarı eldiven	Yellow gloves	Guantes amarillos	قفازات صفراء	Gelbe Handschuhe	Guanti gialli	Gants jaunes	黄色い手袋	노란 장갑
+# Sizes and lands
+size.small	Küçük	Small	Pequeño	صغير	Klein	Piccolo	Petit	小	소형
+size.medium	Orta	Medium	Mediano	متوسط	Mittel	Medio	Moyen	中	중형
+size.big	Büyük	Big	Grande	كبير	Groß	Grande	Grand	大	대형
+size.special	Özel	Special	Especial	خاص	Besonders	Speciale	Spécial	特別	특별
+size.decor	Süs	Decor	Adorno	زينة	Deko	Decoro	Déco	飾り	장식
+land.start	Başlangıç arsası	Starter plot	Parcela inicial	القطعة الأولى	Startgrundstück	Lotto iniziale	Terrain de départ	はじめの土地	시작 부지
+land.garden	Bahçe arazisi	Garden land	Terreno jardín	أرض الحديقة	Gartenland	Terreno giardino	Terrain jardin	庭の土地	정원 부지
+land.lake	Göl kenarı	Lakeside	Junto al lago	ضفة البحيرة	Am See	Riva del lago	Bord du lac	湖のほとり	호숫가
+land.shore	Sahil arazisi	Seaside land	Terreno costero	أرض الساحل	Küstenland	Terreno sul mare	Terrain du littoral	海辺の土地	해변 부지
+land.centre	Şehir merkezi arsası	City-centre plot	Parcela céntrica	قطعة وسط المدينة	Grundstück in der Stadtmitte	Lotto in centro	Terrain du centre-ville	都心の土地	도심 부지
+# Items (§12.3)
+item.house_small	Küçük ev	Small house	Casita	بيت صغير	Kleines Haus	Casetta	Petite maison	小さな家	작은 집
+item.bicycle	Bisiklet	Bicycle	Bicicleta	دراجة	Fahrrad	Bicicletta	Vélo	自転車	자전거
+item.bench	Bank	Bench	Banco	مقعد	Bank	Panchina	Banc	ベンチ	벤치
+item.planters	Saksılar	Planters	Macetas	أصص	Blumenkübel	Fioriere	Jardinières	プランター	화분
+item.street_lamp	Sokak lambası	Street lamp	Farola	مصباح شارع	Straßenlaterne	Lampione	Réverbère	街灯	가로등
+item.white_fence	Beyaz çit	White fence	Valla blanca	سياج أبيض	Weißer Zaun	Staccionata bianca	Clôture blanche	白い柵	흰 울타리
+item.mailbox	Posta kutusu	Mailbox	Buzón	صندوق بريد	Briefkasten	Cassetta postale	Boîte aux lettres	郵便受け	우편함
+item.doghouse	Köpek kulübesi	Doghouse	Caseta de perro	بيت كلب	Hundehütte	Cuccia	Niche	犬小屋	개집
+item.barbecue	Mangal	Barbecue	Barbacoa	شواية	Grill	Barbecue	Barbecue	バーベキュー	바비큐
+item.hammock	Hamak	Hammock	Hamaca	أرجوحة شبكية	Hängematte	Amaca	Hamac	ハンモック	해먹
+item.swing	Salıncak	Swing	Columpio	أرجوحة	Schaukel	Altalena	Balançoire	ブランコ	그네
+item.flower_bed	Çiçek tarhı	Flower bed	Parterre	حوض زهور	Blumenbeet	Aiuola	Parterre de fleurs	花壇	꽃밭
+item.small_tree	Küçük ağaç	Small tree	Arbolito	شجرة صغيرة	Kleiner Baum	Alberello	Petit arbre	小さな木	작은 나무
+item.vegetable_garden	Sebze bahçesi	Vegetable patch	Huerto	حديقة خضار	Gemüsebeet	Orto	Potager	家庭菜園	텃밭
+item.lemonade_stand	Limonata standı	Lemonade stand	Puesto de limonada	كشك ليمونادة	Limonadenstand	Chiosco di limonata	Stand de limonade	レモネード屋台	레모네이드 가판대
+item.bird_house	Kuş evi	Birdhouse	Casita de pájaros	بيت طيور	Vogelhaus	Casetta per uccelli	Nichoir	巣箱	새집
+item.hatchback	Küçük oyuncak araba	Little toy hatchback	Cochecito	سيارة صغيرة	Kleiner Flitzer	Utilitaria	Petite citadine	小さな車	작은 자동차
+item.house_two_floor	İki katlı ev	Two-storey house	Casa de dos plantas	بيت من طابقين	Zweistöckiges Haus	Casa a due piani	Maison à étage	2階建ての家	2층 집
+item.scooter	Scooter	Scooter	Patinete	سكوتر	Roller	Monopattino	Trottinette	スクーター	킥보드
+item.garage	Garaj	Garage	Garaje	مرآب	Garage	Garage	Garage	ガレージ	차고
+item.playground	Oyun parkı	Playground	Parque infantil	ملعب أطفال	Spielplatz	Parco giochi	Aire de jeux	遊び場	놀이터
+item.paddling_pool	Şişme havuz	Paddling pool	Piscina hinchable	مسبح قابل للنفخ	Planschbecken	Piscinetta	Pataugeoire	ビニールプール	물놀이 풀
+item.basketball_hoop	Basketbol potası	Basketball hoop	Canasta	سلة كرة	Basketballkorb	Canestro	Panier de basket	バスケットゴール	농구 골대
+item.gazebo	Kamelya	Gazebo	Cenador	كشك حديقة	Pavillon	Gazebo	Kiosque	あずまや	정자
+item.small_fountain	Küçük fıskiye	Little fountain	Fuente pequeña	نافورة صغيرة	Kleiner Brunnen	Fontanella	Petite fontaine	小さな噴水	작은 분수
+item.food_truck	Yemek kamyonu	Food truck	Food truck	شاحنة طعام	Foodtruck	Food truck	Food truck	キッチンカー	푸드트럭
+item.cafe_counter	Kafe tezgâhı	Café counter	Barra de café	كشك مقهى	Café-Theke	Bancone del caffè	Comptoir café	カフェカウンター	카페 카운터
+item.tree_house	Ağaç ev	Tree house	Casa del árbol	بيت شجرة	Baumhaus	Casa sull'albero	Cabane dans l'arbre	ツリーハウス	나무 집
+item.trampoline	Trambolin	Trampoline	Cama elástica	ترامبولين	Trampolin	Trampolino	Trampoline	トランポリン	트램펄린
+item.family_car	Aile arabası	Family car	Coche familiar	سيارة عائلية	Familienauto	Station wagon	Voiture familiale	ファミリーカー	패밀리카
+item.small_villa	Küçük villa	Small villa	Villa pequeña	فيلا صغيرة	Kleine Villa	Villetta	Petite villa	小さな別荘	작은 빌라
+item.swimming_pool	Yüzme havuzu	Swimming pool	Piscina	مسبح	Schwimmbecken	Piscina	Piscine	プール	수영장
+item.tennis_court	Tenis kortu	Tennis court	Pista de tenis	ملعب تنس	Tennisplatz	Campo da tennis	Court de tennis	テニスコート	테니스장
+item.motorcycle	Motosiklet	Motorbike	Moto	دراجة نارية	Motorrad	Moto	Moto	バイク	오토바이
+item.pickup	Pikap	Pickup	Pickup	شاحنة صغيرة	Pick-up	Pick-up	Pick-up	ピックアップ	픽업트럭
+item.greenhouse	Sera	Greenhouse	Invernadero	دفيئة	Gewächshaus	Serra	Serre	温室	온실
+item.windmill	Rüzgâr gülü	Windmill	Molino	طاحونة هواء	Windmühle	Mulino a vento	Moulin	風車	풍차
+item.campfire	Kamp ateşi	Campfire	Fogata	نار المخيم	Lagerfeuer	Falò	Feu de camp	キャンプファイヤー	모닥불
+item.palm_tree	Palmiye	Palm tree	Palmera	نخلة	Palme	Palma	Palmier	ヤシの木	야자수
+item.boss_office	Boss'un ilk ofisi	The Boss's first office	La primera oficina del jefe	أول مكتب للبوس	Das erste Büro vom Boss	Il primo ufficio del Boss	Le premier bureau du Boss	ボスの初オフィス	보스의 첫 사무실
+item.big_villa	Büyük villa	Big villa	Villa grande	فيلا كبيرة	Große Villa	Villa grande	Grande villa	大きな別荘	큰 빌라
+item.sports_car	Spor araba	Sports car	Deportivo	سيارة رياضية	Sportwagen	Auto sportiva	Voiture de sport	スポーツカー	스포츠카
+item.helipad	Helikopter pisti	Helipad	Helipuerto	مهبط مروحيات	Hubschrauberplatz	Eliporto	Héliport	ヘリポート	헬기장
+item.yacht	Yat	Yacht	Yate	يخت	Jacht	Yacht	Yacht	ヨット	요트
+item.pier	İskele	Pier	Muelle	رصيف	Steg	Pontile	Ponton	桟橋	부두
+item.warehouse	Depo binası	Warehouse	Almacén	مستودع	Lagerhalle	Magazzino	Entrepôt	倉庫	창고
+item.boss_truck	Boss kamyonu	Boss truck	Camión del jefe	شاحنة البوس	Boss-Lkw	Camion del Boss	Camion du Boss	ボスのトラック	보스 트럭
+item.big_fountain	Büyük fıskiye	Big fountain	Fuente grande	نافورة كبيرة	Großer Brunnen	Grande fontana	Grande fontaine	大きな噴水	큰 분수
+item.clock_tower	Saat kulesi	Clock tower	Torre del reloj	برج الساعة	Uhrturm	Torre dell'orologio	Tour de l'horloge	時計塔	시계탑
+item.logistics_hq	Crate Boss Lojistik binası	Crate Boss Logistics HQ	Sede de Crate Boss Logística	مقر Crate Boss للخدمات اللوجستية	Crate Boss Logistik-Zentrale	Sede di Crate Boss Logistica	Siège de Crate Boss Logistique	Crate Boss 物流本社	Crate Boss 물류 본사
+item.skyscraper	Gökdelen ofis	Skyscraper office	Rascacielos	ناطحة سحاب	Wolkenkratzer	Grattacielo	Gratte-ciel	高層オフィス	고층 사옥
+item.helicopter	Helikopter	Helicopter	Helicóptero	مروحية	Hubschrauber	Elicottero	Hélicoptère	ヘリコプター	헬리콥터
+item.luxury_pool	Lüks havuz	Luxury pool	Piscina de lujo	مسبح فاخر	Luxuspool	Piscina di lusso	Piscine de luxe	豪華プール	고급 수영장
+item.golf_course	Golf sahası	Golf course	Campo de golf	ملعب غولف	Golfplatz	Campo da golf	Golf	ゴルフ場	골프장
+item.private_jet	Özel jet	Private jet	Jet privado	طائرة خاصة	Privatjet	Jet privato	Jet privé	プライベートジェット	전용기
+item.giant_yacht	Dev yat	Giant yacht	Megayate	يخت عملاق	Riesenjacht	Yacht gigante	Méga-yacht	巨大ヨット	대형 요트
+item.ferris_wheel	Dönme dolap	Ferris wheel	Noria	عجلة دوارة	Riesenrad	Ruota panoramica	Grande roue	観覧車	대관람차
+item.gold_crate_statue	Dev altın kasa heykeli	Giant gold crate statue	Estatua de caja dorada	تمثال صندوق ذهبي	Goldkisten-Statue	Statua della cassa d'oro	Statue de caisse dorée	金の箱の像	황금 상자 동상
+item.marina	Marina	Marina	Puerto deportivo	مرسى	Jachthafen	Porticciolo	Marina	マリーナ	마리나
+item.boss_tower	Boss Kulesi	Boss Tower	Torre del jefe	برج البوس	Boss-Turm	Torre del Boss	Tour du Boss	ボスタワー	보스 타워
+item.decor_tree	Ağaç	Tree	Árbol	شجرة	Baum	Albero	Arbre	木	나무
+item.decor_flowers	Çiçekler	Flowers	Flores	زهور	Blumen	Fiori	Fleurs	花	꽃
+item.decor_lamp	Lamba	Lamp	Farol	مصباح	Laterne	Lampione	Lampadaire	ランプ	램프
+# League level names (Ana Belge §9; ids 1001–1125)
+level.1001.name	İlk Koli	First Box	Primera caja	الصندوق الأول	Erste Kiste	Prima scatola	Premier carton	はじめての箱	첫 상자
+level.1002.name	İki Koli	Two Boxes	Dos cajas	صندوقان	Zwei Kisten	Due scatole	Deux cartons	2つの箱	상자 둘
+level.1003.name	Köşeyi Dön	Round the Corner	Doblar la esquina	حول الزاوية	Um die Ecke	Dietro l'angolo	Au coin	角を曲がれ	모퉁이 돌기
+level.1004.name	Önce Arkadaki	Back One First	Primero el de atrás	الخلفي أولًا	Hinten zuerst	Prima quella dietro	D'abord celui du fond	奥から先に	뒤에 것부터
+level.1005.name	Geçici Park	Quick Parking	Aparcar un momento	ركن مؤقت	Kurz parken	Parcheggio veloce	Garé un instant	ちょっと置き場	잠깐 주차
+level.1006.name	Dar Koridor	Narrow Hall	Pasillo estrecho	ممر ضيق	Enger Flur	Corridoio stretto	Couloir étroit	せまい通路	좁은 복도
+level.1007.name	Ters Yön	Wrong Way	Al revés	الاتجاه المعاكس	Falsche Richtung	Senso inverso	Sens inverse	逆向き	반대 방향
+level.1008.name	Fazla Koli	One Too Many	Una de más	واحد زائد	Eine zu viel	Una di troppo	Un de trop	1つ多い	하나 남는다
+level.1009.name	Çember	Circle	Círculo	دائرة	Kreis	Cerchio	Cercle	まるい道	원
+level.1010.name	Görev Kolisi	Delivery Box	Caja de entrega	صندوق المهمة	Auftragskiste	Cassa di consegna	Carton de livraison	配達箱	배달 상자
+level.1011.name	Boşluk Yürüt	Walk the Gap	Mueve el hueco	حرّك الفراغ	Lücke wandern	Sposta il buco	Fais filer le trou	すきまを運べ	빈칸 옮기기
+level.1012.name	Kanca Geliyor	Hook Incoming	Llega el gancho	الخطاف قادم	Der Haken kommt	Arriva il gancio	Voilà le crochet	フックが来る	갈고리가 온다
+level.1013.name	Vinci Durdur	Stop the Crane	Para la grúa	أوقف الرافعة	Stopp den Kran	Ferma la gru	Bloque la grue	クレーンを止めろ	크레인을 막아라
+level.1014.name	Kapanan Kapı	Closing Gate	Puerta que se cierra	البوابة تُغلق	Das Tor geht zu	Il cancello si chiude	La porte se ferme	しまる門	닫히는 문
+level.1015.name	Otopark Tıkandı	Car Park Jam	Atasco en el parking	ازدحام الموقف	Parkplatz verstopft	Parcheggio bloccato	Parking bouché	駐車場が渋滞	주차장 꽉 막힘
+level.1016.name	Dolu Boşluk	Filled Gap	Hueco lleno	فراغ ممتلئ	Volle Lücke	Buco pieno	Trou comblé	うまったすきま	채워진 빈칸
+level.1017.name	Uzun Koridor	Long Corridor	Pasillo largo	ممر طويل	Langer Gang	Corridoio lungo	Long couloir	長い通路	긴 복도
+level.1018.name	Üç Bırakma	Three Drops	Tres caídas	ثلاث إسقاطات	Drei Abwürfe	Tre sganci	Trois largages	3回落とす	세 번 떨어뜨리기
+level.1019.name	Uzak Boşluk	Far Gap	Hueco lejano	فراغ بعيد	Ferne Lücke	Buco lontano	Trou lointain	遠いすきま	먼 빈칸
+level.1020.name	Üçle ve İndir	Line Up and Drop	Alinea y baja	صفّها وأنزلها	Reihen und versenken	Allinea e affonda	Aligne et fais tomber	そろえて落とせ	맞추고 내려라
+level.1021.name	Renk Seçimi	Pick a Colour	Elige color	اختر لونًا	Farbe wählen	Scegli il colore	Choisis la couleur	色を選べ	색 고르기
+level.1022.name	Dik Üçlü	Upright Three	Trío vertical	ثلاثي عمودي	Senkrechte Drei	Tris verticale	Trio vertical	たての3つ	세로 셋
+level.1023.name	Kesişim	Crossing	Cruce	تقاطع	Kreuzung	Incrocio	Croisement	交差点	교차
+level.1024.name	Kanca ve Renk	Hook and Colour	Gancho y color	خطاف ولون	Haken und Farbe	Gancio e colore	Crochet et couleur	フックと色	갈고리와 색
+level.1025.name	Öğrenci Sınavı	Student Exam	Examen de estudiante	امتحان الطالب	Schülerprüfung	Esame da studente	Examen d'élève	学生の試験	학생 시험
+level.1026.name	Yeni Kasalar	New Crates	Cajas nuevas	صناديق جديدة	Neue Kisten	Casse nuove	Nouvelles caisses	新しい箱	새 상자
+level.1027.name	Karşı Uçtan	From the Far End	Desde el otro lado	من الطرف الآخر	Vom anderen Ende	Dall'altra parte	De l'autre bout	向こう端から	반대편에서
+level.1028.name	Köprü Kurulur	Bridge Coming	Se hace un puente	الجسر قادم	Brücke kommt	Arriva il ponte	Le pont arrive	橋がかかる	다리가 놓인다
+level.1029.name	Tek Pencere	One Window	Una sola ventana	نافذة واحدة	Ein Zeitfenster	Una finestra	Une seule fenêtre	ただ一度のすき	단 한 번의 틈
+level.1030.name	İkisi Bir Arada	Two in One	Dos en uno	اثنان في واحد	Zwei in einem	Due in uno	Deux en un	2つで1つ	둘이 하나로
+level.1031.name	Kaydır ve Patlat	Slide and Pop	Desliza y explota	ازلق وفجّر	Schieben und knallen	Scivola e scoppia	Glisse et éclate	ずらして消す	밀고 터뜨리기
+level.1032.name	Yanlış Üçlü	Wrong Three	Trío falso	ثلاثي خاطئ	Falsche Drei	Tris sbagliato	Faux trio	まちがった3つ	잘못된 셋
+level.1033.name	Çift Kanca	Double Hook	Doble gancho	خطاف مزدوج	Doppelhaken	Doppio gancio	Double crochet	ダブルフック	이중 갈고리
+level.1034.name	Vinç Yarışı	Crane Race	Carrera de grúas	سباق الرافعات	Kranrennen	Corsa di gru	Course de grues	クレーン競争	크레인 경주
+level.1035.name	Kasa Arabayı Kapatıyor	Crate Blocks the Car	La caja tapa el coche	الصندوق يسد السيارة	Kiste vor dem Auto	La cassa blocca l'auto	La caisse bloque la voiture	箱が車をふさぐ	상자가 차를 막는다
+level.1036.name	Uzun Yol	Long Way	Camino largo	طريق طويل	Langer Weg	Strada lunga	Long chemin	長い道	먼 길
+level.1037.name	Dört Renk	Four Colours	Cuatro colores	أربعة ألوان	Vier Farben	Quattro colori	Quatre couleurs	4つの色	네 가지 색
+level.1038.name	Kapat Beni	Shut Me In	Ciérrame	أغلق عليّ	Schließ mich ein	Chiudimi dentro	Enferme-moi	閉じこめて	나를 가둬
+level.1039.name	Dörtlü	Four in a Row	Cuatro en fila	أربعة متتالية	Vierer	Poker	Carré	4つ並び	넷 연속
+level.1040.name	Ağır Yük	Heavy Load	Carga pesada	حمولة ثقيلة	Schwere Last	Carico pesante	Charge lourde	重い荷物	무거운 짐
+level.1041.name	Ağır Köprü	Heavy Bridge	Puente pesado	جسر ثقيل	Schwere Brücke	Ponte pesante	Pont lourd	重い橋	무거운 다리
+level.1042.name	Renkli Teslimat	Colour Delivery	Entrega de color	توصيل ملون	Farbige Lieferung	Consegna colorata	Livraison colorée	色の配達	색깔 배달
+level.1043.name	Doğru Yere Düş	Land in Place	Cae en su sitio	اهبط في مكانك	Richtig landen	Atterra al posto giusto	Tombe au bon endroit	正しく落とせ	제자리에 떨어져
+level.1044.name	Kesişen Koridorlar	Crossing Corridors	Pasillos cruzados	ممرات متقاطعة	Kreuzende Gänge	Corridoi incrociati	Couloirs croisés	交わる通路	교차하는 복도
+level.1045.name	İki Kamyon	Two Trucks	Dos camiones	شاحنتان	Zwei Lkw	Due camion	Deux camions	2台のトラック	트럭 두 대
+level.1046.name	Uzak B	Far B	B lejana	B البعيدة	Fernes B	B lontana	B lointain	遠いB	먼 B
+level.1047.name	Ağır Renk	Heavy Colour	Color pesado	لون ثقيل	Schwere Farbe	Colore pesante	Couleur lourde	重い色	무거운 색
+level.1048.name	Saat Gibi	Like Clockwork	Como un reloj	كالساعة	Wie ein Uhrwerk	Come un orologio	Comme une horloge	時計のように	시계처럼
+level.1049.name	Nefes	Breather	Respiro	استراحة	Verschnaufpause	Respiro	Pause	ひと休み	한숨 돌리기
+level.1050.name	Stajyer Sınavı	Intern Exam	Examen de becario	امتحان المتدرب	Praktikantenprüfung	Esame da stagista	Examen de stagiaire	研修生の試験	인턴 시험
+level.1051.name	Plastik Kasalar	Plastic Crates	Cajas de plástico	صناديق بلاستيكية	Plastikkisten	Casse di plastica	Caisses en plastique	プラスチックの箱	플라스틱 상자
+level.1052.name	Üç Kanca	Three Hooks	Tres ganchos	ثلاثة خطافات	Drei Haken	Tre ganci	Trois crochets	3つのフック	갈고리 셋
+level.1053.name	Yükü Kullan	Use the Load	Usa la carga	استخدم الحمولة	Nutze die Ladung	Usa il carico	Utilise la charge	荷物を使え	짐을 써라
+level.1054.name	Beşli	Five in a Row	Cinco en fila	خمسة متتالية	Fünfer	Cinquina	Quinte	5つ並び	다섯 연속
+level.1055.name	Otopark Labirenti	Car Park Maze	Laberinto del parking	متاهة الموقف	Parkplatz-Labyrinth	Labirinto del parcheggio	Labyrinthe du parking	駐車場迷路	주차장 미로
+level.1056.name	Çift Görev	Double Delivery	Doble entrega	توصيل مزدوج	Doppelauftrag	Doppia consegna	Double livraison	ダブル配達	이중 배달
+level.1057.name	Ayrılan Yollar	Split Roads	Caminos separados	طرق متفرقة	Getrennte Wege	Strade divise	Routes séparées	分かれ道	갈림길
+level.1058.name	Dönüş Yok	No Way Back	Sin vuelta atrás	لا عودة	Kein Zurück	Senza ritorno	Sans retour	戻れない	되돌아갈 수 없다
+level.1059.name	Tuzak Renk	Trap Colour	Color trampa	لون الفخ	Fallenfarbe	Colore trappola	Couleur piège	わなの色	함정 색
+level.1060.name	Ağır Duvar	Heavy Wall	Muro pesado	جدار ثقيل	Schwere Wand	Muro pesante	Mur lourd	重い壁	무거운 벽
+level.1061.name	Köprü Zinciri	Bridge Chain	Cadena de puentes	سلسلة جسور	Brückenkette	Catena di ponti	Chaîne de ponts	橋のくさり	다리 사슬
+level.1062.name	Gizli Üçlü	Hidden Three	Trío oculto	ثلاثي مخفي	Versteckte Drei	Tris nascosto	Trio caché	かくれた3つ	숨은 셋
+level.1063.name	Kalabalık	Crowded	Abarrotado	مزدحم	Gedränge	Affollato	Bondé	混雑	북적북적
+level.1064.name	Kilit Zinciri	Lock Chain	Cadena de bloqueos	سلسلة أقفال	Sperrkette	Catena di blocchi	Chaîne de verrous	ロックのくさり	잠금 사슬
+level.1065.name	Kamyon ve Kanca	Truck and Hook	Camión y gancho	شاحنة وخطاف	Lkw und Haken	Camion e gancio	Camion et crochet	トラックとフック	트럭과 갈고리
+level.1066.name	Uzun Teslimat	Long Delivery	Entrega larga	توصيل طويل	Lange Lieferung	Consegna lunga	Longue livraison	長い配達	긴 배달
+level.1067.name	Renk Ödünç	Borrowed Colour	Color prestado	لون مُستعار	Geliehene Farbe	Colore in prestito	Couleur empruntée	色を借りる	빌린 색
+level.1068.name	Sıkışık	Packed	Apretado	مكتظ	Vollgepackt	Stipato	Bourré	ぎゅうぎゅう	꽉 찼다
+level.1069.name	Vinç Altında	Under the Crane	Bajo la grúa	تحت الرافعة	Unter dem Kran	Sotto la gru	Sous la grue	クレーンの下	크레인 아래
+level.1070.name	Ağır Patlatma	Heavy Pop	Explosión pesada	تفجير ثقيل	Schwerer Knall	Scoppio pesante	Éclat lourd	重い消し	무거운 터뜨리기
+level.1071.name	Dolambaç	Winding Way	Camino sinuoso	طريق ملتوٍ	Umweg	Strada tortuosa	Chemin sinueux	回り道	구불구불한 길
+level.1072.name	Son Boşluk	Last Gap	Último hueco	الفراغ الأخير	Letzte Lücke	Ultimo buco	Dernier trou	最後のすきま	마지막 빈칸
+level.1073.name	Üç Kanca Dansı	Three Hook Dance	Baile de tres ganchos	رقصة الخطافات الثلاثة	Dreihakentanz	Danza dei tre ganci	Danse des trois crochets	3つのフックのダンス	갈고리 셋의 춤
+level.1074.name	Renk Fırtınası	Colour Storm	Tormenta de color	عاصفة الألوان	Farbsturm	Tempesta di colori	Tempête de couleurs	色の嵐	색깔 폭풍
+level.1075.name	Çırak Sınavı	Apprentice Exam	Examen de aprendiz	امتحان الصبي	Lehrlingsprüfung	Esame da apprendista	Examen d'apprenti	見習いの試験	견습생 시험
+level.1076.name	Metal Kasalar	Metal Crates	Cajas de metal	صناديق معدنية	Metallkisten	Casse di metallo	Caisses en métal	金属の箱	금속 상자
+level.1077.name	Karşılıklı	Face to Face	Cara a cara	وجهًا لوجه	Gegeneinander	Faccia a faccia	Face à face	向かい合わせ	마주 보기
+level.1078.name	Dar Geçit Patlatma	Narrow Pass Pop	Explosión en el paso	تفجير في الممر	Knall im Engpass	Scoppio nel passaggio	Éclat dans le passage	せまい道で消す	좁은 길 터뜨리기
+level.1079.name	Kancadan Görev	Delivery from the Hook	Entrega desde el gancho	مهمة من الخطاف	Auftrag vom Haken	Consegna dal gancio	Livraison au crochet	フックから配達	갈고리에서 배달
+level.1080.name	Dev Saha	Giant Yard	Patio gigante	ساحة عملاقة	Riesenhof	Cortile gigante	Cour géante	巨大な現場	거대한 마당
+level.1081.name	Artık İşe Yarar	Leftover Helps	El sobrante ayuda	الباقي يفيد	Rest hilft	L'avanzo serve	Le reste aide	あまりが役に立つ	남은 게 쓸모 있다
+level.1082.name	Yarım Köprü	Half Bridge	Medio puente	نصف جسر	Halbe Brücke	Mezzo ponte	Demi-pont	半分の橋	반쪽 다리
+level.1083.name	Kayan Duvar	Sliding Wall	Muro deslizante	جدار منزلق	Schiebewand	Muro scorrevole	Mur glissant	すべる壁	미끄러지는 벽
+level.1084.name	Karakter Köprüsü	Bridge for You	Puente para ti	جسر لك	Brücke für dich	Ponte per te	Un pont pour toi	きみの橋	너를 위한 다리
+level.1085.name	Otopark ve Kancalar	Park and Hooks	Parking y ganchos	موقف وخطافات	Parkplatz und Haken	Parcheggio e ganci	Parking et crochets	駐車場とフック	주차장과 갈고리
+level.1086.name	Çapraz Teslim	Cross Delivery	Entrega cruzada	توصيل متقاطع	Kreuzlieferung	Consegna incrociata	Livraison croisée	交差する配達	엇갈린 배달
+level.1087.name	Bir Hamle Önce	One Move Early	Un movimiento antes	حركة واحدة مبكرًا	Einen Zug früher	Una mossa prima	Un coup plus tôt	1手早く	한 수 먼저
+level.1088.name	Patlat ve Kilitle	Pop and Lock	Explota y bloquea	فجّر واقفل	Knall und Sperre	Scoppia e blocca	Éclate et bloque	消してロック	터뜨리고 잠그기
+level.1089.name	Labirent	Maze	Laberinto	متاهة	Labyrinth	Labirinto	Labyrinthe	迷路	미로
+level.1090.name	Üç Durak	Three Stops	Tres paradas	ثلاث محطات	Drei Stopps	Tre fermate	Trois arrêts	3つの停留所	세 정거장
+level.1091.name	Ağır Görev	Heavy Delivery	Entrega pesada	مهمة ثقيلة	Schwerer Auftrag	Consegna pesante	Livraison lourde	重い配達	무거운 배달
+level.1092.name	Renk Zinciri	Colour Chain	Cadena de color	سلسلة الألوان	Farbkette	Catena di colori	Chaîne de couleurs	色のくさり	색깔 사슬
+level.1093.name	Sabır	Patience	Paciencia	صبر	Geduld	Pazienza	Patience	がまん	인내
+level.1094.name	Dört Kanca	Four Hooks	Cuatro ganchos	أربعة خطافات	Vier Haken	Quattro ganci	Quatre crochets	4つのフック	갈고리 넷
+level.1095.name	Büyük Otopark	Big Car Park	Gran parking	موقف كبير	Großer Parkplatz	Grande parcheggio	Grand parking	大きな駐車場	큰 주차장
+level.1096.name	Gece Vardiyası	Night Shift	Turno de noche	وردية ليلية	Nachtschicht	Turno di notte	Équipe de nuit	夜勤	야간 근무
+level.1097.name	Ayna	Mirror	Espejo	مرآة	Spiegel	Specchio	Miroir	鏡	거울
+level.1098.name	İç İçe Üçlüler	Nested Threes	Tríos anidados	ثلاثيات متداخلة	Verschachtelte Dreier	Tris annidati	Trios imbriqués	入れ子の3つ	겹친 셋
+level.1099.name	Son Prova	Last Rehearsal	Último ensayo	البروفة الأخيرة	Letzte Probe	Ultima prova	Dernière répétition	最後のリハーサル	마지막 연습
+level.1100.name	Kalfa Sınavı	Journeyman Exam	Examen de oficial	امتحان الحِرَفي	Gesellenprüfung	Esame da operaio	Examen de compagnon	職人の試験	숙련공 시험
+level.1101.name	Usta İşi	Master's Work	Obra de maestro	عمل المعلم	Meisterstück	Opera da maestro	Travail de maître	親方の仕事	장인의 솜씨
+level.1102.name	Üç Görev	Three Deliveries	Tres entregas	ثلاث مهام	Drei Aufträge	Tre consegne	Trois livraisons	3つの配達	배달 셋
+level.1103.name	Vinç Ustası	Crane Master	Maestro de grúas	سيد الرافعات	Kranmeister	Maestro delle gru	Maître des grues	クレーンの達人	크레인 달인
+level.1104.name	Kayan Şehir	Sliding City	Ciudad deslizante	مدينة منزلقة	Rutschende Stadt	Città scorrevole	Ville glissante	すべる街	미끄러지는 도시
+level.1105.name	Otopark Ustası	Car Park Master	Maestro del parking	سيد الموقف	Parkplatzmeister	Maestro del parcheggio	Maître du parking	駐車場の達人	주차장 달인
+level.1106.name	Altı Renk	Six Colours	Seis colores	ستة ألوان	Sechs Farben	Sei colori	Six couleurs	6つの色	여섯 가지 색
+level.1107.name	Ağır Ustalık	Heavy Mastery	Maestría pesada	إتقان ثقيل	Schwere Meisterschaft	Maestria pesante	Maîtrise lourde	重さの極意	무거운 달인
+level.1108.name	Uzun Yol II	Long Way II	Camino largo II	طريق طويل 2	Langer Weg II	Strada lunga II	Long chemin II	長い道 II	먼 길 II
+level.1109.name	Köprüler	Bridges	Puentes	جسور	Brücken	Ponti	Ponts	橋たち	다리들
+level.1110.name	Tek Nefes	One Breath	Un solo aliento	نفس واحد	Ein Atemzug	Un solo respiro	D'une traite	ひと息	단숨에
+level.1111.name	Renkli Kancalar	Colour Hooks	Ganchos de color	خطافات ملونة	Farbige Haken	Ganci colorati	Crochets colorés	色のフック	색깔 갈고리
+level.1112.name	Görev Zinciri	Delivery Chain	Cadena de entregas	سلسلة المهام	Auftragskette	Catena di consegne	Chaîne de livraisons	配達のくさり	배달 사슬
+level.1113.name	Kayıp Üçlü	Lost Three	Trío perdido	الثلاثي المفقود	Verlorene Drei	Tris perduto	Trio perdu	なくした3つ	잃어버린 셋
+level.1114.name	Sıkışan Kamyon	Stuck Truck	Camión atascado	شاحنة عالقة	Festgefahrener Lkw	Camion bloccato	Camion coincé	動けないトラック	꼼짝 못 하는 트럭
+level.1115.name	Otopark Finali	Car Park Finale	Final del parking	نهاية الموقف	Parkplatz-Finale	Finale del parcheggio	Finale du parking	駐車場の決勝	주차장 결승
+level.1116.name	Patlat ve Taşı	Pop and Carry	Explota y lleva	فجّر وانقل	Knallen und tragen	Scoppia e porta	Éclate et porte	消して運べ	터뜨리고 옮기기
+level.1117.name	Ağır Labirent	Heavy Maze	Laberinto pesado	متاهة ثقيلة	Schweres Labyrinth	Labirinto pesante	Labyrinthe lourd	重い迷路	무거운 미로
+level.1118.name	Sessiz Vinçler	Silent Cranes	Grúas silenciosas	رافعات صامتة	Stille Kräne	Gru silenziose	Grues silencieuses	静かなクレーン	조용한 크레인
+level.1119.name	Dört Durak	Four Stops	Cuatro paradas	أربع محطات	Vier Stopps	Quattro fermate	Quatre arrêts	4つの停留所	네 정거장
+level.1120.name	Usta Ayna	Master Mirror	Espejo maestro	مرآة المعلم	Meisterspiegel	Specchio da maestro	Miroir de maître	親方の鏡	장인의 거울
+level.1121.name	Son Kilit	Last Lock	Último bloqueo	القفل الأخير	Letzte Sperre	Ultimo blocco	Dernier verrou	最後のロック	마지막 잠금
+level.1122.name	Büyük Patlatma	Big Pop	Gran explosión	الانفجار الكبير	Großer Knall	Grande scoppio	Grand éclat	大きな消し	큰 터뜨리기
+level.1123.name	Üç Görev II	Three Deliveries II	Tres entregas II	ثلاث مهام 2	Drei Aufträge II	Tre consegne II	Trois livraisons II	3つの配達 II	배달 셋 II
+level.1124.name	Boss'a Doğru	Towards the Boss	Hacia el jefe	نحو البوس	Auf zum Boss	Verso il Boss	Vers le Boss	ボスのもとへ	보스를 향해
+level.1125.name	Crate Boss	Crate Boss	Crate Boss	Crate Boss	Crate Boss	Crate Boss	Crate Boss	Crate Boss	Crate Boss
+# Tutorial bubbles (owner 2026-11-01); only tr and en so far
+tut.push	Ekranı kaydır: işçi o yöne yürür.	Swipe: the worker walks that way.	Swipe: the worker walks that way.	Swipe: the worker walks that way.	Swipe: the worker walks that way.	Swipe: the worker walks that way.	Swipe: the worker walks that way.	Swipe: the worker walks that way.	Swipe: the worker walks that way.
+tut.push2	Önündeki kasayı iter. Kasayı sarı hedefe götür.	He pushes the crate in front. Take it to the yellow target.	He pushes the crate in front. Take it to the yellow target.	He pushes the crate in front. Take it to the yellow target.	He pushes the crate in front. Take it to the yellow target.	He pushes the crate in front. Take it to the yellow target.	He pushes the crate in front. Take it to the yellow target.	He pushes the crate in front. Take it to the yellow target.	He pushes the crate in front. Take it to the yellow target.
+tut.crane	Vinç sayaç bitince buraya kasa bırakır. Hücrede durursan bekler.	When its count runs out the crane drops a crate here. Stand on the cell and it waits.	When its count runs out the crane drops a crate here. Stand on the cell and it waits.	When its count runs out the crane drops a crate here. Stand on the cell and it waits.	When its count runs out the crane drops a crate here. Stand on the cell and it waits.	When its count runs out the crane drops a crate here. Stand on the cell and it waits.	When its count runs out the crane drops a crate here. Stand on the cell and it waits.	When its count runs out the crane drops a crate here. Stand on the cell and it waits.	When its count runs out the crane drops a crate here. Stand on the cell and it waits.
+tut.fixed	Lekeli kasalar sabittir, itilemez.	Stained crates are fixed, they cannot be pushed.	Stained crates are fixed, they cannot be pushed.	Stained crates are fixed, they cannot be pushed.	Stained crates are fixed, they cannot be pushed.	Stained crates are fixed, they cannot be pushed.	Stained crates are fixed, they cannot be pushed.	Stained crates are fixed, they cannot be pushed.	Stained crates are fixed, they cannot be pushed.
+tut.deliver	Görev kasasını B alanına götür. Yolunu kasaları iterek aç.	Take the delivery crate to area B. Push crates aside to open its way.	Take the delivery crate to area B. Push crates aside to open its way.	Take the delivery crate to area B. Push crates aside to open its way.	Take the delivery crate to area B. Push crates aside to open its way.	Take the delivery crate to area B. Push crates aside to open its way.	Take the delivery crate to area B. Push crates aside to open its way.	Take the delivery crate to area B. Push crates aside to open its way.	Take the delivery crate to area B. Push crates aside to open its way.
+tut.car	Arabaya dokun ve uzun yönünde kaydır: yol açıksa gider.	Touch a car and swipe along it: it drives off if the way is clear.	Touch a car and swipe along it: it drives off if the way is clear.	Touch a car and swipe along it: it drives off if the way is clear.	Touch a car and swipe along it: it drives off if the way is clear.	Touch a car and swipe along it: it drives off if the way is clear.	Touch a car and swipe along it: it drives off if the way is clear.	Touch a car and swipe along it: it drives off if the way is clear.	Touch a car and swipe along it: it drives off if the way is clear.
+tut.cargo	Arabaları gönder, kamyon gelsin. Yük kasalarını kamyona it.	Send the cars so the truck can come. Push the cargo crates into the truck.	Send the cars so the truck can come. Push the cargo crates into the truck.	Send the cars so the truck can come. Push the cargo crates into the truck.	Send the cars so the truck can come. Push the cargo crates into the truck.	Send the cars so the truck can come. Push the cargo crates into the truck.	Send the cars so the truck can come. Push the cargo crates into the truck.	Send the cars so the truck can come. Push the cargo crates into the truck.	Send the cars so the truck can come. Push the cargo crates into the truck.
+tut.match	Aynı renkten 3 kasayı yan yana getir: patlar ve yer açılır.	Line up 3 crates of one colour: they sink and make room.	Line up 3 crates of one colour: they sink and make room.	Line up 3 crates of one colour: they sink and make room.	Line up 3 crates of one colour: they sink and make room.	Line up 3 crates of one colour: they sink and make room.	Line up 3 crates of one colour: they sink and make room.	Line up 3 crates of one colour: they sink and make room.	Line up 3 crates of one colour: they sink and make room.
+tut.hole	Çukura bir kasa it: dolar ve üstünden geçilir.	Push a crate into the hole: it fills and you can cross.	Push a crate into the hole: it fills and you can cross.	Push a crate into the hole: it fills and you can cross.	Push a crate into the hole: it fills and you can cross.	Push a crate into the hole: it fills and you can cross.	Push a crate into the hole: it fills and you can cross.	Push a crate into the hole: it fills and you can cross.	Push a crate into the hole: it fills and you can cross.
+tut.ice	Buz kasa itilince bir engele kadar kayar.	An ice crate slides until it hits something.	An ice crate slides until it hits something.	An ice crate slides until it hits something.	An ice crate slides until it hits something.	An ice crate slides until it hits something.	An ice crate slides until it hits something.	An ice crate slides until it hits something.	An ice crate slides until it hits something.
+tut.heavy	Ağır kasa tek başına itilmez: önüne bir kasa koyup birlikte it.	A heavy crate will not move alone: push another crate into it.	A heavy crate will not move alone: push another crate into it.	A heavy crate will not move alone: push another crate into it.	A heavy crate will not move alone: push another crate into it.	A heavy crate will not move alone: push another crate into it.	A heavy crate will not move alone: push another crate into it.	A heavy crate will not move alone: push another crate into it.	A heavy crate will not move alone: push another crate into it.
+candy.nohint	Bu bölümde ipucu yok: şekerleri eşleştir, çekiç topla.	No hints here: match candy crates, collect hammers.	No hints here: match candy crates, collect hammers.	No hints here: match candy crates, collect hammers.	No hints here: match candy crates, collect hammers.	No hints here: match candy crates, collect hammers.	No hints here: match candy crates, collect hammers.	No hints here: match candy crates, collect hammers.	No hints here: match candy crates, collect hammers.
+candy.hammers	+{0} çekiç	+{0} hammer	+{0} hammer	+{0} hammer	+{0} hammer	+{0} hammer	+{0} hammer	+{0} hammer	+{0} hammer
+candy.needhammer	Çekiç yok! Şeker kasalarını eşleştirip çekiç topla.	No hammer! Match candy crates to earn hammers.	No hammer! Match candy crates to earn hammers.	No hammer! Match candy crates to earn hammers.	No hammer! Match candy crates to earn hammers.	No hammer! Match candy crates to earn hammers.	No hammer! Match candy crates to earn hammers.	No hammer! Match candy crates to earn hammers.	No hammer! Match candy crates to earn hammers.
+candy.out.title	Çekiç bitti	Out of hammers	Out of hammers	Out of hammers	Out of hammers	Out of hammers	Out of hammers	Out of hammers	Out of hammers
+candy.out.body	Eşleşecek şeker kalmadı ama kırılacak kasa duruyor.	No candy matches left, but crates still stand.	No candy matches left, but crates still stand.	No candy matches left, but crates still stand.	No candy matches left, but crates still stand.	No candy matches left, but crates still stand.	No candy matches left, but crates still stand.	No candy matches left, but crates still stand.	No candy matches left, but crates still stand.
+candy.out.ad	+15 çekiç	+15 hammers	+15 hammers	+15 hammers	+15 hammers	+15 hammers	+15 hammers	+15 hammers	+15 hammers
+candy.out.retry	Yeniden dene	Try again	Try again	Try again	Try again	Try again	Try again	Try again	Try again
+tut.swap	İki şeker kasasını parmağınla yer değiştir: aynı renkten 3 tanesi yan yana gelince yere girer.	Swap two candy crates with your finger: 3 of one colour in a row sink.	Swap two candy crates with your finger: 3 of one colour in a row sink.	Swap two candy crates with your finger: 3 of one colour in a row sink.	Swap two candy crates with your finger: 3 of one colour in a row sink.	Swap two candy crates with your finger: 3 of one colour in a row sink.	Swap two candy crates with your finger: 3 of one colour in a row sink.	Swap two candy crates with your finger: 3 of one colour in a row sink.	Swap two candy crates with your finger: 3 of one colour in a row sink.
+tut.hammer	Her grup çekiç kazandırır. Sayılı kasalara yürüyüp çekiçle kır, görev kasasını kamyona it.	Every group earns hammers. Walk into the numbered crates to break them, then push the cargo into the truck.	Every group earns hammers. Walk into the numbered crates to break them, then push the cargo into the truck.	Every group earns hammers. Walk into the numbered crates to break them, then push the cargo into the truck.	Every group earns hammers. Walk into the numbered crates to break them, then push the cargo into the truck.	Every group earns hammers. Walk into the numbered crates to break them, then push the cargo into the truck.	Every group earns hammers. Walk into the numbered crates to break them, then push the cargo into the truck.	Every group earns hammers. Walk into the numbered crates to break them, then push the cargo into the truck.	Every group earns hammers. Walk into the numbered crates to break them, then push the cargo into the truck.
+tut.lock	İşçiye dokun: kilitlenir. Kilitliyken ekranı kaydırarak alanı gez; tekrar dokununca kilit açılır.	Tap the worker to lock him. While locked, drag the screen to look round the yard; tap him again to unlock.	Toca al obrero para bloquearlo. Bloqueado, arrastra la pantalla para mirar el patio; tócalo otra vez para desbloquear.	المس العامل لقفله. أثناء القفل اسحب الشاشة لتتجول في الساحة، والمسه مجددًا لفتح القفل.	Tippe den Arbeiter an, um ihn zu sperren. Gesperrt ziehst du den Bildschirm, um den Hof anzusehen; tippe erneut zum Entsperren.	Tocca l'operaio per bloccarlo. Bloccato, trascina lo schermo per guardare il cortile; toccalo di nuovo per sbloccare.	Touche l'ouvrier pour le verrouiller. Verrouillé, fais glisser l'écran pour voir la cour ; touche-le encore pour déverrouiller.	作業員をタップでロック。ロック中は画面をドラッグして場内を見渡せます。もう一度タップで解除。	작업자를 탭하면 잠겨요. 잠긴 동안 화면을 끌어 현장을 둘러보고, 다시 탭하면 풀려요.
+candy.hintswap	Bu iki şekeri yer değiştir.	Swap these two candy crates.	Intercambia estas dos cajas.	بدّل هذين الصندوقين.	Tausche diese beiden Kisten.	Scambia queste due casse.	Échange ces deux caisses.	この2つを入れ替えよう。	이 두 상자를 바꿔요.
+candy.super	Gelişmiş çekiç! Uzaktaki kasaya dokunarak vur.	Advanced hammer! Tap a crate anywhere to hit it.	Advanced hammer! Tap a crate anywhere to hit it.	Advanced hammer! Tap a crate anywhere to hit it.	Advanced hammer! Tap a crate anywhere to hit it.	Advanced hammer! Tap a crate anywhere to hit it.	Advanced hammer! Tap a crate anywhere to hit it.	Advanced hammer! Tap a crate anywhere to hit it.	Advanced hammer! Tap a crate anywhere to hit it.
+candy.paintgun	Boya tabancası! Dokun: rastgele kasalar aynı renge boyanır.	Paint gun! Tap it: random crates take one colour.	Paint gun! Tap it: random crates take one colour.	Paint gun! Tap it: random crates take one colour.	Paint gun! Tap it: random crates take one colour.	Paint gun! Tap it: random crates take one colour.	Paint gun! Tap it: random crates take one colour.	Paint gun! Tap it: random crates take one colour.	Paint gun! Tap it: random crates take one colour.
+candy.done	Şeker bitti! Kalan kasaları çekiçle kır: üstlerindeki sayı, yerde kaldıkları hamle kadar.	Candy over! Break the crates left with the hammer: each needs one hit per move it stood.	Candy over! Break the crates left with the hammer: each needs one hit per move it stood.	Candy over! Break the crates left with the hammer: each needs one hit per move it stood.	Candy over! Break the crates left with the hammer: each needs one hit per move it stood.	Candy over! Break the crates left with the hammer: each needs one hit per move it stood.	Candy over! Break the crates left with the hammer: each needs one hit per move it stood.	Candy over! Break the crates left with the hammer: each needs one hit per move it stood.	Candy over! Break the crates left with the hammer: each needs one hit per move it stood.
+combo.1	Süper!	Sweet!	¡Genial!	رائع!	Super!	Super!	Super !	ナイス！	좋아요!
+combo.2	Harika!	Great!	¡Increíble!	مذهل!	Klasse!	Fantastico!	Génial !	すごい！	대단해요!
+combo.3	Muhteşem!	Amazing!	¡Espectacular!	مدهش!	Fantastisch!	Stupendo!	Incroyable !	さいこう！	최고예요!

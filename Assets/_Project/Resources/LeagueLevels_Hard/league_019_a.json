@@ -1,0 +1,51 @@
+{
+  "id": 1019,
+  "name": "Uzak Boşluk",
+  "ground": [
+    "##########",
+    "#..BBB...#",
+    "#..#.....#",
+    "#.#......#",
+    "#.....#..#",
+    "#........#",
+    "##.......#",
+    "#.....#..#",
+    "#........#",
+    "#.......##",
+    "##....#.##",
+    "#........#",
+    "#.A......#",
+    "#........#",
+    "#........#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    "..........",
+    ".B......B.",
+    "..........",
+    ".....B....",
+    "..........",
+    "...BB..BB.",
+    ".BB.....B.",
+    ".BB....BB.",
+    ".B..B..B..",
+    "..BBBB....",
+    "..........",
+    "..DP......",
+    "......B...",
+    "..........",
+    ".........."
+  ],
+  "goal": ["deliver"],
+  "deliveries": [
+    { "box": [2,12], "area": "B", "via": null }
+  ],
+  "league": 1,
+  "solution": "DLURUUDRRUDLLURDDLLLURDRURUULRDDLUURRUULLUDRRDDLLUURRUULLRRDDLLUULURDRUUU",
+  "design": {
+    "idea": "En yakın boşluk tuzak; uzaktaki boşluğu getirmek gerekiyor. (Nefes: kısa çözüm)",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 1009,
+  "name": "Çember",
+  "ground": [
+    "#########",
+    "#......##",
+    "#......T#",
+    "#..#....#",
+    "##......#",
+    "#.......#",
+    "#..TT...#",
+    "#.......#",
+    "#...T.T##",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    ".P.......",
+    ".B.......",
+    ".......B.",
+    ".........",
+    "...B.....",
+    "...B..B..",
+    ".....B...",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "RDDDDRLDDRURRUURRUUDDDDLDLRUUULLLLDDRRRURD",
+  "design": {
+    "idea": "Kolilerin etrafında dolaşacak boşluğu son hamleye kadar koru.",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

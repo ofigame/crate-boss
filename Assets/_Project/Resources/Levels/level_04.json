@@ -1,0 +1,37 @@
+{
+  "id": 4,
+  "name": "İlk Vardiya",
+  "world": "konteyner_sahasi",
+  "ground": [
+    "#########",
+    "#T.#....#",
+    "#.##.##.#",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "#.......#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "...B.....",
+    ".........",
+    "....P....",
+    "........."
+  ],
+  "crane": {
+    "every": 12,
+    "drops": [
+      { "x": 1, "y": 2, "type": "K" }
+    ]
+  },
+  "design": {
+    "idea": "Vinç yükleme noktasının tek koridoruna konteyner bırakacak; kasayı oyalanmadan sür.",
+    "mechanics": ["normal", "crane"],
+    "tier": "easy",
+    "world": "konteyner_sahasi"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": 19,
+  "name": "Aday 19c",
+  "world": "liman",
+  "ground": [
+    "#######",
+    "###...#",
+    "#.....#",
+    "###.###",
+    "###.###",
+    "###o###",
+    "###.###",
+    "###T###",
+    "#.#.#.#",
+    "#..T..#",
+    "_______"
+  ],
+  "objects": [
+    ".......",
+    ".......",
+    "..B.B..",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "...B...",
+    "...P...",
+    "......."
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 8, "drops": [
+        { "x": 3, "y": 5, "type": "B" }
+      ] }
+  ],
+  "design": {
+    "idea": "Makine olmadan çözülmez: onun getirdiği kasayı kullan. (otomatik taslak)",
+    "mechanics": ["normal", "hole", "crane"],
+    "tier": "medium",
+    "world": "liman"
+  }
+}

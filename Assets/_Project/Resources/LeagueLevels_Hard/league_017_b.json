@@ -1,0 +1,51 @@
+{
+  "id": 1017,
+  "name": "Uzun Koridor",
+  "ground": [
+    "##########",
+    "#..BBB...#",
+    "#........#",
+    "#.......##",
+    "#........#",
+    "#.##...#.#",
+    "##.......#",
+    "#.#....###",
+    "#........#",
+    "##....#..#",
+    "#........#",
+    "#.#......#",
+    "#........#",
+    "#...A....#",
+    "#........#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    "..........",
+    "..........",
+    "..........",
+    "..........",
+    ".....B..B.",
+    "..BB.BB.B.",
+    ".B.BBBB...",
+    "......BBB.",
+    "...BBB.BB.",
+    "..........",
+    "..........",
+    "..........",
+    "..P.D.....",
+    "..........",
+    ".........."
+  ],
+  "goal": ["deliver"],
+  "deliveries": [
+    { "box": [4,13], "area": "B", "via": null }
+  ],
+  "league": 1,
+  "solution": "DRRUULUURUDLDDRUULLUURRUUUUDDDDLLDDRRUUUUURUULRDDLUUU",
+  "design": {
+    "idea": "Görev kolisini uzun koridorda itebilmek için arkasına geçecek yolu açık tut.",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

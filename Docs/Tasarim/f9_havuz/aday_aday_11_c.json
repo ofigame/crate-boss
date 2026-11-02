@@ -1,0 +1,35 @@
+{
+  "id": 11,
+  "name": "Aday 11c",
+  "world": "sehir_deposu",
+  "ground": [
+    "######",
+    "#T...#",
+    "###..#",
+    "#..TT#",
+    "#....#",
+    "#....#",
+    "######"
+  ],
+  "objects": [
+    "......",
+    "...B..",
+    "......",
+    ".P.H..",
+    "...B..",
+    "......",
+    "......"
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 10, "drops": [
+        { "x": 2, "y": 4, "type": "K" },
+        { "x": 4, "y": 5, "type": "K" }
+      ] }
+  ],
+  "design": {
+    "idea": "Düşme karesine kasa park edip makineyi beklet, kasayı doğru anda çek; ağır kasayı ancak önündeki ahşap kasayla sürebilirsin. (otomatik taslak)",
+    "mechanics": ["normal", "heavy", "crane"],
+    "tier": "easy",
+    "world": "sehir_deposu"
+  }
+}

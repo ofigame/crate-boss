@@ -1,0 +1,31 @@
+{
+  "id": 1008,
+  "name": "İlk Düğüm",
+  "ground": [
+    "#######",
+    "#.#####",
+    "#.....#",
+    "#....T#",
+    "#....T#",
+    "#T#####",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".P.....",
+    ".B.....",
+    "..B.B..",
+    ".......",
+    ".......",
+    "......."
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "DDURDLDURRRLLLDRRR",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 50.6, "pushes": 8, "boxChanges": 4, "trapSteps": 7, "forced": 1, "family": "H" }
+  }
+}

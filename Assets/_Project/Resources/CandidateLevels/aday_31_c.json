@@ -1,0 +1,33 @@
+{
+  "id": 31,
+  "name": "Aday 31c",
+  "world": "soguk_depo",
+  "ground": [
+    "########",
+    "##.....#",
+    "#..#..T#",
+    "#..##..#",
+    "#......#",
+    "#......#",
+    "#....o.#",
+    "#TT....#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "........",
+    ".....B..",
+    "........",
+    "........",
+    "..I.....",
+    ".BP.....",
+    "........"
+  ],
+  "design": {
+    "idea": "Buz kasa durana kadar kayar: önce onu durduracak engeli hazırla. (otomatik taslak)",
+    "mechanics": ["normal", "ice"],
+    "tier": "easy",
+    "world": "soguk_depo"
+  }
+}

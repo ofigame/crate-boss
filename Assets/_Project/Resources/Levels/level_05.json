@@ -1,0 +1,33 @@
+{
+  "id": 5,
+  "name": "Köprü",
+  "world": "liman",
+  "ground": [
+    "######",
+    "#.T..#",
+    "#....#",
+    "##.###",
+    "##o###",
+    "##.###",
+    "##.###",
+    "#....#",
+    "######"
+  ],
+  "objects": [
+    "......",
+    "......",
+    "..B...",
+    "......",
+    "......",
+    "......",
+    "..B...",
+    "..P...",
+    "......"
+  ],
+  "design": {
+    "idea": "Kutuyu çukura feda et; dolan çukur karşıya geçiren köprü olur.",
+    "mechanics": ["normal", "hole"],
+    "tier": "easy",
+    "world": "liman"
+  }
+}

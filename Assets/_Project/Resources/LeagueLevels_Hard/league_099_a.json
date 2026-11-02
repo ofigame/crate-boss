@@ -1,0 +1,89 @@
+{
+  "id": 1099,
+  "name": "Son Prova",
+  "ground": [
+    "###########",
+    "#.1.....2.#",
+    "#.........#",
+    "#........##",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "#........##",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "#........##",
+    "#.........#",
+    "#..#......#",
+    "##........#",
+    "#......#..#",
+    "#.........#",
+    "#.....#...#",
+    "#.........#",
+    "#..#......#",
+    "#........##",
+    "#....##...#",
+    "##........#",
+    "#.A.....A.#",
+    "#.........#",
+    "###########"
+  ],
+  "objects": [
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...B....3..",
+    ".B.BBB.3.B.",
+    ".B..BBB.3..",
+    "......BB2B.",
+    ".BBBBBB.2B.",
+    "...P...2...",
+    "........1..",
+    ".......1...",
+    "........1..",
+    "........3..",
+    ".......3...",
+    "........3..",
+    "...........",
+    ".......11..",
+    "...........",
+    "........1..",
+    "........2..",
+    ".......2...",
+    "........2..",
+    "...........",
+    "..D.....D..",
+    "...........",
+    "..........."
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 39, "drops": [
+        { "x": 6, "y": 14, "type": "K" },
+        { "x": 7, "y": 27, "type": "K" }
+      ] },
+    { "id": "B", "side": "right", "every": 93, "drops": [
+        { "x": 8, "y": 2, "type": "2" }
+      ] }
+  ],
+  "goal": ["deliver"],
+  "deliveries": [
+    { "box": [2,27], "area": "1", "via": null },
+    { "box": [8,27], "area": "2", "via": null }
+  ],
+  "league": 4,
+  "solution": "DDDDLDDDDDDDDDDRDDLUUUUUUUUUUUUUUUDDDDDDDDDDDDDDDRRRRRRULUURLDDRUUDLLLLUUUURRRURRDDLRUULLDLDDLLDDRRRURUDDLLLLUUUURRRRLLDDLLDDRRRURUUUDRUUDLUURUULRDDLUURUULUDLDDRUULULLUURRRURDDLLDDRUULULURDDRUUUDLLLLLUULUUUURRDRRDRUULLLLLDDDDRDDRRRRURUUUUUUULUURLDDRUUDDDDLLLLLLDDDDLDRUUUUURRDRRDRDRDDDDLLLLLLUUUUUUUUUUU",
+  "design": {
+    "idea": "Kalfa sınavından önce son prova: iki görev, iki vinç.",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": 1010,
+  "name": "Köşe Taşı",
+  "ground": [
+    "#########",
+    "#..T....#",
+    "#.....TT#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".PB......",
+    "...B.B...",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "RRRDLRRRULDLLULLDRRRRUL",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 56.6, "pushes": 12, "boxChanges": 5, "trapSteps": 11, "forced": 0, "family": "zigzag" }
+  }
+}

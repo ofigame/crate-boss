@@ -1,0 +1,74 @@
+{
+  "id": 1057,
+  "name": "Ayrılan Yollar",
+  "ground": [
+    "###########",
+    "#.1.....2.#",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "##...##..##",
+    "#.........#",
+    "#.........#",
+    "#.........#",
+    "##..#....##",
+    "#.........#",
+    "#.........#",
+    "#..#......#",
+    "#.........#",
+    "##..#..#..#",
+    "#.........#",
+    "#.........#",
+    "#...#...#.#",
+    "#.........#",
+    "#.A...A...#",
+    "#.........#",
+    "###########"
+  ],
+  "objects": [
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    ".........B.",
+    "...........",
+    "...........",
+    "..B.B..B...",
+    "......BB.B.",
+    "..B.BB.B.B.",
+    "..B.B.BB.B.",
+    "...B.BBB...",
+    "...........",
+    "...........",
+    "...........",
+    ".P.........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..D...D....",
+    "...........",
+    "..........."
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 42, "drops": [
+        { "x": 3, "y": 20, "type": "K" },
+        { "x": 8, "y": 17, "type": "K" }
+      ] }
+  ],
+  "goal": ["deliver"],
+  "deliveries": [
+    { "box": [2,21], "area": "1", "via": null },
+    { "box": [6,21], "area": "2", "via": null }
+  ],
+  "league": 3,
+  "solution": "RDDDDDLDDRUUUUUUUUUUDDDDDDDDDRRRRDRUUUULURDRUUUUUUUUUUUUUUUUDDDDLLLLLDDDDLRUUUURRRRRDDDDDDLLLLLLUDRRRRRRUUUUUULLLLLDDDLURUURRRRRDDDDDDLLLLLLUURUULUDRDDLUURUULRDDLUUUUUU",
+  "design": {
+    "idea": "Vinç yollardan birini kapatacak; hangi görev kasası önce gitmeli?",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

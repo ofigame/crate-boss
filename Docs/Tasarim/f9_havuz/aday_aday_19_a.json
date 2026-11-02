@@ -1,0 +1,39 @@
+{
+  "id": 19,
+  "name": "Aday 19a",
+  "world": "liman",
+  "ground": [
+    "######",
+    "#....#",
+    "#....#",
+    "#...T#",
+    "##o.##",
+    "#..#.#",
+    "#....#",
+    "#....#",
+    "______"
+  ],
+  "objects": [
+    "......",
+    "......",
+    "..P...",
+    "..H...",
+    "......",
+    "..B...",
+    "......",
+    "......",
+    "......"
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 3, "drops": [
+        { "x": 2, "y": 4, "type": "B" },
+        { "x": 2, "y": 4, "type": "B" }
+      ] }
+  ],
+  "design": {
+    "idea": "Makinenin bıraktığı kasa çukuru doldurur: köprü kurulana kadar başka işi bitir; ağır kasayı ancak önündeki ahşap kasayla sürebilirsin. (otomatik taslak)",
+    "mechanics": ["normal", "heavy", "hole", "crane"],
+    "tier": "easy",
+    "world": "liman"
+  }
+}

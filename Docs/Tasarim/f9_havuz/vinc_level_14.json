@@ -1,0 +1,42 @@
+{
+  "id": 14,
+  "name": "Rıhtım Kapanıyor",
+  "location": "port",
+  "ground": [
+    "#######",
+    "#...T.#",
+    "#.....#",
+    "##.####",
+    "#.....#",
+    "#.....#",
+    "#.....#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "..B....",
+    "...P...",
+    "......."
+  ],
+  "crane": {
+    "side": "left",
+    "warn": 3,
+    "showAll": false,
+    "drops": [
+      {
+        "turn": 7,
+        "x": 2,
+        "y": 3,
+        "type": "H"
+      }
+    ]
+  },
+  "design": {
+    "idea": "Tek geçit var ve vinç 7. hamlede oraya çelik konteyner bırakacak. Kasayı ondan önce geçitten geçir.",
+    "tier": "easy"
+  }
+}

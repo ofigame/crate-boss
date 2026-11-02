@@ -1,0 +1,29 @@
+{
+  "id": 1012,
+  "name": "Sıra Sende",
+  "ground": [
+    "#######",
+    "#T.#..#",
+    "#.T...#",
+    "#.#...#",
+    "#T....#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".P.....",
+    "..B....",
+    "...B...",
+    "..B....",
+    "......."
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "DRRLLDDRRURRUULDLLRDDLLUURRRRDLULLLDDRRURULDRRDLLL",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 59.2, "pushes": 15, "boxChanges": 6, "trapSteps": 10, "forced": 5, "family": "H" }
+  }
+}

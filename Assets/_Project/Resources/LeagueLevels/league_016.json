@@ -1,0 +1,29 @@
+{
+  "id": 1016,
+  "name": "Kör Nokta",
+  "ground": [
+    "########",
+    "#T#...##",
+    "#.T...##",
+    "#......#",
+    "#T.###.#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "...B....",
+    "..B..BP.",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "LULLDLDLUURRURRDLRDLLLULDRRRUL",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 70.2, "pushes": 13, "boxChanges": 5, "trapSteps": 12, "forced": 6, "family": "H" }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": 14,
+  "name": "Usta Sınavı",
+  "world": "santiye",
+  "ground": [
+    "#########",
+    "#..#....#",
+    "#.T..#..#",
+    "#..o...T#",
+    "##.#.#..#",
+    "#.T.....#",
+    "#..#._..#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    "....P.B..",
+    ".....H...",
+    "....I.B..",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "design": {
+    "idea": "Ağır kutu ortayı kilitliyor; buzu ve iki normal kutuyu doğru sırayla dolaştırıp çukuru doğru kutuyla kapat.",
+    "mechanics": ["ice", "heavy", "hole", "normal"],
+    "tier": "hard",
+    "world": "santiye"
+  }
+}

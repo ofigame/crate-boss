@@ -1,0 +1,37 @@
+{
+  "id": 13,
+  "name": "Yanlış Yük",
+  "world": "santiye",
+  "ground": [
+    "########",
+    "#..T#..#",
+    "#......#",
+    "##.o.#.#",
+    "#......#",
+    "#.#..T.#",
+    "#....#.#",
+    "#.o....#",
+    "#..#...#",
+    "#T.....#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    ".P......",
+    "...B....",
+    "........",
+    "........",
+    "........",
+    ".I..H...",
+    "...B....",
+    "..B.....",
+    "........",
+    "........"
+  ],
+  "design": {
+    "idea": "Ağır kutuyu yoldan çekmenin tek yolu onu tam altındaki normal kutuyla itmek; arkaya geçmek için bir kutuyu çukura feda et.",
+    "mechanics": ["ice", "heavy", "hole", "normal"],
+    "tier": "hard",
+    "world": "santiye"
+  }
+}

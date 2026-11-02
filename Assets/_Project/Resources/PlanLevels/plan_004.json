@@ -1,0 +1,29 @@
+{
+  "id": 304,
+  "name": "Dar Koridor",
+  "world": "sehir_deposu",
+  "ground": [
+    "#######",
+    "#.....#",
+    "#.#...#",
+    "#.....#",
+    "#.#o.T#",
+    "#T.T..#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".......",
+    ".......",
+    "....BP.",
+    ".......",
+    ".B.B...",
+    "......."
+  ],
+  "design": {
+    "idea": "Koridorda kasa tıkanmasın.",
+    "mechanics": ["normal"],
+    "tier": "easy",
+    "world": "sehir_deposu"
+  }
+}

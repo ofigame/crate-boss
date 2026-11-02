@@ -1,0 +1,31 @@
+{
+  "id": 302,
+  "name": "Köşe Dönüşü",
+  "world": "sehir_deposu",
+  "ground": [
+    "#######",
+    "##..#.#",
+    "#.....#",
+    "#.....#",
+    "#T....#",
+    "#...#.#",
+    "#....T#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".......",
+    ".......",
+    ".....P.",
+    "....B..",
+    ".....B.",
+    ".......",
+    "......."
+  ],
+  "design": {
+    "idea": "Kasayı köşeden döndürmek için önce arkasına geç.",
+    "mechanics": ["normal"],
+    "tier": "easy",
+    "world": "sehir_deposu"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": 1007,
+  "name": "Ters Yön",
+  "ground": [
+    "#########",
+    "#.......#",
+    "#....T..#",
+    "##..T.T.#",
+    "#.......#",
+    "#.......#",
+    "#....T..#",
+    "##......#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    "..B.B....",
+    ".....B...",
+    ".........",
+    "......B..",
+    ".......P.",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "ULULDULURUULDULLLDRRR",
+  "design": {
+    "idea": "Bir koliyi önce hedeften **uzaklaştırman** gerekir.",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

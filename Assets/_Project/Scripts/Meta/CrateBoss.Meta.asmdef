@@ -1,0 +1,16 @@
+{
+    "name": "CrateBoss.Meta",
+    "rootNamespace": "CrateBoss.Meta",
+    "references": [
+        "CrateBoss.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

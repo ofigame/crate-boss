@@ -1,0 +1,54 @@
+{
+  "id": 1016,
+  "name": "Dolu Boşluk",
+  "ground": [
+    "##########",
+    "#.BBB....#",
+    "#........#",
+    "#....#...#",
+    "#...##..##",
+    "#...#.#.##",
+    "##...##..#",
+    "#.......##",
+    "#........#",
+    "#........#",
+    "#.....#..#",
+    "#........#",
+    "#..A.....#",
+    "#........#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    "..........",
+    ".....PB...",
+    "..........",
+    ".BB.......",
+    ".....B.B..",
+    "...B...B..",
+    ".B.BB.BB..",
+    "........B.",
+    "..........",
+    "..........",
+    "..........",
+    "...D.B....",
+    "..........",
+    ".........."
+  ],
+  "cranes": [
+    { "id": "A", "side": "left", "every": 12, "drops": [
+        { "x": 2, "y": 10, "type": "B" }
+      ] }
+  ],
+  "goal": ["deliver"],
+  "deliveries": [
+    { "box": [3,12], "area": "B", "via": null }
+  ],
+  "league": 1,
+  "solution": "LDLDDLDDDDDDDDRUUUURULDLUUURUUULLDURRDLRDDLUUUU",
+  "design": {
+    "idea": "Vinç bir **koli** getirir ve boşluklardan birini doldurur; o boşluğa güvenme.",
+    "mechanics": [],
+    "tier": "hard"
+  }
+}

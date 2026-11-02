@@ -1,0 +1,31 @@
+{
+    "name": "CrateBoss.Tests.EditMode",
+    "rootNamespace": "CrateBoss.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "CrateBoss.Core",
+        "CrateBoss.Solver",
+        "CrateBoss.Puzzle",
+        "CrateBoss.Levels",
+        "CrateBoss.Framing",
+        "CrateBoss.Meta",
+        "CrateBoss.Ads",
+        "CrateBoss.Localization"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": 7,
+  "name": "Kaygan",
+  "world": "soguk_depo",
+  "ground": [
+    "#########",
+    "#.....T.#",
+    "#.......#",
+    "#.......#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".P.I.....",
+    "......B..",
+    ".........",
+    "........."
+  ],
+  "design": {
+    "idea": "Buz kutu kayar; durması için önüne bir engel koy.",
+    "mechanics": ["ice", "normal"],
+    "tier": "easy",
+    "world": "soguk_depo"
+  }
+}

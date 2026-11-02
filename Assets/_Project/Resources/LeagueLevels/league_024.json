@@ -1,0 +1,41 @@
+{
+  "id": 1024,
+  "name": "Açık Kapı",
+  "ground": [
+    "######",
+    "##..##",
+    "##...#",
+    "##...#",
+    "#....#",
+    "##...#",
+    "#.#.##",
+    "#.#..#",
+    "#....#",
+    "#.#..#",
+    "#TTT.#",
+    "######"
+  ],
+  "objects": [
+    "......",
+    "..P...",
+    "......",
+    "......",
+    "...B..",
+    "......",
+    "...B..",
+    "......",
+    "......",
+    "...B..",
+    "......",
+    "......"
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "DDDDRUUDDDDRDLRDDLUUUUUDDDDDLLUURLDDRRURUULDDUUUULUURDULUURDLDDRDULUURDLDDRDDDRDDLLRRUULDUUUULUURDDDDDRDDLRUULD",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 113.4, "pushes": 30, "boxChanges": 13, "trapSteps": 25, "forced": 1, "family": "chain2" }
+  }
+}

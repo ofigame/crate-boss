@@ -1,0 +1,27 @@
+{
+  "id": 1018,
+  "name": "Geri Dönüş",
+  "ground": [
+    "#########",
+    "#T..T...#",
+    "##......#",
+    "##.###T.#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".P.......",
+    "...B.BB..",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 1,
+  "solution": "RRRRRRDDLURULLLLLRRDRULLLDRRURRRDDLURULLLDLLURDRRURD",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 77.7, "pushes": 16, "boxChanges": 4, "trapSteps": 16, "forced": 2, "family": "zigzag" }
+  }
+}
