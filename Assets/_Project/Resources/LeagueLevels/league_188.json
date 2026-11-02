@@ -1,0 +1,35 @@
+{
+  "id": 1188,
+  "name": "Efsane Oda",
+  "ground": [
+    "###########",
+    "#........T#",
+    "#...T.....#",
+    "###.##....#",
+    "##..###.###",
+    "#..#T....##",
+    "#.T....T.##",
+    "#........##",
+    "###########"
+  ],
+  "objects": [
+    "...........",
+    "........B..",
+    "...BB.B....",
+    "...P.......",
+    ".......B...",
+    "...........",
+    ".H.........",
+    "........H..",
+    "..........."
+  ],
+  "goal": ["targets"],
+  "league": 8,
+  "solution": "DLDDRRURRRUURURULLDULLLLDLLURRRRRRRDLDUULLDRULLLDRRURRRDDLDDLDLLLLUURUDLDDRRURRRUURUULDULLLLLDRURRRRDDUULLDRULLLDDDLDDRRURRRRDLULLDLLLUURUUURRDRDRDULUURDDUULLLLDDDLDDDRRRRRURULDDLLULLLUURUUURRDRDRDUUULLLLDDDLDDDRRRRRULDLLULLUURUUURRDRDRDDLLRDLLL",
+  "design": {
+    "idea": "Birden çok nesne bir arada: önce hangisinin yerini açacağını hesapla.",
+    "mechanics": ["heavy"],
+    "tier": "series200",
+    "lab": { "score": 167.3, "pushes": 41, "boxChanges": 23, "trapSteps": 37, "forced": 5, "family": "ring" }
+  }
+}

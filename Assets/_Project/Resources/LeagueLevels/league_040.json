@@ -1,0 +1,31 @@
+{
+  "id": 1040,
+  "name": "Sabır Taşı",
+  "ground": [
+    "#########",
+    "#.....#.#",
+    "#T.##...#",
+    "#T###...#",
+    "#.T.....#",
+    "#......o#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".P.......",
+    "......B..",
+    ".........",
+    ".....BB..",
+    "....B....",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 2,
+  "solution": "DDDDRRRRUDRRULLLDLLULUUURRRRDDRRULDDDLLLLULUUURRRRDRDDDLLULLDRRRRULLRRUULDRDDLLULDRRRULDLLLLUUDDRRULDRRRULLDLLU",
+  "design": {
+    "idea": "Çukura düşen kasa geri gelmez ama yolu açar: hangi kasayı feda edeceğini seç.",
+    "mechanics": ["hole"],
+    "tier": "series200",
+    "lab": { "score": 114.3, "pushes": 23, "boxChanges": 14, "trapSteps": 21, "forced": 2, "family": "ring" }
+  }
+}

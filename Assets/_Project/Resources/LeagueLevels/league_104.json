@@ -1,0 +1,41 @@
+{
+  "id": 1104,
+  "name": "Saat Kulesi",
+  "ground": [
+    "######",
+    "#....#",
+    "##.#.#",
+    "#....#",
+    "#...##",
+    "###.##",
+    "#TT.T#",
+    "#....#",
+    "#...##",
+    "#...##",
+    "#.T..#",
+    "######"
+  ],
+  "objects": [
+    "......",
+    ".P....",
+    "..B...",
+    "......",
+    "......",
+    "...B..",
+    "..B...",
+    "......",
+    ".B....",
+    "......",
+    "......",
+    "......"
+  ],
+  "goal": ["targets"],
+  "league": 5,
+  "solution": "RDDRDDDDLLDURRUUUULLDRURDDDRDLDLLUURLDDRRUUUULUUURRDDLRUULLDDRDDDDDLDDRUULLUURDDUURRDLUUUULLDRURDDDLLDDRRUDLLUURRDDLUDRDDLLUDRRUULDLUU",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 129, "pushes": 34, "boxChanges": 13, "trapSteps": 26, "forced": 6, "family": "chain2" }
+  }
+}

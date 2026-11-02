@@ -1,0 +1,35 @@
+{
+  "id": 1068,
+  "name": "Ağır Abi",
+  "ground": [
+    "#########",
+    "#....T.##",
+    "#..#...##",
+    "#.....###",
+    "###.#..##",
+    "#...#.T##",
+    "#..#...##",
+    "#.T.T...#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".P.......",
+    "..I..B...",
+    "..B.B....",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 3,
+  "solution": "RRRRDDDRDDDLLLLUURUURUULLLDDRRDDLDDRRURRUULUDRDDDLLLLUURUULLUURRRRRDLULLLLDDRRRLDDLDDRRURRUULDRDDLLLLUURUULLUURDURRRDDDUUULLLDLDRUURRDULLDDRDDLDDRRRRUUULUDRDDDLLURDLLLUURUULUURRDRDDDUUULULLDDRDDLDDRRRRUDLLLLUURUULUURRDRDDDDRDLLURUUUULULLDDRRURDDDDLDLRURRDL",
+  "design": {
+    "idea": "Buz kasa bir engele çarpana kadar kayar: durması için önce duvarını kur.",
+    "mechanics": ["ice"],
+    "tier": "series200",
+    "lab": { "score": 146.5, "pushes": 29, "boxChanges": 17, "trapSteps": 28, "forced": 8, "family": "rect" }
+  }
+}

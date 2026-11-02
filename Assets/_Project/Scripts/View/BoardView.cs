@@ -152,6 +152,7 @@ namespace CrateBoss.View
                 bool front = type == TileType.Wall && !isOuter && IsFrontWall(state, cell);
                 tile.Build(type, cell, (x + y) % 2 == 1, theme, filledBy.TryGetValue(cell, out var b) ? b : BoxType.Normal,
                     front ? FrontWallHeight : 1f, front, isOuter, Seed, pieces[y * Width + x]);
+                if (type == TileType.Gate) tile.SetGate(state.GatesOpen);
                 tiles[cell] = tile;
             }
 
@@ -451,6 +452,14 @@ namespace CrateBoss.View
             if (result.HasCandyWaves || result.Shuffled) yield return PlayCandyWaves(result, after);
             RefreshBelts(after, true);
             if (result.ConveyorMoves != null && result.ConveyorMoves.Count > 0) yield return PlayBelt(result.ConveyorMoves);
+            if (result.GatesOpened)
+            {
+                // Owner 2026-11-02: the candy yard's puzzle is solved: hammers fly in and the barriers sink.
+                Feedback?.Win();
+                Effects.Stars(robot.transform.position + Vector3.up * 1.6f, 16);
+                if (result.PuzzleReward > 0) HammersEarned?.Invoke(result.PuzzleReward, content.InverseTransformPoint(robot.transform.position));
+                foreach (var t in tiles.Values) if (t.Type == TileType.Gate) Run(t.OpenGate());
+            }
             if (result.CandyFinished) ShowNewBadges(after);
             if (result.CandyFinished) foreach (var v in boxes.Values) v.GetComponent<CargoArrow>()?.Show(true); // the candy part is over
             yield return PlayGoalEvents(result, after);

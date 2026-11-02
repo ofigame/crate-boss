@@ -1,0 +1,35 @@
+{
+  "id": 1160,
+  "name": "Hassas Denge",
+  "ground": [
+    "##########",
+    "#.T.....##",
+    "#......###",
+    "#..##....#",
+    "###.#..#T#",
+    "##..##...#",
+    "##.T#....#",
+    "#.....T.T#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    ".PB.......",
+    "..B.B.....",
+    ".....B....",
+    "..........",
+    "..........",
+    "...B......",
+    "..........",
+    ".........."
+  ],
+  "goal": ["targets"],
+  "league": 7,
+  "solution": "RRDRRURDDDDUUULLLULLDRRRRULLRRRDDDLURUULLDRDRRRDDDDLLLURDRRUUUULLLUURDLDDRDULUURDDURRDDDDLUDLLURDRRUUUULLDDDRLUUURRDDDLLURDRU",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 134.5, "pushes": 32, "boxChanges": 14, "trapSteps": 28, "forced": 4, "family": "ring" }
+  }
+}

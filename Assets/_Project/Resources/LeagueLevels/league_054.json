@@ -1,0 +1,29 @@
+{
+  "id": 1054,
+  "name": "Soğuk Hesap",
+  "ground": [
+    "###########",
+    "#......T.T#",
+    "#...#..##.#",
+    "#...#..#..#",
+    "#T#.#######",
+    "###########"
+  ],
+  "objects": [
+    "...........",
+    ".P..B......",
+    "..BB.......",
+    "...........",
+    "...........",
+    "..........."
+  ],
+  "goal": ["targets"],
+  "league": 3,
+  "solution": "RRRRRRRLLLLLLLDDRRUDLLUURDURRRRLLLDDLULD",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 84.3, "pushes": 13, "boxChanges": 4, "trapSteps": 13, "forced": 7, "family": "chain2" }
+  }
+}

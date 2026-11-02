@@ -18,6 +18,8 @@ namespace CrateBoss.Levels
         public int superAfter = 3;
         /// <summary>The level hands out paint guns (owner 2026-11-02: the easy candy levels).</summary>
         public bool paint;
+        /// <summary>The classic puzzle in the middle of the candy yard (owner 2026-11-02): its fewest pushes and the hammers it pays; 0 = none.</summary>
+        public int puzzlePar, puzzleReward;
         public int[][] hits;
 
         public static CandyData FromJson(object node)
@@ -29,6 +31,11 @@ namespace CrateBoss.Levels
             if (obj.TryGetValue("hitCap", out var hc) && hc is double hcn) c.hitCap = (int)hcn;
             if (obj.TryGetValue("superAfter", out var sa) && sa is double san) c.superAfter = (int)san;
             if (obj.TryGetValue("paint", out var pt) && pt is bool pb) c.paint = pb;
+            if (obj.TryGetValue("puzzle", out var pz) && pz is Dictionary<string, object> puzzle)
+            {
+                if (puzzle.TryGetValue("par", out var pp) && pp is double ppn) c.puzzlePar = (int)ppn;
+                if (puzzle.TryGetValue("reward", out var pr) && pr is double prn) c.puzzleReward = (int)prn;
+            }
             if (obj.TryGetValue("colors", out var cs) && cs is List<object> list)
             {
                 c.colors = new int[list.Count];

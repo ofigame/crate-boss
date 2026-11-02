@@ -1,0 +1,43 @@
+{
+  "id": 1176,
+  "name": "Çelik Kasa",
+  "ground": [
+    "#######",
+    "#.#..T#",
+    "#.....#",
+    "#.....#",
+    "#T..TT#",
+    "#.....#",
+    "#####.#",
+    "###.#.#",
+    "###...#",
+    "###.T.#",
+    "###...#",
+    "###...#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".P.....",
+    "..BB...",
+    ".......",
+    ".......",
+    "..B....",
+    ".....B.",
+    ".......",
+    ".......",
+    "....B..",
+    ".......",
+    ".......",
+    "......."
+  ],
+  "goal": ["targets"],
+  "league": 8,
+  "solution": "DDRRRUULDRDDLLULURRURDLDURRDDLLUURDLLLDDRLUURRDLDRUURRDDDDDLLDDRRUUUUUUUUDLLDDRLUURRDDDDDLLDDRRUUUUU",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 120.9, "pushes": 31, "boxChanges": 8, "trapSteps": 28, "forced": 0, "family": "chain2" }
+  }
+}

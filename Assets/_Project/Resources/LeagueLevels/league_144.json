@@ -1,0 +1,41 @@
+{
+  "id": 1144,
+  "name": "Şah Mat",
+  "ground": [
+    "########",
+    "###..T.#",
+    "###.T..#",
+    "###T...#",
+    "#####..#",
+    "#####..#",
+    "#...#..#",
+    "#....T.#",
+    "#.T....#",
+    "#......#",
+    "#..#####",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "....B...",
+    "..BB....",
+    "..BPB...",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 6,
+  "solution": "RURULLULLDRRRDRUUUURULLRDDDDLLLLDDRULURRRDRUUUUURULDDDDDLLLDRRDLUURRRDDLUUUUUUUDDDDDDDLULLLDDRULURRRDLRRULLLLDDRU",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 165, "pushes": 42, "boxChanges": 12, "trapSteps": 40, "forced": 5, "family": "ring" }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": 1122,
+  "name": "Dar Boğaz",
+  "ground": [
+    "#########",
+    "##.###.T#",
+    "#..###..#",
+    "#..#.#..#",
+    "#....#..#",
+    "#....#..#",
+    "#......T#",
+    "#T.###..#",
+    "#..####T#",
+    "#..####.#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    "......P..",
+    ".........",
+    ".........",
+    ".B.B.....",
+    "...B..H..",
+    "......B..",
+    ".........",
+    ".........",
+    ".H.......",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 5,
+  "solution": "DDDRDDLLLUULRDDLRUULDLLURUULDDRDDRRRRDRUUULUURDDDDDULLLLLLDDRULURUULDRRRULDLLUURDLDDURRLDRRRRDRUUUUUDDDDLLLLUURDLDRRR",
+  "design": {
+    "idea": "Birden çok nesne bir arada: önce hangisinin yerini açacağını hesapla.",
+    "mechanics": ["heavy"],
+    "tier": "series200",
+    "lab": { "score": 175.6, "pushes": 44, "boxChanges": 15, "trapSteps": 38, "forced": 1, "family": "H" }
+  }
+}

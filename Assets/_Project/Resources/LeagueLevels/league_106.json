@@ -1,0 +1,31 @@
+{
+  "id": 1106,
+  "name": "Kapan",
+  "ground": [
+    "###########",
+    "#.T.....TT#",
+    "##.##.#...#",
+    "##....#T.##",
+    "##....#...#",
+    "##..#.#.#.#",
+    "###########"
+  ],
+  "objects": [
+    "...........",
+    ".P....B....",
+    "...........",
+    "........B..",
+    "..B.B......",
+    "...........",
+    "..........."
+  ],
+  "goal": ["targets"],
+  "league": 5,
+  "solution": "RRRRRRDRRULLLLRRDDDRULUURRDLULLLDDLLLUURRRRRDURLLLDDLLDDLUURRRDLULLDDRURURUULLLDDRRDRUUDLLLUURRRRRLLDDDLLDLUUU",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 129.2, "pushes": 30, "boxChanges": 9, "trapSteps": 28, "forced": 4, "family": "chain2" }
+  }
+}

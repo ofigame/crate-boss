@@ -1,0 +1,41 @@
+{
+  "id": 1126,
+  "name": "Son Hamle",
+  "ground": [
+    "#######",
+    "#...###",
+    "#.#..##",
+    "#...TT#",
+    "#.....#",
+    "#####T#",
+    "#.....#",
+    "###...#",
+    "###...#",
+    "#.....#",
+    "####T.#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".......",
+    ".......",
+    "....BP.",
+    "..B....",
+    ".....B.",
+    ".......",
+    ".......",
+    ".......",
+    "....B..",
+    ".......",
+    "......."
+  ],
+  "goal": ["targets"],
+  "league": 6,
+  "solution": "LULULLDDDRRLULUURRDRDRDDDLDDRDDLULUUURRDDUUUUULULULLDDDRRRURDLLLURDRRDDLDLDDRURUDLLUURDRUUUDDDLLDDRDRULLUURDDRUUU",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 120.5, "pushes": 25, "boxChanges": 14, "trapSteps": 24, "forced": 2, "family": "chain2" }
+  }
+}

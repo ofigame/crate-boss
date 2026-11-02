@@ -125,7 +125,7 @@ namespace CrateBoss.Core
         // Floor a belt can lie on: no crate but cargo, no wall, hole or car, not the truck's way in.
         private static bool Open(GameState s, GridPos p)
         {
-            if (!s.InBounds(p) || !GoalRules.IsWalkableTile(s.GetTile(p))) return false;
+            if (!s.InBounds(p) || !GoalRules.IsWalkableTile(s.GetTile(p)) || GoalRules.ClosedGate(s, p)) return false;
             if (s.OnTruckRoute(p)) return false;
             var box = s.GetBoxAt(p);
             return (box == null || box.IsCargo) && s.CarAt(p) < 0;

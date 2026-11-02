@@ -1,0 +1,31 @@
+{
+  "id": 1058,
+  "name": "Ağır Yük",
+  "ground": [
+    "#############",
+    "#...#.#.##.##",
+    "##..#.#.#...#",
+    "#....T..#...#",
+    "#####.......#",
+    "###T...T#####",
+    "#############"
+  ],
+  "objects": [
+    ".............",
+    ".P...........",
+    ".............",
+    "....B.....B..",
+    "........B....",
+    ".............",
+    "............."
+  ],
+  "goal": ["targets"],
+  "league": 3,
+  "solution": "RDDRRRDRRULDRRRUURRDLRDLLLLULDRRRRUULDRDLLLDLLRRUULDLDLRR",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 85.1, "pushes": 20, "boxChanges": 8, "trapSteps": 14, "forced": 8, "family": "chain3" }
+  }
+}

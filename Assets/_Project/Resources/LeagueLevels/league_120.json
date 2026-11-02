@@ -1,0 +1,39 @@
+{
+  "id": 1120,
+  "name": "Döner Kapı",
+  "ground": [
+    "########",
+    "##..####",
+    "##...###",
+    "#......#",
+    "#T##...#",
+    "#.##...#",
+    "#.#....#",
+    "#......#",
+    "#.###..#",
+    "#T.TT..#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "...B....",
+    "..BPB...",
+    ".....B..",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 5,
+  "solution": "RDDDDLLLUUUURRLUURDRDDUULLDLDDDDRRURRURUULDLDURRDDDLLLLLUUUURURRDDUULLDRLLDDDDRRRRURUULDDDLLURDRRUUULLDRRDDLLLLLUUUURURRDRDDLDURUULDDRRDDLLLRRRUULLDLDLRURURRDDDDLLLLLUUUUDDDDRRRRRUULDURUULDDRDDLLLLRRRRUULDUULLDRURDRDDLLRRUULDRDL",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 162.4, "pushes": 42, "boxChanges": 24, "trapSteps": 35, "forced": 3, "family": "ring" }
+  }
+}

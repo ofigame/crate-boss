@@ -1,0 +1,35 @@
+{
+  "id": 1192,
+  "name": "Kral Hamle",
+  "ground": [
+    "#############",
+    "#######.T..T#",
+    "#######.....#",
+    "#######.....#",
+    "###.........#",
+    "###...#.#...#",
+    "#.....#..TT.#",
+    "#...###T...T#",
+    "#############"
+  ],
+  "objects": [
+    ".............",
+    ".............",
+    ".......B.....",
+    ".............",
+    "......BBB....",
+    "....B..P.....",
+    ".......B.....",
+    ".............",
+    "............."
+  ],
+  "goal": ["targets"],
+  "league": 8,
+  "solution": "DRRUUULLDLLRRRUUULDRDRDLLLLDDLLUURRRRRUULDRDLLLRRRRURDLLLLLDDLLUURRRRRRDURURDDULLLLLLLLDRURRRRRRRDDUULLLLLLLDDRULURRRRRURRDDDLDLLULUDRDRRURUUULLDLLLLDLLURRRRURRDRULLLDRURRDDLURULDLUUDDRDRRUUU",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 193.5, "pushes": 54, "boxChanges": 20, "trapSteps": 44, "forced": 1, "family": "twin" }
+  }
+}

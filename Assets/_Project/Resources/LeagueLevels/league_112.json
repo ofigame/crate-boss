@@ -1,0 +1,41 @@
+{
+  "id": 1112,
+  "name": "Sıra Dışı",
+  "ground": [
+    "######",
+    "#.#..#",
+    "#....#",
+    "#....#",
+    "#...##",
+    "#.#..#",
+    "#T####",
+    "#.#T##",
+    "#T..##",
+    "#T..##",
+    "#...##",
+    "######"
+  ],
+  "objects": [
+    "......",
+    ".P....",
+    "..B...",
+    "...B..",
+    "......",
+    "......",
+    ".B....",
+    "......",
+    "......",
+    "..B...",
+    "......",
+    "......"
+  ],
+  "goal": ["targets"],
+  "league": 5,
+  "solution": "DDDRRURUULDRDLDLLUURLDDDDDDRRDDLLUUUUUUDDDDDRULUUUURRURUULDLLDURDLDUURRRDLULLDDDDDDRDDRUULLUUUUUURRDLULDDDDDUUUURRDLULDD",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 133.5, "pushes": 34, "boxChanges": 12, "trapSteps": 30, "forced": 4, "family": "chain2" }
+  }
+}

@@ -14,5 +14,10 @@ namespace CrateBoss.Core
         StartMark,
         /// <summary>M: way stop; a delivery that asks for it must pass here before its area counts (Ana Belge §5.1).</summary>
         Via,
+        /// <summary>
+        /// G: a barrier (owner 2026-11-02): a wall for the worker and the crates until the puzzle in the candy yard is solved,
+        /// then open floor.
+        /// </summary>
+        Gate,
     }
 }

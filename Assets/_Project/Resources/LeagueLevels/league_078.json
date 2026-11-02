@@ -1,0 +1,41 @@
+{
+  "id": 1078,
+  "name": "Labirent",
+  "ground": [
+    "#######",
+    "#TT.T##",
+    "#.....#",
+    "#...###",
+    "#.....#",
+    "##.####",
+    "##....#",
+    "##...##",
+    "#.....#",
+    "###...#",
+    "##..T.#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".P.....",
+    ".......",
+    ".......",
+    ".......",
+    "..B....",
+    ".......",
+    "...BB..",
+    ".......",
+    "....B..",
+    ".......",
+    "......."
+  ],
+  "goal": ["targets"],
+  "league": 4,
+  "solution": "DDDRDDRDDLUUUULURDRUULURDDDLDDDDRRRDDLLUDRRUULDLULUURRDLDLUUUURULDLUUDDRDDDDRDRRULDLURULDLUUUUUU",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 144.7, "pushes": 33, "boxChanges": 8, "trapSteps": 31, "forced": 8, "family": "chain2" }
+  }
+}

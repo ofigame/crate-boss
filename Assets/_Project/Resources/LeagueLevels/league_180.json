@@ -1,0 +1,41 @@
+{
+  "id": 1180,
+  "name": "Sabırlı Usta",
+  "ground": [
+    "#######",
+    "#..##.#",
+    "#T....#",
+    "#.#.#.#",
+    "#T....#",
+    "#....##",
+    "##.####",
+    "##.TT##",
+    "##...##",
+    "#....##",
+    "#...T##",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".......",
+    "....B..",
+    "...B...",
+    "..PB...",
+    ".......",
+    "..B....",
+    ".......",
+    ".......",
+    "..B....",
+    ".......",
+    "......."
+  ],
+  "goal": ["targets"],
+  "league": 8,
+  "solution": "DRRURUULLLRRRDDLLRRUULLDDLDDDRDDDLLURDRRUUULLDUUUURRDLULDDDRDRDDLUDLLURDRRUUULLDDURLDLDRRUUDRU",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 122.4, "pushes": 25, "boxChanges": 14, "trapSteps": 24, "forced": 12, "family": "chain2" }
+  }
+}

@@ -794,6 +794,9 @@ namespace CrateBoss.Game
                     // Owner 2026-11-02: when the candy is over the camera comes close to the worker and follows him.
                     if (result.CandyFinished) framer.SetCellWidth(CloseCell, 1.2f);
                     if (result.PaintEarned) hud.ShowTaskCard(Loc.T("candy.paintgun"));
+                    // Owner 2026-11-02: the classic puzzle in the candy yard.
+                    if (result.CandyFinished && session.State.HasPuzzle) hud.ShowTaskCard(Loc.T("candy.puzzlego"));
+                    if (result.GatesOpened) hud.ShowTaskCard(Loc.F("candy.puzzledone", result.PuzzleReward));
                     foreach (var w in result.CandyWaves) if (w.SuperHammers > 0) { hud.ShowTaskCard(Loc.T("candy.super")); break; }
                     if (result.CandyFinished) hud.ShowTaskCard(Loc.T("candy.done"));
                     tutorials.OnMoved(session.State, result);
@@ -820,6 +823,7 @@ namespace CrateBoss.Game
                 {
                     yield return board.PlayBump(dir.Direction);
                     if (result.NoHammer) NoHammer();
+                    if (result.PuzzleLocked) hud.ShowTaskCard(Loc.T("candy.puzzlelocked"));
                 }
 
                 if (pending == null) break;

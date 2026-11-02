@@ -1,0 +1,31 @@
+{
+  "id": 1094,
+  "name": "Uzun Yol",
+  "ground": [
+    "#########",
+    "#T.TT.o.#",
+    "#.##....#",
+    "#.......#",
+    "#.####.T#",
+    "#.####..#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".PB......",
+    "......BB.",
+    "....B.B..",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 4,
+  "solution": "RRRRRRDDUULLDDLUURRRDLRDLDDRUULUULLDDRLUURRDDULULLLLDDRRLLUURRRRDDRRDDLUULUURRDLULLLLLDDRRRLLLUURRRRRDDDRULUULLLLLDDRRRRLLLLUURRRRRDDLLUDRRUULLLLRRRRDLDLURULDDRRRDDLUULUURRDDULLDLU",
+  "design": {
+    "idea": "Çukura düşen kasa geri gelmez ama yolu açar: hangi kasayı feda edeceğini seç.",
+    "mechanics": ["hole"],
+    "tier": "series200",
+    "lab": { "score": 166.2, "pushes": 37, "boxChanges": 19, "trapSteps": 36, "forced": 2, "family": "zigzag" }
+  }
+}

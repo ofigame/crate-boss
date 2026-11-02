@@ -1,0 +1,31 @@
+{
+  "id": 1132,
+  "name": "Taş Ocağı",
+  "ground": [
+    "###########",
+    "#...T....T#",
+    "#....##...#",
+    "##...#...T#",
+    "##.#.###..#",
+    "##.##....T#",
+    "###########"
+  ],
+  "objects": [
+    "...........",
+    ".P...B.....",
+    "..B.....B..",
+    "...........",
+    "........B..",
+    "...........",
+    "..........."
+  ],
+  "goal": ["targets"],
+  "league": 6,
+  "solution": "RRRRRRLLLLLLDRURRRRRDDRRUULLLLLRRRDDRRDDLURUUULLLLLDDLLUURRRRRRLLLLLLDRURRRRDDRLUURDRDDUULLDRUULLLLLDDRU",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 122.7, "pushes": 23, "boxChanges": 10, "trapSteps": 23, "forced": 6, "family": "chain2" }
+  }
+}

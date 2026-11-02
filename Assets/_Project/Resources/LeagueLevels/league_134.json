@@ -1,0 +1,29 @@
+{
+  "id": 1134,
+  "name": "Buz Mağarası",
+  "ground": [
+    "############",
+    "#T.######..#",
+    "#..........#",
+    "#T...##....#",
+    "##..T##T...#",
+    "############"
+  ],
+  "objects": [
+    "............",
+    ".P..........",
+    "......B..B..",
+    ".......B.B..",
+    "............",
+    "............"
+  ],
+  "goal": ["targets"],
+  "league": 6,
+  "solution": "DRRRRRRDRDRRULRUULDLLLLLLDLLUURDLDRURDLDRUURRRRRRRDDLLUDRRUULLLLLLLDLLUURDLDRURRRRRRRRDLDLURULLLLLLLDLURRRDLL",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 124.5, "pushes": 36, "boxChanges": 7, "trapSteps": 27, "forced": 4, "family": "chain2" }
+  }
+}

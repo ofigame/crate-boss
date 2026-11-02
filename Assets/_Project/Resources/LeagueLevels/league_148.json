@@ -1,0 +1,37 @@
+{
+  "id": 1148,
+  "name": "Usta Hamle",
+  "ground": [
+    "#########",
+    "####T...#",
+    "###.....#",
+    "###.....#",
+    "##..#...#",
+    "##..#..##",
+    "#T..#..##",
+    "#.T...###",
+    "#T..T####",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".....B...",
+    ".........",
+    "......B..",
+    ".....B...",
+    "......B..",
+    ".....BP..",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 6,
+  "solution": "ULUULUURDRRULLDRRDDLURULDLLRRUULDLLDDUURRRDLULLDDDDUUUURRDLULDDDUURRRDDLURULULLDDDLDDDRRULDLLUURURDUUUURRDLULDDDLDLDDRRRURUDLDLLLUURDUUURURRDRDDLUURULDDDDLLRRUUUUULLDDDDUUUURRDDDDDLDLLUDRRURUUUUULLDDDDDRRUUUULULDDDDLDDRLUUUURURRDDDDLL",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 171.1, "pushes": 48, "boxChanges": 28, "trapSteps": 35, "forced": 6, "family": "stairs" }
+  }
+}

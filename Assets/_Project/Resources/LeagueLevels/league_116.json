@@ -1,0 +1,37 @@
+{
+  "id": 1116,
+  "name": "Merdiven",
+  "ground": [
+    "##########",
+    "#....#####",
+    "#....#####",
+    "#....#####",
+    "#.T..#####",
+    "#..#....T#",
+    "#..#.....#",
+    "#.#o.T.#.#",
+    "#T.......#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    "..........",
+    "...BB.....",
+    ".BBP......",
+    "...B......",
+    "..........",
+    "..........",
+    "..........",
+    "..........",
+    ".........."
+  ],
+  "goal": ["targets"],
+  "league": 5,
+  "solution": "RDDDDDLLLUUUUURUULDURRRDULLDLDUURRRDDULULDLDDUURRRDDUULLLDDDUUURRRDDDUUULLLDDDDUUUURRRDDDDUUUULLLDDRRLLUURDURRDDUULLDRDRDULULLDDDDUUUURRDRDRDDLRUULDUULUURDDDRDDDLLURDRRUUULLDRRDDLURUULLDRRRLDDLLLURDRRRRUU",
+  "design": {
+    "idea": "Çukura düşen kasa geri gelmez ama yolu açar: hangi kasayı feda edeceğini seç.",
+    "mechanics": ["hole"],
+    "tier": "series200",
+    "lab": { "score": 153.6, "pushes": 33, "boxChanges": 26, "trapSteps": 30, "forced": 0, "family": "L" }
+  }
+}

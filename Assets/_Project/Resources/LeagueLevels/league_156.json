@@ -1,0 +1,35 @@
+{
+  "id": 1156,
+  "name": "Mühendis İşi",
+  "ground": [
+    "##########",
+    "#..####.##",
+    "#..####..#",
+    "#..####..#",
+    "#.#......#",
+    "#.#.T....#",
+    "#...T.T..#",
+    "#T....T..#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    ".......P..",
+    "..........",
+    ".......B..",
+    ".....B.B..",
+    "..........",
+    "..B.......",
+    "...B......",
+    ".........."
+  ],
+  "goal": ["targets"],
+  "league": 7,
+  "solution": "DRDDDLLULDRRRULRUULDDRDDLLULURDLLLURRDDRRRULRUULDRDDLLLUURDLDDRRURULRUULDLLDDLLLRRDRRRULRRUULDLLRDLURRRDLUULLLLDDLDLUUUURUULDDDDDRDRRR",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 129.7, "pushes": 32, "boxChanges": 18, "trapSteps": 28, "forced": 0, "family": "U" }
+  }
+}

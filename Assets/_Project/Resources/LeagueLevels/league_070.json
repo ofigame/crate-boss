@@ -1,0 +1,31 @@
+{
+  "id": 1070,
+  "name": "Üç Adım İleri",
+  "ground": [
+    "##########",
+    "#T.T.....#",
+    "#.#T....T#",
+    "#........#",
+    "#.#####..#",
+    "#.#####..#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    ".P........",
+    "..........",
+    "...B.B.BB.",
+    "..........",
+    "..........",
+    ".........."
+  ],
+  "goal": ["targets"],
+  "league": 3,
+  "solution": "RRDRRRRRDULLLLDLURRRDLURRRDLDDRUULULLDRURDULLLLDRUULLLDDRLUURRDRRRDRRDDLUULUURRDLLLLDRUULLLLDDRRURULLRDRRRRDDRULULLDRURDULLLLDRURRDRRDDLUULUURRDLLLLDLUDRRURRDDRULULLDRURDRDDLUULUURRDLLLLDRRRDRU",
+  "design": {
+    "idea": "Buz kasa bir engele çarpana kadar kayar: durması için önce duvarını kur.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 201.4, "pushes": 46, "boxChanges": 25, "trapSteps": 43, "forced": 4, "family": "zigzag" }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": 1174,
+  "name": "Büyük Plan",
+  "ground": [
+    "########",
+    "##.....#",
+    "#T..#..#",
+    "#.T....#",
+    "#.###..#",
+    "#.##...#",
+    "#..#...#",
+    "#..TTT##",
+    "#...####",
+    "#...####",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    ".PBI.B..",
+    ".BB.....",
+    "......H.",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 7,
+  "solution": "DDURRLLDDDRDRRUURUURUULDDDDLDDLLULUUURRRLLLDDDRDRRUURUURUULLLLDURRRDDUULLLDLDRRLLDDDRDRRUURRDLDLLLULUUUURURRRDDDDLDURRDLDLLRRUULDURUUUULLLDDLDDDRDULUUUURURRRDDDDDDLUURUUUULLLDDRRLLUURDURRDDDDDLDLDDLLUUUUUDDDDDRRUURUURUULLRRDDDLDLDDLLUUUUUUDDDDRRLLDRDRU",
+  "design": {
+    "idea": "Birden çok nesne bir arada: önce hangisinin yerini açacağını hesapla.",
+    "mechanics": ["ice", "heavy"],
+    "tier": "series200",
+    "lab": { "score": 187, "pushes": 44, "boxChanges": 24, "trapSteps": 40, "forced": 4, "family": "ring" }
+  }
+}

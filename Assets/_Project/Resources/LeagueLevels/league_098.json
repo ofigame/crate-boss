@@ -1,0 +1,35 @@
+{
+  "id": 1098,
+  "name": "Çıkmaz Sokak",
+  "ground": [
+    "#########",
+    "#...T.oT#",
+    "#.......#",
+    "#.####.T#",
+    "#.T.....#",
+    "#######.#",
+    "#######.#",
+    "#######.#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".PB......",
+    "....B.BB.",
+    "......B..",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 4,
+  "solution": "RRRRRRDULLDLLURRRRDLULLLLLDDDRRRRRUURULLRDDDLLLLLUUURRDRRLLULLDRRLLDDRRRRRUULULLRRDRRULLDRDDLLLLLUURRRRURDLLLURDLLLURDLDDRRRRRRUDLLLLLLUURRRRRDRDLUUURDLLLURDLLLURDRRURDDDLLL",
+  "design": {
+    "idea": "Çukura düşen kasa geri gelmez ama yolu açar: hangi kasayı feda edeceğini seç.",
+    "mechanics": ["hole"],
+    "tier": "series200",
+    "lab": { "score": 173.3, "pushes": 35, "boxChanges": 19, "trapSteps": 35, "forced": 4, "family": "zigzag" }
+  }
+}

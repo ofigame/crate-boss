@@ -1,0 +1,29 @@
+{
+  "id": 1026,
+  "name": "Çukur Başı",
+  "ground": [
+    "#########",
+    "#T.######",
+    "#.......#",
+    "#TT.....#",
+    "###...o##",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    ".......P.",
+    "....BBB..",
+    ".....B...",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 2,
+  "solution": "LLLLDDRRRURULLLLDLLUURDLDRURRRRDDLLUDRRUULLLLDLURRRDLLURRRRDLLL",
+  "design": {
+    "idea": "Çukura düşen kasa geri gelmez ama yolu açar: hangi kasayı feda edeceğini seç.",
+    "mechanics": ["hole"],
+    "tier": "series200",
+    "lab": { "score": 87.8, "pushes": 18, "boxChanges": 4, "trapSteps": 18, "forced": 0, "family": "L" }
+  }
+}

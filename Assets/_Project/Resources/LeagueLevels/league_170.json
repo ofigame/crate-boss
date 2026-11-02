@@ -1,0 +1,37 @@
+{
+  "id": 1170,
+  "name": "Zihin Oyunu",
+  "ground": [
+    "#########",
+    "###...###",
+    "###..T###",
+    "#...#...#",
+    "#...#..T#",
+    "#.......#",
+    "#.T...T.#",
+    "###...###",
+    "###.T.###",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    "...I.....",
+    "..BP.....",
+    "..BB..H..",
+    "..B......",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 7,
+  "solution": "DDDLLURRDRRUUUUULLDDDDLLUURLDDRRRDRRURUULLULLDDUURRDDDUUULLDLLDDRRUULDRDRDRULLULLDDRRRDRULULUUURRDRRDDLLRRUULLDUULLDDLLDDRRRURUURRDDDLULLDDRULURDDDLLURUURUUULLDDLLDDRRDRRURRUULRDDLLULDURUUDDRDLLLLLUURDRDRDURRRUDLLUURD",
+  "design": {
+    "idea": "Birden çok nesne bir arada: önce hangisinin yerini açacağını hesapla.",
+    "mechanics": ["ice", "heavy"],
+    "tier": "series200",
+    "lab": { "score": 176.9, "pushes": 37, "boxChanges": 27, "trapSteps": 37, "forced": 3, "family": "plus" }
+  }
+}

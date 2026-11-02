@@ -1,0 +1,35 @@
+{
+  "id": 1050,
+  "name": "Durak Yok",
+  "ground": [
+    "##########",
+    "#.###..###",
+    "#.###..###",
+    "#......###",
+    "#T...#...#",
+    "###T.#.###",
+    "###......#",
+    "###T....##",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    "..........",
+    "..........",
+    ".P.B.B....",
+    "..........",
+    "......B...",
+    "..........",
+    "..........",
+    ".........."
+  ],
+  "goal": ["targets"],
+  "league": 2,
+  "solution": "DRRRULDDDRRRUUULUURDDDDDLLUULURDLLLURDRRURURDDULLDDDRRRDLLULUUURRDDUULLDDDRDRRULLRUUULLDDLDDRLUUURURRDDDLLUULLURRRURDDULLDDDDLUURULLRDDRRRDLULUUURRDDUULLDDDRDRRULLRUUULLDDLDDRLUUUURRRDDDLLDLURRRDLL",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 166.4, "pushes": 40, "boxChanges": 17, "trapSteps": 37, "forced": 0, "family": "plus" }
+  }
+}

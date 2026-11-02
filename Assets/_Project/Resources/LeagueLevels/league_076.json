@@ -1,0 +1,35 @@
+{
+  "id": 1076,
+  "name": "Satranç",
+  "ground": [
+    "########",
+    "###..###",
+    "#.#....#",
+    "#.....##",
+    "#.##..##",
+    "#T##..##",
+    "#.T#...#",
+    "#.T...T#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "....BP..",
+    "........",
+    "........",
+    "....B...",
+    ".BB.H...",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 4,
+  "solution": "DLLUURDLDRDRDDDLLLLUDRRRRUUULUURDDLDURDDRDLLUUURUULLDRURDDDDLDR",
+  "design": {
+    "idea": "Ağır kasa ancak önüne bir kasa itilince kıpırdar: zinciri doğru sırayla kur.",
+    "mechanics": ["heavy"],
+    "tier": "series200",
+    "lab": { "score": 88.3, "pushes": 19, "boxChanges": 5, "trapSteps": 19, "forced": 1, "family": "rect" }
+  }
+}

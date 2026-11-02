@@ -1,0 +1,39 @@
+{
+  "id": 1164,
+  "name": "Zor Karar",
+  "ground": [
+    "#######",
+    "#T..#.#",
+    "#.....#",
+    "#....##",
+    "#.#####",
+    "#.....#",
+    "#.....#",
+    "#...#T#",
+    "#T#...#",
+    "#T..T.#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".P.....",
+    ".......",
+    ".......",
+    ".B.....",
+    "....B..",
+    "..B.B..",
+    ".......",
+    ".B.....",
+    ".......",
+    "......."
+  ],
+  "goal": ["targets"],
+  "league": 7,
+  "solution": "DDDDRRDDDRRUUULRDDDLLUURURDLLDLLUUUUDDRDRDDDLLUURURDDULLDDRRUUULULDRRRULDLLDDUUUUURUULDDDDDRRULDLUUUUDDDDD",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 136.8, "pushes": 31, "boxChanges": 12, "trapSteps": 25, "forced": 0, "family": "chain2" }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": 1142,
+  "name": "Düğüm Noktası",
+  "ground": [
+    "###########",
+    "#T....T...#",
+    "#TT########",
+    "#.........#",
+    "#..#......#",
+    "#.....T...#",
+    "###########"
+  ],
+  "objects": [
+    "...........",
+    ".P.........",
+    "...........",
+    "........B..",
+    ".....BB.B..",
+    "..B........",
+    "..........."
+  ],
+  "goal": ["targets"],
+  "league": 6,
+  "solution": "DDRRRDDRRRRRUULLLLLLLRRRRRRRDLULLLLLLDLDRRRUURRRRDDLLUDRRUULLLLLRDDLLUUULURRRRLLLDDDLUUDRRRRRDLURRRDLLULLLLDDRRRURULLLLDLUDDRRRURULLRDDLLUU",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 163.1, "pushes": 38, "boxChanges": 9, "trapSteps": 38, "forced": 0, "family": "zigzag" }
+  }
+}

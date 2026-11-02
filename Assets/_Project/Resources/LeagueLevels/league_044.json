@@ -1,0 +1,33 @@
+{
+  "id": 1044,
+  "name": "Eğri Yol",
+  "ground": [
+    "#########",
+    "#.#...###",
+    "#...#...#",
+    "#T##..#.#",
+    "#..T#...#",
+    "#T......#",
+    "##..#####",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".P.......",
+    "......B..",
+    ".........",
+    ".....B...",
+    "...B.....",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 2,
+  "solution": "DDDDRRRRURRDLLLLULLUURRURRDDDUUULLDLLDDRRDRRURRUULRDDLLDLLULLUURRURRDDURRDDDLLRURUULLULLDLLDDRRDDLULUUURRURRDRRDDDLLLLULRDDLULURDRRRRURUULLDDRDLLLL",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 125.3, "pushes": 28, "boxChanges": 12, "trapSteps": 27, "forced": 4, "family": "twin" }
+  }
+}

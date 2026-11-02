@@ -66,12 +66,55 @@ namespace CrateBoss.View
                     break;
                 case TileType.Void:
                     break; // nothing is drawn
+                case TileType.Gate:
+                    MakeSlab(theme, darkChecker);
+                    MakeGate();
+                    break;
                 default:
                     // Delivery area (Ana Belge §5.1): floor slab plus the painted bay.
                     MakeSlab(theme, darkChecker);
                     GoalTileBuilder.Build(transform, type, out areaLamp);
                     break;
             }
+        }
+
+        // ---------- barriers (owner 2026-11-02: closed until the candy yard's puzzle is solved) ----------
+
+        private Transform gate;
+
+        // A red-and-white striped block across the cell between two short posts.
+        private void MakeGate()
+        {
+            gate = new GameObject("Gate").transform;
+            gate.SetParent(transform, false);
+            var red = MaterialLibrary.Create(new Color(0.9f, 0.2f, 0.2f), 0.5f);
+            var white = MaterialLibrary.Create(new Color(0.97f, 0.97f, 0.97f), 0.5f);
+            var post = MaterialLibrary.Create(new Color(0.3f, 0.3f, 0.34f), 0.4f);
+            Shapes.Cube(gate, new Vector3(-0.42f, 0.45f, 0f), new Vector3(0.12f, 0.9f, 0.12f), post, "Post");
+            Shapes.Cube(gate, new Vector3(0.42f, 0.45f, 0f), new Vector3(0.12f, 0.9f, 0.12f), post, "Post");
+            for (int i = 0; i < 5; i++)
+                Shapes.Cube(gate, new Vector3(-0.32f + i * 0.16f, 0.55f, 0f), new Vector3(0.16f, 0.5f, 0.5f), i % 2 == 0 ? red : white, "Bar");
+        }
+
+        /// <summary>Barrier shown closed or open (rebuilds, undo).</summary>
+        public void SetGate(bool open)
+        {
+            if (gate != null) gate.gameObject.SetActive(!open);
+        }
+
+        /// <summary>The puzzle is solved: the barrier sinks into the ground.</summary>
+        public IEnumerator OpenGate()
+        {
+            if (gate == null || !gate.gameObject.activeSelf) yield break;
+            var from = gate.localPosition;
+            for (float t = 0; t < 0.6f; t += Time.deltaTime)
+            {
+                float k = t / 0.6f;
+                gate.localPosition = from + Vector3.down * (k * k * 1.1f);
+                yield return null;
+            }
+            gate.localPosition = from;
+            gate.gameObject.SetActive(false);
         }
 
         // ---------- delivery areas (Ana Belge §5.1) ----------

@@ -1,0 +1,37 @@
+{
+  "id": 1064,
+  "name": "Taş Duvar",
+  "ground": [
+    "########",
+    "###..#T#",
+    "##...#.#",
+    "#o.#..T#",
+    "#.#...T#",
+    "#......#",
+    "#....#.#",
+    "#.#..#.#",
+    "#.#..#.#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "...P....",
+    "...B....",
+    "........",
+    "........",
+    ".B......",
+    "...BB...",
+    "........",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 3,
+  "solution": "RDDDDDULLDLUUURURURDDRDDLLURRDRUUUDDDLLDLDDRUUULURRDRUDLLLLLDRRDRUULURR",
+  "design": {
+    "idea": "Çukura düşen kasa geri gelmez ama yolu açar: hangi kasayı feda edeceğini seç.",
+    "mechanics": ["hole"],
+    "tier": "series200",
+    "lab": { "score": 106.3, "pushes": 24, "boxChanges": 5, "trapSteps": 24, "forced": 3, "family": "plus" }
+  }
+}

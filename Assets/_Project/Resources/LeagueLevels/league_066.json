@@ -1,0 +1,39 @@
+{
+  "id": 1066,
+  "name": "Yük Treni",
+  "ground": [
+    "########",
+    "#####..#",
+    "#.###..#",
+    "#.###..#",
+    "#..TT.##",
+    "#...#..#",
+    "#...#..#",
+    "#....o##",
+    "#.....##",
+    "#T.##.##",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "........",
+    ".....B..",
+    "........",
+    "........",
+    "........",
+    ".B.B....",
+    "...BP...",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 3,
+  "solution": "ULUUURRURUULDDDDDDLLULLDRDDLUURUUURRRDDDDLLUUULURDDDLLDDRURUUULLDDDURDRUUU",
+  "design": {
+    "idea": "Çukura düşen kasa geri gelmez ama yolu açar: hangi kasayı feda edeceğini seç.",
+    "mechanics": ["hole"],
+    "tier": "series200",
+    "lab": { "score": 109.2, "pushes": 24, "boxChanges": 9, "trapSteps": 21, "forced": 2, "family": "stairs" }
+  }
+}

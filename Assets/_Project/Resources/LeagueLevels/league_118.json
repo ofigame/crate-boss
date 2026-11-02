@@ -1,0 +1,37 @@
+{
+  "id": 1118,
+  "name": "Kale Duvarı",
+  "ground": [
+    "########",
+    "#....###",
+    "#.....T#",
+    "#...##.#",
+    "##..#..#",
+    "#......#",
+    "#.#....#",
+    "#.##.T.#",
+    "#.#T.T.#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    ".P......",
+    "...B.B..",
+    "........",
+    "..B.....",
+    "........",
+    "........",
+    "......B.",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 5,
+  "solution": "RRRDLDDDRRURUULLULDDURRRDDDLLLLUDRRRURUULLLDDUUULLDDRLUURRDDLLURDDDRRLLUURDULUURDDURRRDDLDURUULLLDLDDRRLLUURDUURRRDDDDLRUULDLDURURUULLLDDLDRDRDRDLUULUUUURRRDDDLDLLURDDDRRUDLLUURDULULUUURRRDDLDLDDRRUDLLUURDRUUU",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 158.1, "pushes": 35, "boxChanges": 24, "trapSteps": 34, "forced": 1, "family": "rect" }
+  }
+}

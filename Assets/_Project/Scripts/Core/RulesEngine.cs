@@ -46,6 +46,7 @@ namespace CrateBoss.Core
             result.Sunk = MatchSystem.Step(state, out int bonus);                                    // 4
             result.MatchBonus = bonus;
             result.ConveyorMoves = ConveyorSystem.Step(state);                                       // 4b (the cargo belt)
+            PuzzleSystem.Step(state, result);                                                        // 4c (the candy yard's puzzle)
             result.TruckLeft = TruckSystem.Step(state, result);                                              // 5
             result.IsWon = state.IsSolved();                                                         // 6
             if (result.IsWon) return result; // a winning move never runs a machine
@@ -111,6 +112,7 @@ namespace CrateBoss.Core
         private static bool TryPush(GameState state, Box box, GridPos step, MoveResult result)
         {
             if (box.Locked || box.IsHeavy) return false; // delivered crates stay; heavy ones only move as the back of a chain
+            if (PuzzleSystem.Locked(state, box)) { result.PuzzleLocked = true; return false; } // owner 2026-11-02: candy first
             if (state.IsCandyLevel && box.Symbol > 0) return false; // candy levels: colour crates are swapped by the finger
             switch (box.Type)
             {

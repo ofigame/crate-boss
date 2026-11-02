@@ -1,0 +1,35 @@
+{
+  "id": 1074,
+  "name": "Bilmece",
+  "ground": [
+    "#########",
+    "##..#####",
+    "##.T..TT#",
+    "##..#T#.#",
+    "##....#.#",
+    "#...#...#",
+    "#...#.#.#",
+    "###.#.#.#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    "..B.BPB..",
+    ".........",
+    "....B....",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 3,
+  "solution": "DDLLULDURUULDDRDRRUULLDDDDLLURDRUURRUULLDLDRUUULDDURRRDDDRRUUULLLLDDRLUURRRRDDDLLULLDDLLURDRUURRDRRUUULLLLDLDRUUULDDRDDDLLURDRUUULUURDLDDUURRRRRDDDLLULLULURRRRLLLDDDDLLURDRUUULURRRLLDLDRDDLLURDRUUU",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 230.5, "pushes": 54, "boxChanges": 18, "trapSteps": 51, "forced": 11, "family": "twin" }
+  }
+}

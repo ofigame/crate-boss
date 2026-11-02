@@ -1,0 +1,39 @@
+{
+  "id": 1190,
+  "name": "Son Sınav",
+  "ground": [
+    "###########",
+    "#...###.T##",
+    "#.#.###..##",
+    "#...###.###",
+    "#...###...#",
+    "#.....T...#",
+    "#.#....T..#",
+    "#..##T...##",
+    "##.....#..#",
+    "##.T.T....#",
+    "###########"
+  ],
+  "objects": [
+    "...........",
+    "........B..",
+    "...........",
+    "...B.......",
+    "..BP.......",
+    "..BBB......",
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "..........."
+  ],
+  "goal": ["targets"],
+  "league": 8,
+  "solution": "ULLDDDDRDRRRUULLURDRDDLLLULUURLDDRDRRRUULURDDDLLLULUURRLLUURDLDDDRDRRRUUURDRRUULDLDLLLURDRDDLLLULUURLDDRDRRRUULURDDDLLLULUURRDRRURDLLLURLLUURDULLUURRDDLDDLDDRDRRRUULURDDDLLLULUURRDRRDRRRULRUULDRDDLLLUURDLLLURLLUURDLDLDDRDRRRUULURDDDLLLULUURRDRRRDRRULRUULDRDDLLLUURDLLLURRDDDDRRRUUULLRDRDDLLLULLLULUURRRRDDDUURRRUULDRDDLLRRDDLLLRRRUULLDLDLURRURRDDLL",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 192.8, "pushes": 46, "boxChanges": 38, "trapSteps": 39, "forced": 2, "family": "U" }
+  }
+}

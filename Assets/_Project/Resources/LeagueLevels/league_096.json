@@ -1,0 +1,37 @@
+{
+  "id": 1096,
+  "name": "Gölge Oyunu",
+  "ground": [
+    "########",
+    "#..#####",
+    "#..###.#",
+    "#..###.#",
+    "#......#",
+    "#......#",
+    "#.###T.#",
+    "#......#",
+    "##TT..T#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    ".PH.....",
+    "........",
+    "........",
+    "..BB.B..",
+    "..B.....",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 4,
+  "solution": "DDDDRUDLDDRRRRUULULRDRRULDDDLLLLUURRRLLLDDRRRRURUULDLLURDLLLURLUURDDLDDDRRRRRUULLULDRRRULLDRRDDLLLLLUURRLLUURDLDDDRRRRRUUULLLDRURRDDDLLLLLUURLDDRRRRRUUULLDRURDLDDLLLLUURRLLUURDRDRURDULLLLDRRLLDDRRRRRDLLULLLUUURRRRDDDUUULLDRURDLLLLDDRRRDLURRRDLULLLLUURRRRRDDLDL",
+  "design": {
+    "idea": "Ağır kasa ancak önüne bir kasa itilince kıpırdar: zinciri doğru sırayla kur.",
+    "mechanics": ["heavy"],
+    "tier": "series200",
+    "lab": { "score": 169.7, "pushes": 41, "boxChanges": 27, "trapSteps": 35, "forced": 1, "family": "U" }
+  }
+}

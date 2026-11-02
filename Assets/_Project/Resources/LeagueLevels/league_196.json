@@ -1,0 +1,37 @@
+{
+  "id": 1196,
+  "name": "Dehâ",
+  "ground": [
+    "############",
+    "#......T.#.#",
+    "#.T.##.T...#",
+    "##.######..#",
+    "##..#.T#..o#",
+    "##.........#",
+    "#..#######.#",
+    "#....#.###.#",
+    "#oT..T..##.#",
+    "############"
+  ],
+  "objects": [
+    "............",
+    ".....B......",
+    ".........B..",
+    "..B......B..",
+    "..P...B..B..",
+    "...B........",
+    "............",
+    "............",
+    "..B.........",
+    "............"
+  ],
+  "goal": ["targets"],
+  "league": 8,
+  "solution": "DRRRRRRURRUULLULLLLLDLDURURRRRRDRRDDLLDLLLLLLDDRDLUUURRRRRRURRUULLULLLLLDLLURRRRRLLLDLDDDDDUURRRRRRURRUULDRDDLLRRUULDLDLLLLLULDDLDDRUUUUUDDRRRRRRURRDLLLLLLLULDDLDDRRLLUURDRDR",
+  "design": {
+    "idea": "Birden çok nesne bir arada: önce hangisinin yerini açacağını hesapla.",
+    "mechanics": ["hole"],
+    "tier": "series200",
+    "lab": { "score": 201, "pushes": 52, "boxChanges": 17, "trapSteps": 44, "forced": 9, "family": "zigzag" }
+  }
+}

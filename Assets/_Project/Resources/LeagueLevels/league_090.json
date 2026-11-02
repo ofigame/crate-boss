@@ -1,0 +1,33 @@
+{
+  "id": 1090,
+  "name": "Sessiz Oda",
+  "ground": [
+    "###########",
+    "####T.....#",
+    "###.......#",
+    "#.....#...#",
+    "##.T.##..##",
+    "##.#..#.###",
+    "#..T.T...##",
+    "###########"
+  ],
+  "objects": [
+    "...........",
+    "........B..",
+    ".......B...",
+    "...H...PB..",
+    ".......B...",
+    "...........",
+    "...........",
+    "..........."
+  ],
+  "goal": ["targets"],
+  "league": 4,
+  "solution": "DRURUULDULRDLLLULDDDUURRRRRDLULLLDLDDUUURRRRDDLURULLLULDRDLDDRDRRUUURULLLULDRRRULLDLDDLLDDRRRLLLUURRUULDRDDRDLUUUURRRDDDDL",
+  "design": {
+    "idea": "Ağır kasa ancak önüne bir kasa itilince kıpırdar: zinciri doğru sırayla kur.",
+    "mechanics": ["heavy"],
+    "tier": "series200",
+    "lab": { "score": 163.1, "pushes": 36, "boxChanges": 15, "trapSteps": 35, "forced": 8, "family": "stairs" }
+  }
+}

@@ -23,7 +23,7 @@
   "league": 1,
   "solution": "RDLDLLDDRRRURRLLDLUUUDDRRRURRDLLLLDLLLUURRURDLLLDDRRURULLRDDLLUULUURDDRRDRRRURRDLLLLULDRDL",
   "design": {
-    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
     "mechanics": [],
     "tier": "series200",
     "lab": { "score": 84.3, "pushes": 27, "boxChanges": 9, "trapSteps": 17, "forced": 3, "family": "chain2" }

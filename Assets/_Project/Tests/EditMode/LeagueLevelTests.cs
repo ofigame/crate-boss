@@ -48,7 +48,7 @@ namespace CrateBoss.Tests
             foreach (var data in Levels())
             {
                 foreach (var row in data.ground)
-                    foreach (char c in row) Assert.IsTrue("#.Tov_BAM123".IndexOf(c) >= 0, $"{data.name}: ground '{c}'");
+                    foreach (char c in row) Assert.IsTrue("#.Tov_BAM123G".IndexOf(c) >= 0, $"{data.name}: ground '{c}'");
                 foreach (var row in data.objects)
                     foreach (char c in row) Assert.IsTrue(".BPIHDYF123456".IndexOf(c) >= 0, $"{data.name}: object '{c}'");
             }

@@ -1,0 +1,39 @@
+{
+  "id": 1052,
+  "name": "Buz Pateni",
+  "ground": [
+    "########",
+    "#.##...#",
+    "#.#....#",
+    "#......#",
+    "#......#",
+    "###..###",
+    "###TT###",
+    "###TT###",
+    "###..###",
+    "###..###",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    "........",
+    "....BI..",
+    "....B...",
+    "...BP...",
+    "........",
+    "........",
+    "........",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 3,
+  "solution": "DLUURULURURRDLULDDDLLLURDRRUURRDLULLDDDURDULUURRDRDLLDLDURURUULLDDDRDUULUURD",
+  "design": {
+    "idea": "Buz kasa bir engele çarpana kadar kayar: durması için önce duvarını kur.",
+    "mechanics": ["ice"],
+    "tier": "series200",
+    "lab": { "score": 92.7, "pushes": 23, "boxChanges": 13, "trapSteps": 18, "forced": 3, "family": "T" }
+  }
+}

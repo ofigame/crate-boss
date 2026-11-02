@@ -118,6 +118,9 @@ namespace CrateBoss.Levels
             state.CandyHitCap = System.Math.Max(0, candy.hitCap);
             state.CandySuperAfter = System.Math.Max(1, candy.superAfter);
             state.CandyPaint = candy.paint;
+            state.PuzzlePar = System.Math.Max(0, candy.puzzlePar);
+            state.PuzzleReward = System.Math.Max(0, candy.puzzleReward);
+            state.GatesOpen = state.PuzzlePar == 0; // the barriers wait for the puzzle
         }
 
         // ---------- deliveries (Ana Belge §5.1, §6) ----------
@@ -400,6 +403,7 @@ namespace CrateBoss.Levels
                 case 'B': case '1': case '2': case '3': return TileType.Arrival;
                 case 'A': return TileType.StartMark;
                 case 'M': return TileType.Via;
+                case 'G': return TileType.Gate;
                 default: throw new LevelFormatException($"{label}: unknown ground '{c}' at column {x}, row {y}.");
             }
         }

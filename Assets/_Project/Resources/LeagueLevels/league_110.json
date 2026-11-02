@@ -1,0 +1,29 @@
+{
+  "id": 1110,
+  "name": "Akıl Oyunu",
+  "ground": [
+    "############",
+    "#..T..#....#",
+    "##T#..#....#",
+    "##.........#",
+    "##T..T######",
+    "############"
+  ],
+  "objects": [
+    "............",
+    ".P..........",
+    "........BB..",
+    ".....BB.....",
+    "............",
+    "............"
+  ],
+  "goal": ["targets"],
+  "league": 5,
+  "solution": "RDDDRRRURRUURRRDDLLRRUULDLDLLLDLLULUURRDDRRRRUULDRDLLLRRURRRDLULLDLLDLULLUURRRDULLLDDRRURULDDDRULLLDRURRRRURRDLLLLLLDLURRRDLUUURDDLDL",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 130.5, "pushes": 33, "boxChanges": 16, "trapSteps": 26, "forced": 7, "family": "chain2" }
+  }
+}

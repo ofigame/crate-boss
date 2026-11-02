@@ -1,0 +1,31 @@
+{
+  "id": 1028,
+  "name": "Derin Hesap",
+  "ground": [
+    "############",
+    "#........T##",
+    "#..#.#.##..#",
+    "#..T.#.....#",
+    "#..#.##...##",
+    "##.#.#...T##",
+    "############"
+  ],
+  "objects": [
+    "............",
+    ".P...B......",
+    "............",
+    "...B........",
+    ".......B....",
+    "............",
+    "............"
+  ],
+  "goal": ["targets"],
+  "league": 2,
+  "solution": "RRRRRLLDDLRUULLDLDDRURRUURRDDRRRUULLLLLRRDDRRDDLURURUULLLDDRRLLUURRRDDUULLLLLDDLLLUURDURRRRRRLLLLLLDLDRUURRRRDDRRRD",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 96.5, "pushes": 21, "boxChanges": 7, "trapSteps": 21, "forced": 0, "family": "chain2" }
+  }
+}

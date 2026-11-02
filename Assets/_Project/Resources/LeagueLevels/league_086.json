@@ -1,0 +1,43 @@
+{
+  "id": 1086,
+  "name": "Ters Köşe",
+  "ground": [
+    "#######",
+    "#..T..#",
+    "#....##",
+    "#.....#",
+    "###...#",
+    "##....#",
+    "####.##",
+    "##T..##",
+    "##.#..#",
+    "#....##",
+    "#.....#",
+    "###T.T#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    "...B...",
+    "...B...",
+    "....BP.",
+    ".......",
+    ".......",
+    "....B..",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "......."
+  ],
+  "goal": ["targets"],
+  "league": 4,
+  "solution": "LULDLLUURDLDRRURDRDDLLUDRDDDDUUUURUULDUULLDRDRDULUURDLDDRDDDULLDDDRDRRULLULUURRDDLDDRRULDLURUUUUULUURDDDDDDDLDRUUUULLDDLDRUUURRDDLDLUU",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 153.2, "pushes": 37, "boxChanges": 17, "trapSteps": 35, "forced": 0, "family": "chain2" }
+  }
+}

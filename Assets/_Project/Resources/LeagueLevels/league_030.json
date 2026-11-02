@@ -1,0 +1,31 @@
+{
+  "id": 1030,
+  "name": "Kilit Taşı",
+  "ground": [
+    "############",
+    "########..T#",
+    "#........#.#",
+    "#....##....#",
+    "#..#..#....#",
+    "#....##.#TT#",
+    "############"
+  ],
+  "objects": [
+    "............",
+    "............",
+    ".PB...B.....",
+    "....B.......",
+    "............",
+    "............",
+    "............"
+  ],
+  "goal": ["targets"],
+  "league": 2,
+  "solution": "DRRURRRRDRRRUULLDLLLLLDLLURRRRRRDRDRRUUULLDDRLUURRDDDULLULLLLLDLDDRRUULURRRRDRRRUULLDLDRRLLDRURDRUU",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 98.9, "pushes": 27, "boxChanges": 7, "trapSteps": 21, "forced": 1, "family": "chain2" }
+  }
+}

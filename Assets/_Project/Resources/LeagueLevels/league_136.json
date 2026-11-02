@@ -1,0 +1,29 @@
+{
+  "id": 1136,
+  "name": "Çukurlar Diyarı",
+  "ground": [
+    "################",
+    "#...#..#########",
+    "#..T#..........#",
+    "#........#.....#",
+    "##.T####T#T....#",
+    "################"
+  ],
+  "objects": [
+    "................",
+    ".P..............",
+    ".........B......",
+    "....B.......BB..",
+    "................",
+    "................"
+  ],
+  "goal": ["targets"],
+  "league": 6,
+  "solution": "DDRRRRURRRRRDDRRRRUULLDULLLLLLRDLLLLRRRURRRRRRRRDLLLULLLDLLLLLDLURRRRUULDRDLLLUULLDDRLUURRDDLLURDRRRURRRRRRDDLURULLLLDLLUURDLDRRURDURRDRRRDLL",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 124.9, "pushes": 37, "boxChanges": 10, "trapSteps": 30, "forced": 0, "family": "chain3" }
+  }
+}

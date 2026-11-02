@@ -1,0 +1,29 @@
+{
+  "id": 1162,
+  "name": "Kırk Hamle",
+  "ground": [
+    "##################",
+    "##.####.....######",
+    "#...###...#.#....#",
+    "#...........#...##",
+    "#..T.T#T..T....T.#",
+    "##################"
+  ],
+  "objects": [
+    "..................",
+    "..................",
+    ".P.........B......",
+    "......B..B........",
+    "........B...B.....",
+    ".................."
+  ],
+  "goal": ["targets"],
+  "league": 7,
+  "solution": "DRRRRRRDRRULLLLLDLLUURDLDRRURRRRRRRDLULLUURRRDULLLDDRRDLLUUURDLDDRRULLLLLLDLLUURDRRRRRDRRRRRURRDLLLLLULUURRDDLDRULLLDRURRDRRR",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 135.1, "pushes": 38, "boxChanges": 11, "trapSteps": 31, "forced": 1, "family": "chain3" }
+  }
+}

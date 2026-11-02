@@ -1,0 +1,41 @@
+{
+  "id": 1172,
+  "name": "Son Kapı",
+  "ground": [
+    "#########",
+    "#...#...#",
+    "#...#...#",
+    "#.....T.#",
+    "###.##..#",
+    "###.o...#",
+    "###.##..#",
+    "###T....#",
+    "#####T..#",
+    "#####...#",
+    "######TT#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".P.......",
+    "..BB..B..",
+    "..B.B....",
+    ".........",
+    ".........",
+    "...I.....",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 7,
+  "solution": "RRDDRRURURDLDURDLDULLLUULLDRLDRRRRURDRDDDULRUULDULLLLUURDLDRRRURRDDLDURUULDRDDLDURUULDRDDLDURUULDDULLLUDRRRUULLLULLDRRRRLLDDDURRRDRDDDULRUULDDD",
+  "design": {
+    "idea": "Birden çok nesne bir arada: önce hangisinin yerini açacağını hesapla.",
+    "mechanics": ["hole", "ice"],
+    "tier": "series200",
+    "lab": { "score": 187, "pushes": 46, "boxChanges": 23, "trapSteps": 39, "forced": 5, "family": "twin" }
+  }
+}

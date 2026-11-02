@@ -1,0 +1,43 @@
+{
+  "id": 1200,
+  "name": "Final",
+  "ground": [
+    "#########",
+    "#..####.#",
+    "#..####T#",
+    "##.###T.#",
+    "#..###..#",
+    "#..###..#",
+    "#......##",
+    "##...T..#",
+    "##......#",
+    "##...T.##",
+    "#...T...#",
+    "###....T#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".P.....H.",
+    "..B......",
+    ".........",
+    ".......B.",
+    ".........",
+    "..B...B..",
+    "..B......",
+    ".........",
+    "..B......",
+    ".........",
+    "......H..",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 8,
+  "solution": "RDDDLDDRRRDRRUURUULDDDDLLURLLLLUURDLDRRRDRRUUDDLDLLLUULUURDLDRDRRRRRDLUUURUULDDDDLLURDLLLURRDRDURUUDDLDDUURRDLUUURUULDDDDLLURDDURUUDDRDLDLRUUUURUULDDDLDLDDRDULUURDRRULDLLDLDLUUUULUURDLDRRRRLDDRRUUUUDDDDLLDLDDRR",
+  "design": {
+    "idea": "Birden çok nesne bir arada: önce hangisinin yerini açacağını hesapla.",
+    "mechanics": ["heavy"],
+    "tier": "series200",
+    "lab": { "score": 243.4, "pushes": 68, "boxChanges": 29, "trapSteps": 51, "forced": 2, "family": "U" }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": 1168,
+  "name": "Gece Vardiyası",
+  "ground": [
+    "#########",
+    "#...#...#",
+    "#.......#",
+    "#...#...#",
+    "#....#..#",
+    "#....T..#",
+    "###...###",
+    "###..T###",
+    "###...###",
+    "###..T###",
+    "###.TT###",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    "..BBPB...",
+    "...B..B..",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 7,
+  "solution": "RURRDDDDLLLULLULUURDDURDLLDDRRRRRURUUULLDLRURRDLDULDRRDDLLLLLLUURDLDRRLUURDULUURDLDDRRDULLUURDLDDRDDRRUURRUUULLLRDRRDDLLDDLLURLULUURDULUURDRRDRDUULLLLDDRRDDUULLUURDLDDRLUURDRDRDDUULULLDRDRDULUURDLDDRDULUURDDRDDUULUURDULULUURRDRDRDLUUULLLDDDDDDDRLUURDD",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 154.7, "pushes": 44, "boxChanges": 35, "trapSteps": 30, "forced": 1, "family": "T" }
+  }
+}

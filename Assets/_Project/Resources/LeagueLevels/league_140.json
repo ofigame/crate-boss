@@ -1,0 +1,37 @@
+{
+  "id": 1140,
+  "name": "Karmaşa",
+  "ground": [
+    "#########",
+    "##....T.#",
+    "#.......#",
+    "#.###.T##",
+    "#T.##..##",
+    "#.T##...#",
+    "#.#.#...#",
+    "#.......#",
+    "#...##..#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    "..PB.....",
+    "..B...I..",
+    ".........",
+    ".........",
+    "..B......",
+    "...H.....",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 6,
+  "solution": "RDRRULDRDDDDDLLLLUUUUURRRURDLLLURDRRDDDDUUUULLLLDDDDDRRRRURRDDLULUUUUUURDDDLDDDRRULDLUUUUDDDDLLLLUUUUURRRRDDDDRUULUUURRDLULDLLURRDDDDDRDLLLLDLUUU",
+  "design": {
+    "idea": "Birden çok nesne bir arada: önce hangisinin yerini açacağını hesapla.",
+    "mechanics": ["ice", "heavy"],
+    "tier": "series200",
+    "lab": { "score": 161, "pushes": 36, "boxChanges": 9, "trapSteps": 35, "forced": 2, "family": "ring" }
+  }
+}

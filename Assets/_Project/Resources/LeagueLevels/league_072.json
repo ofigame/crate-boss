@@ -1,0 +1,35 @@
+{
+  "id": 1072,
+  "name": "Karışık İş",
+  "ground": [
+    "##########",
+    "#..####..#",
+    "#..####..#",
+    "#........#",
+    "#T.....#.#",
+    "#.....T#.#",
+    "#.###T.T.#",
+    "#.#####.##",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    ".......P..",
+    ".......B..",
+    ".BB....B..",
+    "..........",
+    "..........",
+    "..........",
+    "..........",
+    ".........."
+  ],
+  "goal": ["targets"],
+  "league": 3,
+  "solution": "RDDLLRRUULDRDDDDLLUULLLLLURUULDDRDRRULDRRRULDDDRRRUUULRDDDLLUULLLLULUURDDRDRRULDDRDRRRUUULLDDLLLLLURUULDRDDRRUULDRRRULDLLLUDDRUULLUURDDRDRRULDLDLLURUULDRDRRULDLULUURDDRDRRURDDULLLDLLUDRRUULDRDRULLLDRUUULDRDRRDRULLLDRURRDDRLUULLDRURD",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 220.3, "pushes": 48, "boxChanges": 35, "trapSteps": 46, "forced": 2, "family": "H" }
+  }
+}

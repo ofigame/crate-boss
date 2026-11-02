@@ -1,0 +1,35 @@
+{
+  "id": 1138,
+  "name": "Ağır Sanayi",
+  "ground": [
+    "###########",
+    "##........#",
+    "#...To....#",
+    "#...##T####",
+    "#...#######",
+    "#..T..#####",
+    "##.......##",
+    "###..T...##",
+    "###########"
+  ],
+  "objects": [
+    "...........",
+    "...........",
+    "...........",
+    "...........",
+    "...B.......",
+    "....BP.....",
+    "...IBB.....",
+    "...........",
+    "..........."
+  ],
+  "goal": ["targets"],
+  "league": 6,
+  "solution": "LDULUULURRLDDLLDRDRUUULURRRURDLLLDDDDDRURRDRRULLLLDLUUUULUURRDLULDDDRDDRRULDLLUULURDRULUR",
+  "design": {
+    "idea": "Birden çok nesne bir arada: önce hangisinin yerini açacağını hesapla.",
+    "mechanics": ["hole", "ice"],
+    "tier": "series200",
+    "lab": { "score": 150.7, "pushes": 38, "boxChanges": 11, "trapSteps": 36, "forced": 5, "family": "ring" }
+  }
+}

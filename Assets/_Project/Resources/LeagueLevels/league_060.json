@@ -1,0 +1,31 @@
+{
+  "id": 1060,
+  "name": "Zincirleme",
+  "ground": [
+    "#############",
+    "###.#..##..##",
+    "#.T.#......##",
+    "#.......#...#",
+    "##..###.#..T#",
+    "###.#####.T.#",
+    "#############"
+  ],
+  "objects": [
+    ".............",
+    ".............",
+    ".P......B....",
+    "....B........",
+    ".........B...",
+    ".............",
+    "............."
+  ],
+  "goal": ["targets"],
+  "league": 3,
+  "solution": "DRRRRURRRRURDDULLLDLLLLDLURRRURRRRDRRDDLLUDRRUULDLURULLLDLLURRRRURDDLDR",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 88.7, "pushes": 24, "boxChanges": 5, "trapSteps": 19, "forced": 9, "family": "chain3" }
+  }
+}

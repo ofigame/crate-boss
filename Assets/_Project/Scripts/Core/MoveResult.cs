@@ -59,6 +59,11 @@ namespace CrateBoss.Core
         public int PaintColour { get; internal set; }
         public List<int> Painted => painted ??= new List<int>();
         private List<int> painted;
+        /// <summary>The candy yard's puzzle was solved this move: the hammers it paid, and the barriers opened.</summary>
+        public int PuzzleReward { get; internal set; }
+        public bool GatesOpened { get; internal set; }
+        /// <summary>A push refused because the puzzle's crates wait for the candy part to end.</summary>
+        public bool PuzzleLocked { get; internal set; }
         /// <summary>This move earned a paint gun.</summary>
         public bool PaintEarned { get; internal set; }
         /// <summary>The hit came from afar (auto hammer or advanced hammer): the worker did not move.</summary>

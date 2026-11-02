@@ -1,0 +1,37 @@
+{
+  "id": 1146,
+  "name": "Sonsuz Döngü",
+  "ground": [
+    "#########",
+    "##T...T.#",
+    "##..##..#",
+    "######..#",
+    "#o.....##",
+    "#......##",
+    "#..######",
+    "#...T.T.#",
+    "#....#..#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    "..P......",
+    ".........",
+    ".........",
+    ".....B...",
+    "..B.B....",
+    "..B......",
+    "..B....H.",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 6,
+  "solution": "RRRRDDDLLLLRDRULLLDRLDDRRLLUURDUURRDLURRRDLLULLLDDRULURRRRDLLRRRUUURULLLLRRRDDDLLLLLDDRULURRRRDRUUUDDDLLLLDLDDRRURDLLLURDRRURLDLLUR",
+  "design": {
+    "idea": "Birden çok nesne bir arada: önce hangisinin yerini açacağını hesapla.",
+    "mechanics": ["hole", "heavy"],
+    "tier": "series200",
+    "lab": { "score": 167.6, "pushes": 37, "boxChanges": 14, "trapSteps": 37, "forced": 0, "family": "zigzag" }
+  }
+}

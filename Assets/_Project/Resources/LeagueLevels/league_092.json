@@ -1,0 +1,33 @@
+{
+  "id": 1092,
+  "name": "Dört Duvar",
+  "ground": [
+    "#########",
+    "#.....TT#",
+    "#####.T.#",
+    "#......T#",
+    "#.......#",
+    "##..###.#",
+    "##..###.#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    ".........",
+    ".....B...",
+    "...BBPB..",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 4,
+  "solution": "ULLDURRRUULDRDLDLLURRLLLLDRURRRURRDDLRUULLDRDRUUDLLLDRULLLDRLDDRUULURRRDLURURRDDLRUULLDRDLULLLDDRULURRRDLRRUUDLLLLDDRULURRRDRU",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 164.9, "pushes": 36, "boxChanges": 18, "trapSteps": 35, "forced": 3, "family": "U" }
+  }
+}

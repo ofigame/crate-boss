@@ -1,0 +1,37 @@
+{
+  "id": 1198,
+  "name": "Altın Oda",
+  "ground": [
+    "##########",
+    "#..####..#",
+    "#..####..#",
+    "#..####..#",
+    "#..####..#",
+    "#.oT.....#",
+    "#.T...T.##",
+    "#T#..##..#",
+    "#T......T#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    "..........",
+    ".B.....B..",
+    "..........",
+    ".B........",
+    ".....B.B..",
+    "....H.....",
+    ".......BP.",
+    ".......B..",
+    ".........."
+  ],
+  "goal": ["targets"],
+  "league": 8,
+  "solution": "DLLLLULUURRDRRULLRRRUULDURUULDDRDDLDLLULLLUULDURUULDRDDDDLDDRRUUULULDURUULDRDDLDURUULDRDDLDURUULDDURRRRDRRULLRRRUULDRDLDLLULLDLLUURDLDRRRDLDRRRRUUULLLRRRRUULDRDLDDDLLLUUULDLLUURDRDDDRRRRUUULLL",
+  "design": {
+    "idea": "Birden çok nesne bir arada: önce hangisinin yerini açacağını hesapla.",
+    "mechanics": ["hole", "heavy"],
+    "tier": "series200",
+    "lab": { "score": 223.6, "pushes": 51, "boxChanges": 25, "trapSteps": 46, "forced": 6, "family": "U" }
+  }
+}

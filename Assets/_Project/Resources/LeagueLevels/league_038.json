@@ -1,0 +1,35 @@
+{
+  "id": 1038,
+  "name": "Tek Çıkış",
+  "ground": [
+    "#######",
+    "#.o...#",
+    "#..#..#",
+    "#....##",
+    "##...##",
+    "##...##",
+    "##...##",
+    "#..TTT#",
+    "#######"
+  ],
+  "objects": [
+    ".......",
+    ".P..B..",
+    "..B....",
+    ".......",
+    "...B...",
+    ".......",
+    "..B....",
+    ".......",
+    "......."
+  ],
+  "goal": ["targets"],
+  "league": 2,
+  "solution": "DDRRRURULLLDLDRRLUURRDDLDURDDDLDLUUDRRUULDLURURUULLDLDRRLUURRDDDDLLDDRRLLUURDURD",
+  "design": {
+    "idea": "Çukura düşen kasa geri gelmez ama yolu açar: hangi kasayı feda edeceğini seç.",
+    "mechanics": ["hole"],
+    "tier": "series200",
+    "lab": { "score": 110, "pushes": 22, "boxChanges": 9, "trapSteps": 21, "forced": 2, "family": "T" }
+  }
+}

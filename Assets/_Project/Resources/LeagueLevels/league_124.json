@@ -1,0 +1,41 @@
+{
+  "id": 1124,
+  "name": "Planlı İş",
+  "ground": [
+    "########",
+    "#TT....#",
+    "#.###..#",
+    "#.T.#..#",
+    "#.#....#",
+    "#.##...#",
+    "#.##.#.#",
+    "#.##...#",
+    "#......#",
+    "#...##.#",
+    "#T..#.o#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    ".B......",
+    ".PB...B.",
+    ".....B..",
+    "........",
+    "........",
+    "........",
+    "....B.H.",
+    "........",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 5,
+  "solution": "DDDDDRRRUUURRUULUULLLLDURRRRRDULLLLLDDUURRRRDRDUULLLLLDDDUUURRRRDDRDUUULLLLLDDDDUUUURRRRDDRDDUUUULLLLLDDDDDUUUUURRRRDDRDDLUUDDRDUUUUULLLLLDDDDDDUUUUUURRRRRDDDDDDUUUUUULLLLLDDDDDDDRRRUUUURUURULLLRRDDDDRDDDULLDLLLDURRRURRDLLLLDLUUUUUUU",
+  "design": {
+    "idea": "Birden çok nesne bir arada: önce hangisinin yerini açacağını hesapla.",
+    "mechanics": ["hole", "heavy"],
+    "tier": "series200",
+    "lab": { "score": 175.6, "pushes": 34, "boxChanges": 19, "trapSteps": 34, "forced": 2, "family": "ring" }
+  }
+}

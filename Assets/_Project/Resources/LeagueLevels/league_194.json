@@ -1,0 +1,41 @@
+{
+  "id": 1194,
+  "name": "Zirve",
+  "ground": [
+    "#########",
+    "###T....#",
+    "####.T..#",
+    "####....#",
+    "#.###...#",
+    "#..##T#.#",
+    "##......#",
+    "#...#T..#",
+    "#.#...#.#",
+    "#......T#",
+    "#...#T..#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    ".........",
+    "..BBB.BB.",
+    "......BP.",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 8,
+  "solution": "UUULULLLDLLDDDRRUUULURRRLLDLLDDRDRUUULURRLDDRRUUUUURULDLURULDDRDDDDDDLURURRDDLLUUUUURRDDDLLULLDLLDDDRRUUULURRLDDRRUUUUUDDDDDDLULULLDDDRRUUULURRLDDRRURRUUULLDDDRRULDLULLDDDRRUDRRDLULULLUURRRDRD",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 198.5, "pushes": 49, "boxChanges": 11, "trapSteps": 47, "forced": 0, "family": "ring" }
+  }
+}

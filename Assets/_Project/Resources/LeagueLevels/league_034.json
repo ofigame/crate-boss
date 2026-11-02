@@ -1,0 +1,49 @@
+{
+  "id": 1034,
+  "name": "Dolambaç",
+  "ground": [
+    "######",
+    "##...#",
+    "###..#",
+    "###..#",
+    "###.##",
+    "#....#",
+    "##...#",
+    "##.#.#",
+    "##...#",
+    "##..##",
+    "##.###",
+    "#...##",
+    "#..#.#",
+    "#T..T#",
+    "#..T##",
+    "######"
+  ],
+  "objects": [
+    "......",
+    "..P...",
+    "...B..",
+    "......",
+    "...B..",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......",
+    "..B...",
+    "......",
+    "......",
+    "......",
+    "......",
+    "......"
+  ],
+  "goal": ["targets"],
+  "league": 2,
+  "solution": "RRDDLDDRDLUUURUULDDDDLDDUURRDDDLDLDDDUUURURUUULLDDDRRUULULDRRDDLLDURRUULLDURRDDLDLDDLDDRRLLUURDLDDRRULDLURUUUURURUULLDDDDDDDLDRUUULD",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 104.6, "pushes": 32, "boxChanges": 12, "trapSteps": 22, "forced": 3, "family": "chain3" }
+  }
+}

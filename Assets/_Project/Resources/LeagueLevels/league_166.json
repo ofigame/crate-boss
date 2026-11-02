@@ -1,0 +1,31 @@
+{
+  "id": 1166,
+  "name": "Taş Labirent",
+  "ground": [
+    "###############",
+    "#######.###.###",
+    "######..###..T#",
+    "#...........T##",
+    "#....##..#.T..#",
+    "#..#T##..#T####",
+    "###############"
+  ],
+  "objects": [
+    "...............",
+    "...............",
+    "...............",
+    ".P...B...B.....",
+    "..BBB..........",
+    "...............",
+    "..............."
+  ],
+  "goal": ["targets"],
+  "league": 7,
+  "solution": "RRRDURRURDRRRDRRUULDRDLULDULLLLLLLLLDDRULURRRRRRRRRRLLLLLLLDLURRRRRRRDRRULURDLLLLLLLLLLLDDRULURRRRRRRRRDRRUULDLLLDDLURULLLLDLLURRRRRRRRR",
+  "design": {
+    "idea": "Odalar kapılarla bağlı ve her kapıda bir kasa var: önce bu odayı çöz, kapıdaki kasa sonraki odanın yolunu açar.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 153.6, "pushes": 48, "boxChanges": 7, "trapSteps": 34, "forced": 13, "family": "chain3" }
+  }
+}

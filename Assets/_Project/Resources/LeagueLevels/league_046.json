@@ -1,0 +1,33 @@
+{
+  "id": 1046,
+  "name": "Buzlu Zemin",
+  "ground": [
+    "########",
+    "#.T#..o#",
+    "#..##..#",
+    "#..#...#",
+    "##.#...#",
+    "##...T.#",
+    "#T..##.#",
+    "########"
+  ],
+  "objects": [
+    "........",
+    "........",
+    ".....BP.",
+    ".....B..",
+    ".....B..",
+    ".....B..",
+    "........",
+    "........"
+  ],
+  "goal": ["targets"],
+  "league": 2,
+  "solution": "DDDLLUURDRUUULDDLDDLDLUUULUURDDDDRRUURRDDLLUURDLDLDLUUUU",
+  "design": {
+    "idea": "Çukura düşen kasa geri gelmez ama yolu açar: hangi kasayı feda edeceğini seç.",
+    "mechanics": ["hole"],
+    "tier": "series200",
+    "lab": { "score": 129.1, "pushes": 25, "boxChanges": 10, "trapSteps": 22, "forced": 13, "family": "twin" }
+  }
+}

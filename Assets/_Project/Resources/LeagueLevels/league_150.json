@@ -1,0 +1,35 @@
+{
+  "id": 1150,
+  "name": "Gizli Yol",
+  "ground": [
+    "##########",
+    "#...###..#",
+    "#...###.T#",
+    "#..####.T#",
+    "#..#.#...#",
+    "#....#.T.#",
+    "#T.......#",
+    "#.T......#",
+    "##########"
+  ],
+  "objects": [
+    "..........",
+    ".P........",
+    ".B........",
+    "..B.......",
+    "..........",
+    "..B.......",
+    "...BB.....",
+    "..........",
+    ".........."
+  ],
+  "goal": ["targets"],
+  "league": 6,
+  "solution": "DDDRUDDDLURUULUURDDDDLUDDDRRURULDRRRLLLDLLURRLLUURUULDDRDRDRLDLLURUULDRRRDRDLLRUULLDRDRRRRURUULLDRDDLLURDLLLURRDRRRUUUUDDDDLURUULLDRDDLLURDRRUUUDDDLU",
+  "design": {
+    "idea": "Her itiş geri alınamaz bir karar olabilir: kasaları hedeflere, sıkışmadan yerleştir.",
+    "mechanics": [],
+    "tier": "series200",
+    "lab": { "score": 186, "pushes": 45, "boxChanges": 27, "trapSteps": 40, "forced": 0, "family": "ring" }
+  }
+}

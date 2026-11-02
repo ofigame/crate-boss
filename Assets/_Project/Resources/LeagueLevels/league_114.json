@@ -1,0 +1,33 @@
+{
+  "id": 1114,
+  "name": "Ayna",
+  "ground": [
+    "#########",
+    "#..####.#",
+    "#..###T.#",
+    "#..###.##",
+    "#......##",
+    "#..T.#.##",
+    "#o#...TT#",
+    "#########"
+  ],
+  "objects": [
+    ".........",
+    ".P.......",
+    ".B.......",
+    "..B......",
+    "..B.B....",
+    "......B..",
+    ".........",
+    "........."
+  ],
+  "goal": ["targets"],
+  "league": 5,
+  "solution": "DDDDRRURDLLLURUDDRRULDLLUURDULUURDDLDDRRLLUURDRRDULLLDRRDRRRUUUDLLDULDLLUURDRDDRUULLLDRURRDDR",
+  "design": {
+    "idea": "Çukura düşen kasa geri gelmez ama yolu açar: hangi kasayı feda edeceğini seç.",
+    "mechanics": ["hole"],
+    "tier": "series200",
+    "lab": { "score": 143.7, "pushes": 31, "boxChanges": 17, "trapSteps": 27, "forced": 5, "family": "ring" }
+  }
+}

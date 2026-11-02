@@ -179,6 +179,19 @@ namespace CrateBoss.Core
         public bool CandyPaint { get; set; }
         /// <summary>The colour the last paint gun used (the next one takes another).</summary>
         public int LastPaint { get; set; }
+        /// <summary>
+        /// The classic puzzle in the middle of a candy yard (owner 2026-11-02): its crates move only once the candy is over; solved
+        /// (every target filled) it pays hammers by how few pushes it took (par = the fewest) and the barriers (G) open.
+        /// </summary>
+        public int PuzzlePar { get; set; }
+        /// <summary>Hammers the puzzle pays when solved in par.</summary>
+        public int PuzzleReward { get; set; }
+        /// <summary>Pushes made in the puzzle so far.</summary>
+        public int PuzzlePushes { get; set; }
+        public bool PuzzleDone { get; set; }
+        public bool HasPuzzle => PuzzlePar > 0;
+        /// <summary>The barriers (G) are open (a level without a puzzle has them open from the start).</summary>
+        public bool GatesOpen { get; set; } = true;
         /// <summary>Chain waves that sink by themselves before the next ones pay advanced hammers (3, later 4, 5, 6).</summary>
         public int CandySuperAfter { get; set; } = 3;
         /// <summary>The candy part is over (no crane drops, no swap): the colour crates left stand as breakable crates.</summary>
@@ -392,6 +405,11 @@ namespace CrateBoss.Core
                 PaintGuns = PaintGuns,
                 CandyPaint = CandyPaint,
                 LastPaint = LastPaint,
+                PuzzlePar = PuzzlePar,
+                PuzzleReward = PuzzleReward,
+                PuzzlePushes = PuzzlePushes,
+                PuzzleDone = PuzzleDone,
+                GatesOpen = GatesOpen,
                 CandySuperAfter = CandySuperAfter,
                 CandyDone = CandyDone,
                 CandyHitCap = CandyHitCap,
@@ -418,6 +436,7 @@ namespace CrateBoss.Core
             foreach (var c in CraneStates) sb.Append('|').Append(c.Index).Append(':').Append(c.Counter);
             for (int i = 0; i < Bays.Length; i++) sb.Append("|t").Append(bayTrucks[i]).Append(bayParked[i] ? 'p' : '-');
             if (Parking != null) sb.Append("|c").Append(CarsGone);
+            if (!GatesOpen) sb.Append("|g");
             return sb.ToString();
         }
 
@@ -457,6 +476,7 @@ namespace CrateBoss.Core
             foreach (var c in CraneStates) { Mix(-3); Mix(c.Index); Mix(c.Counter); }
             for (int i = 0; i < Bays.Length; i++) { Mix(-6); Mix(bayTrucks[i] * 2 + (bayParked[i] ? 1 : 0)); }
             if (Parking != null) { Mix(-7); Mix((int)CarsGone); Mix((int)(CarsGone >> 32)); }
+            if (!GatesOpen) Mix(-8);
             return new StateHash(a, b);
         }
 
